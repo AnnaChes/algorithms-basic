@@ -25,16 +25,13 @@ describe('Test for getUniqArrBy', () => {
 
     const uniq = getUniqArrBy(['class', 'fare'], arr)
 
-    console.info({ uniq })
-    /*
-        [
-          {class: "second", fare: "a", weight: 12}
-          {class: "second", fare: "b", weight: 22}
-          {class: "first", fare: "a", weight: 17}
-          {class: "first", fare: "c", weight: 30}
-        ]
-    */
-
-    expect(true).toBe(true)
+    const output = getUniqArrBy(['class', 'fare'], arr)
+    const expected = [
+      { class: 'second', fare: 'a', weight: 12 },
+      { class: 'second', fare: 'b', weight: 22 },
+      { class: 'first', fare: 'a', weight: 17 },
+      { class: 'first', fare: 'c', weight: 30 },
+    ]
+    expect(output).toEqual(expected)
   })
 })

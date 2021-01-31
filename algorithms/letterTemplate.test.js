@@ -16,7 +16,8 @@ describe('Test for letterTemplate', () => {
     const inp = 'Mary' // Ann
     const letterTemplateObj = new letterTemplate()
 
-    const res = letterTemplateObj.writeNewYear(inp)
-    console.info('info greatestCommonDivisorTwoNumbers', res)
+    const output = letterTemplateObj.writeNewYear(inp)
+    const expected = 'Happy New Year Mary'
+    expect(output).toEqual(expected)
   })
 })

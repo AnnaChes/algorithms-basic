@@ -2,6 +2,8 @@
 // const {defaults} = require('jest-config');
 
 const jestConfig = {
+  roots: ['algorithms'],
+  modulePaths: ['src', 'algorithms'],
   verbose: true,
   testURL: 'http://localhost/',
   transform: {

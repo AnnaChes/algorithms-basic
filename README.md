@@ -1,5 +1,12 @@
 # A collection of basic algorithms
 
+## Task getReverseStr(str)
+Description: to reverse a string in JavaScript
+File name: getReverseSt.test.js
+ 
+## Task: mergeTwoSortedArray(arrA, arrB) ₽300
+Description: to merge two arrays the way the equal numbers placing next to each other 
+File name: mergeTwoSortedArray.test.js
 
 ## Task: getGreatestDivisorTwoNumbers(n, m)
 Description: to find the greatest common divisor of two numbers

@@ -2,10 +2,10 @@ describe('Test for gisInteger', () => {
   test('Test for isInteger', () => {
     function isInteger2(number) {
       if (number % 1 !== 0) {
-        const result = 'не целое'
+        const result = 'not integer'
         return result
       } else {
-        const result = 'целое'
+        const result = 'integer'
         return result
       }
     }
@@ -13,19 +13,21 @@ describe('Test for gisInteger', () => {
     function isInteger3(number) {
       const SmallNumber = Math.floor(number)
       if (SmallNumber != number) {
-        const result = 'не целое'
+        const result = 'not integer'
         return result
       } else {
-        const result = 'целое'
+        const result = 'integer'
         return result
       }
     }
 
-    console.info('info 3.0', { res: isInteger2(3) })
-    console.info('info 11.0', { res: isInteger3(11) })
-    console.info('info 3.4', { res: isInteger2(3.4) })
-    console.info('info 11.7', { res: isInteger3(11.7) })
+    const input = [3, 11, 3.4, 11.7]
+    const expected = ['integer', 'integer', 'not integer', 'not integer']
 
-    expect(true).toBe(true)
+    let output = input.map(item => isInteger2(item))
+    expect(output).toEqual(expected)
+
+    output = input.map(item => isInteger3(item))
+    expect(output).toEqual(expected)
   })
 })
