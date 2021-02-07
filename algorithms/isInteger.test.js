@@ -1,5 +1,5 @@
-describe('Test for gisInteger', () => {
-  test('Test for isInteger', () => {
+describe('Algoritms', () => {
+  test('test isInteger', () => {
     function isInteger2(number) {
       if (number % 1 !== 0) {
         const result = 'not integer'

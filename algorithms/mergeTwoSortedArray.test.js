@@ -1,5 +1,5 @@
 describe('Algoritms', () => {
-  it('-- mergeTwoSortedArray', () => {
+  it('test mergeTwoSortedArray', () => {
     function mergeTwoSortedArray(arrA, arrB) {
       let res = []
       const arrAB = [...arrA, ...arrB]

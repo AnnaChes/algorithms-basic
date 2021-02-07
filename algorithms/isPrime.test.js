@@ -1,4 +1,4 @@
-describe('Test for isPrime', () => {
+describe('Algoritms', () => {
   it('test isPrime', () => {
     function isPrime3(number) {
       let NumOfDivisors = 0

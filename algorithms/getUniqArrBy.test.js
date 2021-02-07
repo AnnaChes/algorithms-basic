@@ -1,5 +1,5 @@
-describe('Test for getUniqArrBy', () => {
-  test('Test for getUniqArrBy', () => {
+describe('Algoritms', () => {
+  test('test getUniqArrBy', () => {
     const arr = [
       { class: 'second', fare: 'a', weight: 12 },
       { class: 'second', fare: 'b', weight: 10 },

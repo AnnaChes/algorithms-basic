@@ -1,4 +1,4 @@
-describe('Test for getGreatestDivisorTwoNumbers', () => {
+describe('Algoritms', () => {
   it('test getGreatestDivisorTwoNumbers', () => {
     function getGreatestDivisorTwoNumbers(number1, number2) {
       let divisor

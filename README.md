@@ -1,5 +1,10 @@
 # A collection of basic algorithms
 
+
+## Task getArrObjSortedByProp(arrIn, prop)
+Description: to create a function that takes array of objects and sort them by the prop, for example, age
+File name: getArrObjSortedByProp.test.js
+
 ## Task getReverseStr(str)
 Description: to reverse a string in JavaScript
 File name: getReverseSt.test.js

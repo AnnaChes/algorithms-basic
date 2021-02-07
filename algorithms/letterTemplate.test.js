@@ -1,4 +1,4 @@
-describe('Test for letterTemplate', () => {
+describe('Algoritms', () => {
   it('test letterTemplate', () => {
     function letterTemplate() {
       // this.name = name

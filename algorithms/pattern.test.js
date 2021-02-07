@@ -1,5 +1,5 @@
 describe('Algoritms', () => {
-  it('-- func', () => {
+  it('test func', () => {
     const func = () => {
       return true
     }

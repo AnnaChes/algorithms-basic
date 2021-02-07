@@ -1,5 +1,5 @@
 describe('Algoritms', () => {
-  it('-- getReverseSt', () => {
+  it('test getReverseSt', () => {
     function getReverseStr(str) {
       let reverseArr = []
       const arr = str.split('')
