@@ -1,6 +1,29 @@
 describe('Algoritms', () => {
   it('test getArrObjSortedByPropc', () => {
-    const getArrObjSortedByProp = () => {
+    function getArrObjSortedByProp(arrIn, prop) {
+      const res = arrIn
+        .sort(function (a, b) {
+          return a[prop] - b[prop]
+        })
+        .map(item => {
+          return item.name
+        })
+      return res
+    }
+
+    const vasya = { name: 'Маша', age: 25 }
+    const petya = { name: 'Петя', age: 30 }
+    const masha = { name: 'Вася', age: 28 }
+    const arrIn = [vasya, petya, masha]
+    const prop = 'age'
+
+    let output = getArrObjSortedByProp(arrIn, prop)
+    const expected = ['Маша', 'Вася', 'Петя']
+    expect(output).toEqual(expected)
+  })
+
+  it('test getArrObjSortedByPropc with index', () => {
+    const getArrObjSortedByProp = (arrIn, prop) => {
       let arrProp1 = []
       let arrProp2 = []
       let res = []
@@ -13,10 +36,8 @@ describe('Algoritms', () => {
       const arrProp1Sort = arrProp1.sort(function (a, b) {
         return a - b
       })
-      console.info('[16]', { arrProp1Sort })
 
       arrProp1Sort.forEach(item => {
-        // ? arrProp1Sort.
         const index = arrProp2.indexOf(item)
         const arrInIndexName = arrIn[index].name
         res = [...res, arrInIndexName]
@@ -31,8 +52,6 @@ describe('Algoritms', () => {
     const prop = 'age'
 
     let output = getArrObjSortedByProp(arrIn, prop)
-    console.info('[]', { output })
-    // output = true
     const expected = ['Маша', 'Вася', 'Петя']
     expect(output).toEqual(expected)
   })
