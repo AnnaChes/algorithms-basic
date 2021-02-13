@@ -22,7 +22,7 @@ describe('Algoritms', () => {
     expect(output).toEqual(expected)
   })
 
-  it('test getArrObjSortedByPropc with index', () => {
+  it('test getArrObjSortedByProp with index', () => {
     const getArrObjSortedByProp = (arrIn, prop) => {
       let arrProp1 = []
       let arrProp2 = []

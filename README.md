@@ -1,6 +1,18 @@
 # A collection of basic algorithms
 
 
+## Task: isPalindrom(candidate) ₽300 Algorithm Verify a word as palindrome
+Description: To check if a string follows a palindrom pattern or a sample of the palindrom pattern 
+File name: isPalindrom.test.js
+
+## Task: getReverseStr(str)
+Description: to reverse a string in JavaScript
+File name: getReverseSt.test.js
+
+## Task: getArrObjAverageProp(users, prop)
+Description: to create a function that takes array of objects and calculates average of the prop, for example, age
+File name: getArrObjAverageProp.test.js
+
 ## Task getArrObjSortedByProp(arrIn, prop)
 Description: to create a function that takes array of objects and sort them by the prop, for example, age
 File name: getArrObjSortedByProp.test.js
