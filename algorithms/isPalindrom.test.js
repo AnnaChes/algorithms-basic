@@ -1,4 +1,16 @@
 describe('Algoritms', () => {
+  it('test isPalindrom simplified', () => {
+    const isPalindrom2 = candidate => {
+      return candidate === candidate.split('').reverse().join('')
+    }
+
+    const candidates = ['шалаш', 'гараж']
+    let output = candidates.map(candidate => isPalindrom2(candidate))
+    // console.info('[]', { output })
+    const expected = [true, false]
+    expect(output).toEqual(expected)
+  })
+
   it('test isPalindrom', () => {
     function isPalindrom(candidate) {
       let result
