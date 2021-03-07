@@ -19,9 +19,8 @@ describe('Algoritms', () => {
     const arr = [1, 3, 2, 4, 6, 5, 10, 9]
     const limit = Math.max(...arr)
     let output = getMissingNumsUnsortedArr(arr, limit)
-    console.info('[]', { output })
-    output = true
-    const expected = true
+    // console.info('[]', { output })
+    const expected = [7, 8]
     expect(output).toEqual(expected)
   })
 })

@@ -22,9 +22,8 @@ describe('Algoritms', () => {
     const target = 'am HackerRank to improve'
 
     let output = getMissingWords(str, target)
-    console.info('[]', { output })
-    output = true
-    const expected = true
+    // console.info('[]', { output })
+    const expected = ['I', 'using', 'programming']
     expect(output).toEqual(expected)
   })
 })
