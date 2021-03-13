@@ -1,5 +1,20 @@
 # A collection of basic algorithms
 
+## Task. isSumGivenNumber(arr, num)
+
+Description: Algorithm Check whether any two numbers in an array sums to a given number
+File name: getMissingWords.test.js
+
+## Task. getRandomIntegerBetween(min, max)
+
+Description: Algorithm Generate random integer between 5 to 7 by using defined function
+File name: getRandomIntegerBetween.test.js
+
+## Task. getRandomBetween(min, max)
+
+Description: Algorithm Generate random decimal numbers between 5 to 7
+File name: getRandomBetween.test.js
+
 ## Task. getMissingWords
 
 Description: you are provided with two strings s and t. The task is to return an array with words that are missing in the s
