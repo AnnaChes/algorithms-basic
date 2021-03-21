@@ -1,5 +1,15 @@
 # A collection of basic algorithms
 
+## Task. countZerosInNumber(arr)
+
+Description: Algorithm Total number of zeros from 1 upto n
+File name: countZerosInNumber.test.js
+
+## Task. getLargestSumAnyTwoElems(arr)
+
+Description: Algorithm Find the largest sum of any two elements
+File name: getLargestSumAnyTwoElems.test.js
+
 ## Task. isSumGivenNumber(arr, num)
 
 Description: Algorithm Check whether any two numbers in an array sums to a given number
