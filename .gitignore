@@ -2,3 +2,5 @@ node_modules
 archieve
 package-lock.json
 yarn-error.log
+yarn.lock
+.DS_Store

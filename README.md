@@ -1,5 +1,15 @@
 # A collection of basic algorithms
 
+## Task. getArrShuffled(arrIn)
+
+Description: to create a function that takes an array of integers and shuffle it randomly
+File name: getArrShuffled.test.js
+
+## Task. isMatchingSubstringStr(str, subStr)
+
+Description: Algorithm Match
+File name: isMatchingSubstringStr.test.js
+
 ## Task. countZerosInNumber(arr)
 
 Description: Algorithm Total number of zeros from 1 upto n
