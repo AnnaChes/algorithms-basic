@@ -4,10 +4,10 @@ const arrModel = [
     multi: true,
     capture: 'Сколько существует видов решения уравнений с модулями?',
     options: [
-      { label: '1', status: false },
-      { label: '3', status: true },
-      { label: '2', status: true },
-      { label: '4', status: false },
+      { optionID: 'o1', label: '1', status: false },
+      { optionID: 'o2', label: '3', status: true },
+      { optionID: 'o3', label: '2', status: true },
+      { optionID: 'o4', label: '4', status: false },
     ],
   },
   {
@@ -16,9 +16,9 @@ const arrModel = [
     capture:
       'В графическом способе решения уравнения с модулями сколько надо построить графиков?',
     options: [
-      { label: '1', status: false },
-      { label: '2', status: true },
-      { label: '4', status: false },
+      { optionID: 'o5', label: '1', status: false },
+      { optionID: 'o6', label: '2', status: true },
+      { optionID: 'o7', label: '4', status: false },
     ],
   },
 ]
@@ -26,17 +26,17 @@ const arrModel = [
 const arrAnwers6_202 = [
   {
     options: [
-      { label: '1', status: true },
-      { label: '3', status: false },
-      { label: '2', status: false },
-      { label: '4', status: true },
+      { optionID: 'o1', label: '1', status: true },
+      { optionID: 'o2', label: '3', status: false },
+      { optionID: 'o3', label: '2', status: false },
+      { optionID: 'o4', label: '4', status: true },
     ],
   },
   {
     options: [
-      { label: '1', status: true },
-      { label: '2', status: false },
-      { label: '4', status: false },
+      { optionID: 'o5', label: '1', status: true },
+      { optionID: 'o6', label: '2', status: false },
+      { optionID: 'o7', label: '4', status: false },
     ],
   },
 ]
@@ -44,17 +44,17 @@ const arrAnwers6_202 = [
 const arrAnwers5_202 = [
   {
     options: [
-      { label: '1', status: false },
-      { label: '3', status: true },
-      { label: '2', status: false },
-      { label: '4', status: true },
+      { optionID: 'o1', label: '1', status: false },
+      { optionID: 'o2', label: '3', status: true },
+      { optionID: 'o3', label: '2', status: false },
+      { optionID: 'o4', label: '4', status: true },
     ],
   },
   {
     options: [
-      { label: '1', status: true },
-      { label: '2', status: false },
-      { label: '4', status: false },
+      { optionID: 'o5', label: '1', status: true },
+      { optionID: 'o6', label: '2', status: false },
+      { optionID: 'o7', label: '4', status: false },
     ],
   },
 ]
@@ -62,17 +62,17 @@ const arrAnwers5_202 = [
 const arrAnwers4_202 = [
   {
     options: [
-      { label: '1', status: false },
-      { label: '3', status: false },
-      { label: '2', status: false },
-      { label: '4', status: false },
+      { optionID: 'o1', label: '1', status: false },
+      { optionID: 'o2', label: '3', status: false },
+      { optionID: 'o3', label: '2', status: false },
+      { optionID: 'o4', label: '4', status: false },
     ],
   },
   {
     options: [
-      { label: '1', status: true },
-      { label: '2', status: false },
-      { label: '4', status: false },
+      { optionID: 'o5', label: '1', status: true },
+      { optionID: 'o6', label: '2', status: false },
+      { optionID: 'o7', label: '4', status: false },
     ],
   },
 ]
@@ -80,17 +80,17 @@ const arrAnwers4_202 = [
 const arrAnwers3_202 = [
   {
     options: [
-      { label: '1', status: true },
-      { label: '3', status: true },
-      { label: '2', status: true },
-      { label: '4', status: true },
+      { optionID: 'o1', label: '1', status: true },
+      { optionID: 'o2', label: '3', status: true },
+      { optionID: 'o3', label: '2', status: true },
+      { optionID: 'o4', label: '4', status: true },
     ],
   },
   {
     options: [
-      { label: '1', status: true },
-      { label: '2', status: false },
-      { label: '4', status: false },
+      { optionID: 'o5', label: '1', status: true },
+      { optionID: 'o6', label: '2', status: false },
+      { optionID: 'o7', label: '4', status: false },
     ],
   },
 ]
@@ -98,17 +98,17 @@ const arrAnwers3_202 = [
 const arrAnwers2_211 = [
   {
     options: [
-      { label: '1', status: false },
-      { label: '3', status: true },
-      { label: '2', status: true },
-      { label: '4', status: false },
+      { optionID: 'o1', label: '1', status: false },
+      { optionID: 'o2', label: '3', status: true },
+      { optionID: 'o3', label: '2', status: true },
+      { optionID: 'o4', label: '4', status: false },
     ],
   },
   {
     options: [
-      { label: '1', status: true },
-      { label: '2', status: false },
-      { label: '4', status: false },
+      { optionID: 'o5', label: '1', status: true },
+      { optionID: 'o6', label: '2', status: false },
+      { optionID: 'o7', label: '4', status: false },
     ],
   },
 ]
@@ -116,17 +116,17 @@ const arrAnwers2_211 = [
 const arrAnwers_220 = [
   {
     options: [
-      { label: '1', status: false },
-      { label: '3', status: true },
-      { label: '2', status: true },
-      { label: '4', status: false },
+      { optionID: 'o1', label: '1', status: false },
+      { optionID: 'o2', label: '3', status: true },
+      { optionID: 'o3', label: '2', status: true },
+      { optionID: 'o4', label: '4', status: false },
     ],
   },
   {
     options: [
-      { label: '1', status: false },
-      { label: '2', status: true },
-      { label: '4', status: false },
+      { optionID: 'o5', label: '1', status: false },
+      { optionID: 'o6', label: '2', status: true },
+      { optionID: 'o7', label: '4', status: false },
     ],
   },
 ]
