@@ -1,5 +1,10 @@
 # A collection of basic algorithms
 
+## Task. getAnswersChecked(arrModel, arrAnwers) for YouRails
+
+Description: Algorithm to check correctness of user answers.
+File name: getAnswersChecked.test.js
+
 ## Task. getArrShuffled(arrIn)
 
 Description: to create a function that takes an array of integers and shuffle it randomly
