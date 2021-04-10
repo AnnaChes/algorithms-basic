@@ -1,5 +1,10 @@
 # A collection of basic algorithms
 
+## Task: getRandomTrueFalse()
+
+Description: Random true or falls
+File name: getRandomTrueFalse.test.js
+
 ## Task. getAnswersChecked(arrModel, arrAnwers) for YouRails
 
 Description: Algorithm to check correctness of user answers.
