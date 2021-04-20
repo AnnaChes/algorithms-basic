@@ -1,5 +1,10 @@
 # A collection of basic algorithms
 
+## Task: Array.prototype.getUnique()
+
+Description: Create a prototype to extract unique values from an array
+File name: Array.prototype.getUnique.test.js
+
 ## Task: getRandomTrueFalse()
 
 Description: Random true or falls
