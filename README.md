@@ -1,5 +1,10 @@
 # A collection of basic algorithms
 
+## Task: getMixedmixArraysOrderly()
+
+Description: Mix two arrays orderly
+File name: getMixedmixArraysOrderly.js
+
 ## Task: Array.prototype.getUnique()
 
 Description: Create a prototype to extract unique values from an array
