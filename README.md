@@ -1,5 +1,15 @@
 # A collection of basic algorithms
 
+## Task: getElemUnpaired()
+
+Description: How to find one element that is left unpaired
+File name: getElemUnpaired.test.js
+
+## Task: getIntegerDivisorArr()
+
+Description: Suggest a function that returns an array of inter divisors of a number not including 1 and itself. If there is no devisors, then the function shield return an empty array
+File name: getIntegerDivisorArr.test.js
+
 ## Task: getMixedmixArraysOrderly()
 
 Description: Mix two arrays orderly
