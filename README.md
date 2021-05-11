@@ -1,5 +1,10 @@
 # A collection of basic algorithms
 
+## Task: getNsCharsOfStrWithLastWord(str, num) - wordBreakProblem
+
+Description: to develop an algorithm for word break problem
+File name: getNsCharsOfStrWithLastWord.test.js
+
 ## Task: getElemUnpaired()
 
 Description: How to find one element that is left unpaired
