@@ -1,39 +1,22 @@
 {
   "compilerOptions": {
-    "outDir": "./public/",
-    "noImplicitAny": false,
-    "module": "esnext",
-    "target": "es5",
-    "jsx": "react",
-    "allowJs": true,
-    "sourceMap": true,
-    "lib": ["dom", "es2015", "es5", "es6"],
-    "typeRoots": [
-      "./node_modules/@types/"
-    ],
-    "allowSyntheticDefaultImports": true,
+    "module": "commonjs",
+    "declaration": true,
+    "checkJs": false,
     "esModuleInterop": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "target": "es2017",
     "moduleResolution": "node",
-    "types": [
-      "node"
-    ],
+    "jsx": "preserve",
+    "types": ["node", "jest", "react-dom"],
+    "lib": ["dom", "es2018", "es2015", "es5", "es6"],
+    "typeRoots": ["./node_modules/@types/", "src/@types"]
   },
-  "include": [
-    "./src/**/*"
-  ],
-  "exclude": [
-    "./node_modules/**/*",
-    "./public/**/*"
-  ],
+  "include": ["file.ts", "./algorithms/**/*"],
+  "exclude": ["./node_modules/**/*", "./dist/**/*"],
   "linterOptions": {
-    "exclude": [
-      "config/**/*",
-      "node_modules/**/*"
-    ]
+    "exclude": ["config/**/*", "node_modules/**/*"]
   },
-  "defaultSeverity": "warning",
-  "awesomeTypescriptLoaderOptions": {
-    "errorsAsWarnings": true,
-    "useCache": true,
-  }
+  "defaultSeverity": "warning"
 }

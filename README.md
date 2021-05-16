@@ -30,6 +30,11 @@ File name: Array.prototype.getUnique.test.js
 Description: Random true or falls
 File name: getRandomTrueFalse.test.js
 
+## Task. getAnswersChecked2(questions) for YouRails version 2
+
+Description: Algorithm to check correctness of user answers.
+File name: getAnswersChecked.test.js
+
 ## Task. getAnswersChecked(arrModel, arrAnwers) for YouRails
 
 Description: Algorithm to check correctness of user answers.
