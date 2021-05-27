@@ -1,5 +1,3 @@
-// IN PROGRESS
-
 describe('Algoritms', () => {
   it('test getRotatedArray', () => {
     const getRotatedArray = (arr, times) => {
