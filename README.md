@@ -1,5 +1,14 @@
 # A collection of basic algorithms
 
+## Task: getRotatedArray(arr, times)
+
+Description: how to rotate the array A K times
+File name: getRotatedArray.test.js
+
+const arr = [3, 8, 9, 7, 6]
+const times = 2
+getRotatedArray(arr, times) // [9,7,6,3,8]
+
 ## Task: getNsCharsOfStrWithLastWord(str, num) - wordBreakProblem
 
 Description: to develop an algorithm for word break problem
