@@ -1,5 +1,15 @@
 # A collection of basic algorithms
 
+## Task. getCalculator
+
+Description: to return that calculate with different operators (algorithms)
+File name: getCalculator.test.js
+
+## Task: getNthFibonacciNumber(...args)
+
+Description: Suggest a function to calculate Nth number of Fibonacci
+File name: getNthFibonacciNumber.test.js
+
 ## Task: getRotatedArray(arr, times)
 
 Description: how to rotate the array A K times
