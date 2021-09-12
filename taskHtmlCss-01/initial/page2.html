@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <style>
+    /* h3 {
+      color: red;
+    } */
+  </style>
+</head>
+
+<body>
+  <header>
+    <h2 style="" class="title" onclick="(() => { console.info('Мы здесь')})()">
+      Cities
+    </h2>
+  </header>
+
+  <!-- <div class="p12">
+    <div id="p1" class="par1">Наш новый абзац</div>
+    <div id="p2" class="par1">Наш другой абзац</div>
+  </div>
+  <div id="p3" style="color:blue" onclick="myFunc()">
+    Наш третий абзац
+  </div> -->
+
+  <section>
+    <nav>
+      <ul>
+        <li><a href="#">London</a></li>
+        <li><a href="#">Paris</a></li>
+        <li><a href="#">Tokyo</a></li>
+      </ul>
+    </nav>
+
+    <article>
+      <h1>London</h1>
+      <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan
+        area of over 13 million inhabitants.</p>
+      <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to
+        its founding by the Romans, who named it Londinium.</p>
+    </article>
+  </section>
+
+  <footer>
+    <p>Footer</p>
+  </footer>
+
+
+  <script>
+    const myFunc = () => {
+      const elem = document.getElementById('p3')
+      elem.style.color = 'green'
+      alert("Мы поменяли цвет")
+    }
+  </script>
+</body>
+
+</html>

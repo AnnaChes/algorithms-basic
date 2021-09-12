@@ -1,13 +1,13 @@
-module.exports = function(api) {
-  api.cache(true);
+module.exports = function (api) {
+  api.cache(true)
   return {
     presets: [
       [
         '@babel/preset-env',
         {
-          'debug': false,
-          'useBuiltIns': false
-        }
+          debug: false,
+          useBuiltIns: false,
+        },
       ],
       '@babel/preset-react',
       '@babel/typescript',
@@ -15,27 +15,27 @@ module.exports = function(api) {
     plugins: [
       '@babel/plugin-syntax-dynamic-import',
       '@babel/plugin-transform-runtime',
+      ['@babel/plugin-proposal-private-property-in-object', { loose: true }],
       [
         '@babel/plugin-proposal-class-properties',
         {
-          'loose': true
-        }
+          loose: true,
+        },
       ],
+      ['@babel/plugin-proposal-private-methods', { loose: true }],
       '@babel/plugin-transform-async-to-generator',
       '@babel/proposal-object-rest-spread',
       [
         'babel-plugin-inline-import',
         {
-          'extensions': ['.svg'],
+          extensions: ['.svg'],
         },
       ],
     ],
     env: {
       production: {
-        presets: [
-          'react-optimize'
-        ]
-      }
-    }
+        presets: ['react-optimize'],
+      },
+    },
   }
 }
