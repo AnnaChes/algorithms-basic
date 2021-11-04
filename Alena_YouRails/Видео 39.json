@@ -1,0 +1,91 @@
+{
+  "general": {
+    "titleSite": "YouRails - Teach curious; Learn from inspired",
+    "descriptionSite": "Behind every great human achievement there are teachers who helped to get on top. Courses, tests, certificates",
+    "canonicalUrlSite": "https://yourails.com",
+    "langSite": "en"
+  },
+  "courses": [
+    {
+      "courseID": "RPqaLwokGRk",
+      "capture": "Статистические характеристики | Алгебра 7 класс #4 | Инфоурок",
+      "description": "Урок начинаем с примера, с помощью которого вводим понятие среднего арифметического числового ряда. Также на уроке говорим, где находят применение рассмотренные статистические характеристики.",
+      "language": "ru",
+      "isActive": true,
+      "questionNumber": 4,
+      "passRate": 0.75,
+      "meta": {
+        "institution": "YouRails Academy",
+        "specTitle": "Tutor",
+        "specName": "Alena Ches",
+        "email": "alyona.cheskidova@gmail.com",
+        "isSendingBcc": true
+      },
+      "modules": [
+        {
+          "moduleID": "RPqaLwokGRk",
+          "index": 0,
+          "isActive": true,
+          "contentType": "ytID",
+          "contentID": "RPqaLwokGRk",
+          "capture": "Модуль I",
+          "duration": "14:29",
+          "questions": [
+            {
+              "capture": "Дан числовой ряд: 10, 12, 8, 12, 14, 10, 12, 8, 12, 15. Найдите среднее арифметическое",
+              "isActive": true,
+              "options": [
+                {
+                  "label": "11",
+                  "status": false
+                },
+                {
+                  "label": "10",
+                  "status": false
+                },
+                {
+                  "label": "11,3",
+                  "status": true
+                },
+                {
+                  "label": "113",
+                  "status": false
+                }
+              ]
+            },
+            {
+              "capture": "Даны два набора чисел: 3, 6, 12 и 5, 9, 9, 13. У какого набора медиана больше и на сколько?",
+              "isActive": true,
+              "options": [
+                { "label": "8,1", "status": false },
+                { "label": "8", "status": false },
+                { "label": "6", "status": false },
+                { "label": "9", "status": true }
+              ]
+            },
+            {
+              "capture": "Даны два набора чисел: 16, 1, 8, 19, 3, 6 . У какого набора медиана больше и на сколько?",
+              "isActive": true,
+              "options": [
+                { "label": "14", "status": false },
+                { "label": "7", "status": true },
+                { "label": "8", "status": false },
+                { "label": "8,8", "status": false }
+              ]
+            },
+            {
+              "capture": "Ученик получил в течение четверти следующие отметки по алгебре 5, 2, 4, 5, 5, 4, 4, 5, 5, 5. Какую четвертную отметку поставит ему учитель?",
+              "isActive": true,
+              "options": [
+                { "label": "5", "status": false },
+                { "label": "2", "status": false },
+                { "label": "4", "status": true },
+                { "label": "3", "status": false }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

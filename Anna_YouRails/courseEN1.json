@@ -1,0 +1,89 @@
+{
+  "courses": [
+    {
+      "courseID": "9UvlqAVCoqY",
+      "capture": "Plant Cells: Crash Course Biology #6",
+      "description": "Hank describes why plants are so freaking amazing - discussing their evolution, and how their cells are both similar to & different from animal cells.",
+      "language": "ru",
+      "isActive": true,
+      "questionNumber": 6,
+      "passRate": 0.75,
+      "meta": {
+        "institution": "YouRails Academy",
+        "specTitle": "Tutor",
+        "specName": "Anna Ches",
+        "email": "anya.cheskidova@gmail.com",
+        "isSendingBcc": false
+      },
+      "modules": [
+        {
+          "moduleID": "9UvlqAVCoqY",
+          "index": 0,
+          "isActive": true,
+          "contentType": "ytID",
+          "contentID": "9UvlqAVCoqY",
+          "capture": "Модуль I",
+          "duration": "10:27",
+          "questions": [
+            {
+              "capture": "What kind of plant appeared during the time of the dinosaurs?",
+              "isActive": true,
+              "options": [
+                { "label": "gymnosperms", "status": false },
+                { "label": "succulents", "status": false },
+                { "label": "angiosperms", "status": true },
+                { "label": "scaly trees", "status": false }
+              ]
+            },
+            {
+              "capture": "How do plants produce food for themselves?",
+              "isActive": true,
+              "options": [
+                { "label": "by photosynthesis", "status": true },
+                { "label": "by vacuole", "status": false }
+              ]
+            },
+            {
+              "capture": "What is the difference between eukaryotic and prokaryotic cells?",
+              "isActive": true,
+              "options": [
+                { "label": "presence of a core", "status": true },
+                { "label": "presence of DNA", "status": false },
+                { "label": "presence of a membrane", "status": false }
+              ]
+            },
+            {
+              "capture": "What part of a plant cell is cellulose?",
+              "isActive": true,
+              "options": [
+                { "label": "core", "status": false },
+                { "label": "organelles", "status": false },
+                { "label": "vacuole", "status": false },
+                { "label": "membrane", "status": true }
+              ]
+            },
+            {
+              "capture": "What do chloroplasts produce?",
+              "isActive": true,
+              "options": [
+                { "label": "nutrients", "status": true },
+                { "label": "waste products", "status": false },
+                { "label": "oxygen", "status": true }
+              ]
+            },
+            {
+              "capture": "Why do plants need a vacuole?",
+              "isActive": true,
+              "options": [
+                { "label": "to shape the plant", "status": true },
+                { "label": "to remove waste products", "status": true },
+                { "label": "for photosynthesis", "status": false },
+                { "label": "for water storage", "status": true }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

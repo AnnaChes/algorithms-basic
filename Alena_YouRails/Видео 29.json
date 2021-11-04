@@ -1,0 +1,87 @@
+{
+  "general": {
+    "titleSite": "YouRails - Teach curious; Learn from inspired",
+    "descriptionSite": "Behind every great human achievement there are teachers who helped to get on top. Courses, tests, certificates",
+    "canonicalUrlSite": "https://yourails.com",
+    "langSite": "en"
+  },
+  "courses": [
+    {
+      "courseID": "vgB_SxjeqXU",
+      "capture": "Применение распределительного свойства умножения | Математика 6 класс #15 | Инфоурок",
+      "description": "Видеоуроки являются идеальными помощниками при изучении новых тем, закреплении материала, для обычных и факультативных занятий, для групповой и индивидуальной работы. Они содержат оптимальное количество графической и анимационной информации для сосредоточения внимания и удержания интереса ребят без отвлечения от сути занятия. Каждый видеоурок озвучен профессиональным мужским голосом, четким и приятным для восприятия.",
+      "language": "ru",
+      "isActive": true,
+      "questionNumber": 4,
+      "passRate": 0.75,
+      "meta": {
+        "institution": "YouRails Academy",
+        "specTitle": "Tutor",
+        "specName": "Alena Ches",
+        "email": "alyona.cheskidova@gmail.com",
+        "isSendingBcc": true
+      },
+      "modules": [
+        {
+          "moduleID": "vgB_SxjeqXU",
+          "index": 0,
+          "isActive": true,
+          "contentType": "ytID",
+          "contentID": "vgB_SxjeqXU",
+          "capture": "Модуль I",
+          "duration": "7:30",
+          "questions": [
+            {
+              "capture": "Выбери пару выражений с одинаковыми значениями.",
+              "isActive": true,
+              "options": [
+                {
+                  "label": "(7 + 5) х 3 и 7 х 3 + 5 х 2",
+                  "status": false
+                },
+                {
+                  "label": "( 3 + 2) х 4 и 6 х 4",
+                  "status": false
+                },
+                {
+                  "label": "5 х 2 + 3 х 2 и (5+3) х 2",
+                  "status": true
+                }
+              ]
+            },
+            {
+              "capture": "Используя распределительное свойство умножения, выбери число, пропущенное в записи: 14 х 6 = 60 + ...",
+              "isActive": true,
+              "options": [
+                { "label": "36", "status": false },
+                { "label": "24", "status": true },
+                { "label": "20", "status": false },
+                { "label": "30", "status": false }
+              ]
+            },
+            {
+              "capture": "Какое число разделили на 5, если получили 12?",
+              "isActive": true,
+              "options": [
+                { "label": "17", "status": false },
+                { "label": "60", "status": true },
+                { "label": "77", "status": false },
+                { "label": "65", "status": false }
+              ]
+            },
+            {
+              "capture": "Разность чисел 42 и 11 увеличили в 2 раза. Какое число получилось?",
+              "isActive": true,
+              "options": [
+                { "label": "55", "status": false },
+                { "label": "31", "status": false },
+                { "label": "62", "status": true },
+                { "label": "63", "status": false }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

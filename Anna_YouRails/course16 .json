@@ -1,0 +1,96 @@
+{
+  "courses": [
+    {
+      "courseID": "TlSOt8dc0jY",
+      "capture": "Характеристика основных экологических групп растений | Биология 6 класс",
+      "description": "Сегодня вы узнаете что такое экологические группы растений их отличительные черты и многое другое!",
+      "language": "ru",
+      "isActive": true,
+      "questionNumber": 4,
+      "passRate": 0.75,
+      "meta": {
+        "institution": "YouRails Academy",
+        "specTitle": "Tutor",
+        "specName": "Anna Ches",
+        "email": "anya.cheskidova@gmail.com",
+        "isSendingBcc": false
+      },
+      "modules": [
+        {
+          "moduleID": "TlSOt8dc0jY",
+          "index": 0,
+          "isActive": true,
+          "contentType": "ytID",
+          "contentID": "TlSOt8dc0jY",
+          "capture": "Модуль I",
+          "duration": "9:01",
+          "questions": [
+            {
+              "capture": "Какие различают группы растений по отношению к свету?",
+              "isActive": true,
+              "options": [
+                { "label": "Гидрофиты", "status": false },
+                { "label": "Мезофиты", "status": false },
+                { "label": "Сциогелиофиты", "status": true },
+                { "label": "Ксерофиты", "status": false },
+                { "label": "Сцеофиты", "status": true },
+                { "label": "Гелиофиты ", "status": true }
+              ]
+            },
+            {
+              "capture": "Какие различают группы растений по отношению к влаге?",
+              "isActive": true,
+              "options": [
+                { "label": "Гидрофиты", "status": true },
+                { "label": "Ксерофиты", "status": true },
+                { "label": "Гелиофиты", "status": false },
+                { "label": "Сциогелиофиты", "status": false },
+                { "label": "Мезофиты", "status": true },
+                { "label": "Сцеофиты", "status": false }
+              ]
+            },
+            {
+              "capture": "Растения обитающие на относительно однородном участке земли и существующие в определенных условиях составляют ...",
+              "isActive": true,
+              "options": [
+                { "label": "Фотоцинозы", "status": true },
+                { "label": "Диморфизмы", "status": false },
+                { "label": "Гемолимфы", "status": false },
+                { "label": "Фотосинтезы", "status": false }
+              ]
+            },
+            {
+              "capture": "Что определяет видовой состав и систему взаимоотношений растений внутри сообщества и с внешней средой?",
+              "isActive": true,
+              "options": [
+                {
+                  "label": "Характерные для растительного сообщества условия",
+                  "status": true
+                },
+                { "label": "Только состав почвы", "status": false },
+                {
+                  "label": "Ничего не определяет все происходит само по себе",
+                  "status": false
+                },
+                {
+                  "label": "Нехарактерные для растительного сообщества условия",
+                  "status": false
+                }
+              ]
+            },
+            {
+              "capture": "В зависимости от преобладания тех или иных видов и условий существования растительные сообщества объединяются в большие группы - ...",
+              "isActive": true,
+              "options": [
+                { "label": "Виды растительности", "status": false },
+                { "label": "Классы растительности", "status": false },
+                { "label": "Типы растительности", "status": true },
+                { "label": "Подклассы растительности", "status": false }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

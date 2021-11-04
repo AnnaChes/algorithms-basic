@@ -1,0 +1,119 @@
+{
+  "README": {
+    "designType": ["CheckBox", "RadioButton"],
+    "multi": [true, false],
+    "status": [true, false]
+  },
+  "courses": [
+    {
+      "capture": "Математика| Степени",
+      "description": "В этом уроке Ольга Александровна поможет разобраться со степенями, о которых вы просите постоянно.  Тема будет актуальна всем. ",
+      "meta": {
+        "institution": "TutorOnline - уроки для школьников",
+        "specTitle": "Преподаватель математики",
+        "specName": "Ольга Александровна"
+      },
+      "modules": [
+        {
+          "ytID": "ePTwL9H2d60",
+          "capture": "",
+          "questions": [
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "Как правильно записать произведение 5 · 5 · 5 · 5 · 5 · 5 · 5 в виде степени?",
+              "options": [
+                { "label": "5^5", "status": false },
+                { "label": "7^5", "status": false },
+                { "label": "5^7", "status": true },
+                { "label": "1^-5", "status": false }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "Сколько получится, если 2^3 умножить на 3^2?",
+              "options": [
+                {
+                  "label": "72",
+                  "status": true
+                },
+                {
+                  "label": "73",
+                  "status": false
+                },
+                {
+                  "label": "63",
+                  "status": false
+                },
+                {
+                  "label": "36",
+                  "status": false
+                }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "Найдите значение выражения 587 - 27^2 : 9?",
+              "options": [
+                { "label": "344", "status": false },
+                {
+                  "label": "506",
+                  "status": true
+                },
+                { "label": "81", "status": false }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "625 - это пять в какой степени?",
+              "options": [
+                {
+                  "label": "6",
+                  "status": false
+                },
+                {
+                  "label": "2",
+                  "status": false
+                },
+                {
+                  "label": "10",
+                  "status": false
+                },
+                {
+                  "label": "5",
+                  "status": true
+                }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "Какому числу равен квадрат числа 86?",
+              "options": [
+                {
+                  "label": "7366",
+                  "status": false
+                },
+                {
+                  "label": "7396",
+                  "status": true
+                },
+                {
+                  "label": "6396",
+                  "status": false
+                },
+                {
+                  "label": "8696",
+                  "status": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

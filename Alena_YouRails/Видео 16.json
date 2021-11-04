@@ -1,0 +1,98 @@
+{
+  "README": {
+    "language": {
+      "note": "ISO language code",
+      "type": "string",
+      "examples": ["ru", "en"]
+    },
+    "status": {
+      "note": "question status: right/wrong",
+      "type": "string",
+      "examples": [true, false]
+    },
+    "duration": {
+      "note": "content duration in time mean",
+      "type": "string",
+      "examples": ["7:42", "21:00"]
+    },
+    "contentType": {
+      "note": "content type code, for youtube - ytID, for the Internet pages - url",
+      "type": "string",
+      "examples": [
+        "ytID",
+        "https://suvorov.legal/apellyacionnaya-v-arbitrazhnyj-sud/"
+      ]
+    }
+  },
+  "courses": [
+    {
+      "courseID": "",
+      "capture": "Как находить площадь любой фигуры? Геометрия | Математика",
+      "description": "Всем привет. Уже соскучились? В ОГЭ есть задача на поиск площади фигуры: квадрата, параллелограмма, трапеции и т.д. В задачах ОГЭ, как правило, дают формулы. Но что нам формулы, если не знаешь, куда их вставить? Решим этот вопрос. Поехали!",
+      "language": "ru",
+      "meta": {
+        "institution": "",
+        "specTitle": "",
+        "specName": ""
+      },
+      "modules": [
+        {
+          "moduleID": "jCtM27FFZ9I",
+          "index": 0,
+          "contentType": "jCtM27FFZ9I",
+          "contentID": "",
+          "capture": "",
+          "duration": "",
+          "questions": [
+            {
+              "capture": "По формуле S = a * h можно вычислить площадь:",
+              "options": [
+                { "label": "параллелограмма", "status": true },
+                { "label": "треугольника", "status": false },
+                { "label": "прямоугольника", "status": false },
+                { "label": "куба", "status": false }
+              ]
+            },
+            {
+              "capture": "Решите неравенство 3-5(2x+4)>=7-2x",
+              "options": [
+                { "label": "S = AB:2*CD*BH", "status": false },
+                { "label": "S = (AB+BC):2*BH", "status": false },
+                { "label": "S=(AB+CD):2*BH", "status": true }
+              ]
+            },
+            {
+              "capture": "Закончите фразу: Площадь ромба равна половине произведения …",
+              "options": [
+                { "label": "его сторон", "status": false },
+                { "label": "его диагоналей", "status": true },
+                {
+                  "label": "его стороны и высоты, проведённой к этой стороне",
+                  "status": false
+                }
+              ]
+            },
+            {
+              "capture": "По формуле S=а*в",
+              "options": [
+                { "label": "площадь трапеции", "status": false },
+                { "label": " площадь ромба", "status": false },
+                { "label": " площадь квадрата", "status": false },
+                { "label": " площадь прямоугольника", "status": true }
+              ]
+            },
+            {
+              "capture": "В треугольнике ABC основание AB=10, а высота, опущенная на AB равна 5 см. Найдите площадь треугольника.",
+              "options": [
+                { "label": "50 см^2", "status": false },
+                { "label": "0.5^2", "status": false },
+                { "label": "25^2", "status": true },
+                { "label": "5^2", "status": false }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

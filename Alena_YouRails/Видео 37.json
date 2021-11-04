@@ -1,0 +1,90 @@
+{
+  "general": {
+    "titleSite": "YouRails - Teach curious; Learn from inspired",
+    "descriptionSite": "Behind every great human achievement there are teachers who helped to get on top. Courses, tests, certificates",
+    "canonicalUrlSite": "https://yourails.com",
+    "langSite": "en"
+  },
+  "courses": [
+    {
+      "courseID": "5uEXBNPjUl4",
+      "capture": "Раскрытие скобок | Математика 6 класс #39 | Инфоурок",
+      "description": "Видеоурок для дистанционного обучения, изучения и закрепления материала по математике в 6 классе на тему РАСКРЫТИЕ СКОБОК. Закрепление примерами.",
+      "language": "ru",
+      "isActive": true,
+      "questionNumber": 4,
+      "passRate": 0.75,
+      "meta": {
+        "institution": "YouRails Academy",
+        "specTitle": "Tutor",
+        "specName": "Alena Ches",
+        "email": "alyona.cheskidova@gmail.com",
+        "isSendingBcc": true
+      },
+      "modules": [
+        {
+          "moduleID": "5uEXBNPjUl4",
+          "index": 0,
+          "isActive": true,
+          "contentType": "ytID",
+          "contentID": "5uEXBNPjUl4",
+          "capture": "Модуль I",
+          "duration": "9:58",
+          "questions": [
+            {
+              "capture": "Раскройте скобки и вычислите: – (98 + 49) – (102 – 49)",
+              "isActive": true,
+              "options": [
+                {
+                  "label": "-108",
+                  "status": false
+                },
+                {
+                  "label": "-94",
+                  "status": false
+                },
+                {
+                  "label": "-200",
+                  "status": true
+                },
+                {
+                  "label": "-2000",
+                  "status": false
+                }
+              ]
+            },
+            {
+              "capture": "Раскройте скобки и упростите: y – ( y – ( 2 – 4 ))",
+              "isActive": true,
+              "options": [
+                { "label": "-4", "status": false },
+                { "label": "-2y+y", "status": false },
+                { "label": "-y", "status": false },
+                { "label": "-2", "status": true }
+              ]
+            },
+            {
+              "capture": "Раскройте скобки и упростите: (2a + 5b) + (8a – 11b)",
+              "isActive": true,
+              "options": [
+                { "label": "5a-3b", "status": false },
+                { "label": "2(5a-3b)", "status": true },
+                { "label": "10a-3b)", "status": false }
+              ]
+            },
+            {
+              "capture": "Раскройте скобки и упростите: – (95 + 105) – (398 – 98)",
+              "isActive": true,
+              "options": [
+                { "label": "350", "status": false },
+                { "label": "100", "status": false },
+                { "label": "-500", "status": true },
+                { "label": "150", "status": false }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "general": {
+    "titleSite": "YouRails - Teach curious; Learn from inspired",
+    "descriptionSite": "Behind every great human achievement there are teachers who helped to get on top. Courses, tests, certificates",
+    "canonicalUrlSite": "https://yourails.com",
+    "langSite": "en"
+  },
+  "courses": [
+    {
+      "courseID": "aFTYTKLumow",
+      "capture": "Решение уравнений | Математика 6 класс #42 | Инфоурок",
+      "description": "В данном уроке рассказывается, как упростить и найти значения выражений с помощью раскрытия скобок и приведения подобных слагаемых.",
+      "language": "ru",
+      "isActive": true,
+      "questionNumber": 4,
+      "passRate": 0.75,
+      "meta": {
+        "institution": "YouRails Academy",
+        "specTitle": "Tutor",
+        "specName": "Alena Ches",
+        "email": "alyona.cheskidova@gmail.com",
+        "isSendingBcc": true
+      },
+      "modules": [
+        {
+          "moduleID": "aFTYTKLumow",
+          "index": 0,
+          "isActive": true,
+          "contentType": "ytID",
+          "contentID": "aFTYTKLumow",
+          "capture": "Модуль I",
+          "duration": "5:09",
+          "questions": [
+            {
+              "capture": "Реши уравнения: 11 + 2х = 55 + 3х",
+              "isActive": true,
+              "options": [
+                {
+                  "label": "5",
+                  "status": false
+                },
+                {
+                  "label": "11",
+                  "status": false
+                },
+                {
+                  "label": "-44",
+                  "status": true
+                },
+                {
+                  "label": "44/5",
+                  "status": false
+                }
+              ]
+            },
+            {
+              "capture": "Реши уравнения: –15 – 4х = –8х + 45",
+              "isActive": true,
+              "options": [
+                { "label": "-26", "status": false },
+                { "label": "-15", "status": false },
+                { "label": "10", "status": false },
+                { "label": "-13", "status": true }
+              ]
+            },
+            {
+              "capture": "Реши уравнения: (4 – c) + 2(c – 3) = –13",
+              "isActive": true,
+              "options": [
+                { "label": "-23", "status": false },
+                { "label": "-11", "status": true },
+                { "label": "10", "status": false },
+                { "label": "-4", "status": false }
+              ]
+            },
+            {
+              "capture": "Реши уравнения: 4+2y=63/9+3y",
+              "isActive": true,
+              "options": [
+                { "label": "3", "status": false },
+                { "label": "-6", "status": false },
+                { "label": "-3", "status": true },
+                { "label": "6", "status": false }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

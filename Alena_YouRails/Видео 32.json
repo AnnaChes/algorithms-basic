@@ -1,0 +1,81 @@
+{
+  "general": {
+    "titleSite": "YouRails - Teach curious; Learn from inspired",
+    "descriptionSite": "Behind every great human achievement there are teachers who helped to get on top. Courses, tests, certificates",
+    "canonicalUrlSite": "https://yourails.com",
+    "langSite": "en"
+  },
+  "courses": [
+    {
+      "courseID": "GXJDepd_HeY",
+      "capture": "Пропорции | Математика 6 класс #21 | Инфоурок",
+      "description": "На этом видео уроке по математике для 6 класса объясняется что такое пропорция чисел и отношение чисел, решается задача на составление пропорций",
+      "language": "ru",
+      "isActive": true,
+      "questionNumber": 4,
+      "passRate": 0.75,
+      "meta": {
+        "institution": "YouRails Academy",
+        "specTitle": "Tutor",
+        "specName": "Alena Ches",
+        "email": "alyona.cheskidova@gmail.com",
+        "isSendingBcc": true
+      },
+      "modules": [
+        {
+          "moduleID": "GXJDepd_HeY",
+          "index": 0,
+          "isActive": true,
+          "contentType": "ytID",
+          "contentID": "GXJDepd_HeY",
+          "capture": "Модуль I",
+          "duration": "7:47",
+          "questions": [
+            {
+              "capture": "Является ли равество 3 : 2 = 7 : 4 верной пропорцией?",
+              "isActive": true,
+              "options": [
+                {
+                  "label": "Да",
+                  "status": false
+                },
+                {
+                  "label": "Нет",
+                  "status": false
+                }
+              ]
+            },
+            {
+              "capture": "Проверьте пропорцию 6 : 2 = 24 : 8. Сделайте вывод.",
+              "isActive": true,
+              "options": [
+                { "label": "пропорция верна", "status": true },
+                { "label": "пропорция неверна", "status": false }
+              ]
+            },
+            {
+              "capture": "Какое число пропущено в верной пропорции  ... : 4 = 27 : 9?",
+              "isActive": true,
+              "options": [
+                { "label": "24", "status": false },
+                { "label": "12", "status": true },
+                { "label": "8", "status": false },
+                { "label": "4", "status": false }
+              ]
+            },
+            {
+              "capture": "Из чисел 7, 5, 21, 15 составили равенства. Какое из них является верной пропорцией?",
+              "isActive": true,
+              "options": [
+                { "label": "7 : 5 = 15 : 21", "status": false },
+                { "label": "5 : 15 = 7 : 5", "status": false },
+                { "label": "15 : 21 = 5 : 7", "status": true },
+                { "label": "5 : 7 = 21 : 15", "status": false }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

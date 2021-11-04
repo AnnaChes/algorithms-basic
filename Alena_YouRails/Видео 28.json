@@ -1,0 +1,83 @@
+{
+  "general": {
+    "titleSite": "YouRails - Teach curious; Learn from inspired",
+    "descriptionSite": "Behind every great human achievement there are teachers who helped to get on top. Courses, tests, certificates",
+    "canonicalUrlSite": "https://yourails.com",
+    "langSite": "en"
+  },
+  "courses": [
+    {
+      "courseID": "l_bp-NxUaZo",
+      "capture": "Приведение дробей к общему знаменателю | Математика 6 класс #10 | Инфоурок",
+      "description": "Видеоуроки являются идеальными помощниками при изучении новых тем, закреплении материала, для обычных и факультативных занятий, для групповой и индивидуальной работы. Они содержат оптимальное количество графической и анимационной информации для сосредоточения внимания и удержания интереса ребят без отвлечения от сути занятия. Каждый видеоурок озвучен профессиональным мужским голосом, четким и приятным для восприятия.",
+      "language": "ru",
+      "isActive": true,
+      "questionNumber": 4,
+      "passRate": 0.75,
+      "meta": {
+        "institution": "YouRails Academy",
+        "specTitle": "Tutor",
+        "specName": "Alena Ches",
+        "email": "alyona.cheskidova@gmail.com",
+        "isSendingBcc": true
+      },
+      "modules": [
+        {
+          "moduleID": "l_bp-NxUaZo",
+          "index": 0,
+          "isActive": true,
+          "contentType": "ytID",
+          "contentID": "l_bp-NxUaZo",
+          "capture": "Модуль I",
+          "duration": "7:31",
+          "questions": [
+            {
+              "capture": "Дополнительный множитель - это...",
+              "isActive": true,
+              "options": [
+                {
+                  "label": "Число, которое надо умножать числитель дроби, чтобы получить новых знаменатель",
+                  "status": false
+                },
+                {
+                  "label": "Число, которое надо умножать знаменатель дроби, чтобы получить новых знаменатель",
+                  "status": true
+                }
+              ]
+            },
+            {
+              "capture": "Какой общий знаменатель у дробей 9/11 и 2/6?",
+              "isActive": true,
+              "options": [
+                { "label": "24", "status": false },
+                { "label": "18", "status": false },
+                { "label": "11", "status": false },
+                { "label": "66", "status": true }
+              ]
+            },
+            {
+              "capture": "Какой наименьший общий знаменатель у дробей 3/8 и 8/4?",
+              "isActive": true,
+              "options": [
+                { "label": "12", "status": false },
+                { "label": "8", "status": true },
+                { "label": "24", "status": false },
+                { "label": "32", "status": false }
+              ]
+            },
+            {
+              "capture": "Какой общий наименьший знаменатель у дробей 5/48 и 7/36?",
+              "isActive": true,
+              "options": [
+                { "label": "223", "status": false },
+                { "label": "140", "status": false },
+                { "label": "144", "status": true },
+                { "label": "1728", "status": false }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

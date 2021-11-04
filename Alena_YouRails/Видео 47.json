@@ -1,0 +1,127 @@
+{
+  "general": {
+    "titleSite": "YouRails - Teach curious; Learn from inspired",
+    "descriptionSite": "Behind every great human achievement there are teachers who helped to get on top. Courses, tests, certificates",
+    "canonicalUrlSite": "https://yourails.com",
+    "langSite": "en"
+  },
+  "courses": [
+    {
+      "courseID": "tCZ1Vu4GN4c",
+      "capture": "Квадрат суммы нескольких слагаемых | Алгебра 7 класс #29 | Инфоурок",
+      "description": "В этом видеоуроке мы рассмотрим формулу квадрата суммы нескольких слагаемых и потренируемся на примерах.",
+      "language": "ru",
+      "isActive": true,
+      "questionNumber": 4,
+      "passRate": 0.75,
+      "meta": {
+        "institution": "YouRails Academy",
+        "specTitle": "Tutor",
+        "specName": "Alena Ches",
+        "email": "alyona.cheskidova@gmail.com",
+        "isSendingBcc": true
+      },
+      "modules": [
+        {
+          "moduleID": "tCZ1Vu4GN4c",
+          "index": 0,
+          "isActive": true,
+          "contentType": "ytID",
+          "contentID": "tCZ1Vu4GN4c",
+          "capture": "Модуль I",
+          "duration": "7:47",
+          "questions": [
+            {
+              "capture": "Представьте в виде многочлена: (3x-2y-7z)^2",
+              "isActive": true,
+              "options": [
+                {
+                  "label": "4*y^2 + 9*x^2 + 49*z^2 - 42*x*z - 12*x*y - 28*y*z",
+                  "status": false
+                },
+                {
+                  "label": "4*y^2 - 9*x^2 + 49*z^2 - 42*x*z - 12*x*y + 28*y*z",
+                  "status": false
+                },
+                {
+                  "label": "4*y^2 + 9*x^2 + 49*z^2 - 42*x*z - 12*x*y + 28*y*z",
+                  "status": true
+                },
+                {
+                  "label": "4*y^2 + 9*x^2 + 49*z^2 + 42*x*z - 12*x*y + 28*y*z",
+                  "status": false
+                }
+              ]
+            },
+            {
+              "capture": "Представьте в виде многочлена: (2х+5у+10z)^2",
+              "isActive": true,
+              "options": [
+                {
+                  "label": "4*x^2 + 25*y^2 + 10*z^2 + 20*x*y + 40*x*z + 10*y*z",
+                  "status": false
+                },
+                {
+                  "label": "4*x^2 - 25*y^2 - 100*z^2 - 20*x*y + 40*x*z + 100*y*z",
+                  "status": false
+                },
+                {
+                  "label": "4*x^2 + 25*y^2 + 100*z^2 + 20*x*y + 40*x*z - 100*y*z",
+                  "status": false
+                },
+                {
+                  "label": "4*x^2 + 25*y^2 + 100*z^2 + 20*x*y + 40*x*z + 100*y*z",
+                  "status": true
+                }
+              ]
+            },
+            {
+              "capture": "Представьте в виде многочлена: (2x+5y+10z)^2",
+              "isActive": true,
+              "options": [
+                {
+                  "label": "4x^2+25y^2+10z^2+20xy +40xz+10yz",
+                  "status": false
+                },
+                {
+                  "label": "4x^2+25y^2+100z^2+20xy +40xz+100yz",
+                  "status": true
+                },
+                {
+                  "label": "4x^2+25y^2+100z^2+20xy -40xz-100yz",
+                  "status": false
+                },
+                {
+                  "label": "4x^2-25y^2-100z^2-20xy -40xz-100yz",
+                  "status": false
+                }
+              ]
+            },
+            {
+              "capture": "Представьте в виде многочлена: (3x-2y-7z)^2",
+              "isActive": true,
+              "options": [
+                {
+                  "label": "4*y^2 + 81*x^2 - 196*z^2 + 252*x*z - 36*x*y + 56*y*z",
+                  "status": false
+                },
+                {
+                  "label": "4*y^2 - 81*x^2 + 196*z^2 - 252*x*z - 36*x*y + 56*y*z",
+                  "status": false
+                },
+                {
+                  "label": "4*y^2 + 81*x^2 + 196*z^2 - 252*x*z - 36*x*y + 56*y*z",
+                  "status": true
+                },
+                {
+                  "label": "4*y^2 + 81*x^2 + 196*z^2 - 252*x*z + 36*x*y - 56*y*z",
+                  "status": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

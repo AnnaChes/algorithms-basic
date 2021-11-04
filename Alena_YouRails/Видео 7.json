@@ -1,0 +1,131 @@
+{
+  "README": {
+    "designType": ["CheckBox", "RadioButton"],
+    "multi": [true, false],
+    "status": [true, false]
+  },
+  "courses": [
+    {
+      "capture": "Алгебра 8. Урок 5 - Квадратный корень и его свойства      ",
+      "description": "Изучается квадратный корень и арифметический квадратный корень. Даются свойства и подробно разбирается применение этих свойств для извлечения квадратных корней.",
+      "meta": {
+        "institution": "Евгений Народницкий",
+        "specTitle": "Преподаватель математики",
+        "specName": "Евгений Народницкий"
+      },
+      "modules": [
+        {
+          "ytID": "_8gdtm2tkRg",
+          "capture": "",
+          "questions": [
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "Арифметическим квадратным корнем...",
+              "options": [
+                {
+                  "label": "Арифметическим квадратным корнем из неотрицательного числа a называется такое неотрицательное число, квадрат которого равен a.",
+                  "status": false
+                },
+                {
+                  "label": "Арифметическим квадратным корнем из неотрицательного числа a называется такое неотрицательное число, квадрат которого равен b.",
+                  "status": false
+                },
+                {
+                  "label": "Арифметическим квадратным корнем из неотрицательного числа a называется такое неотрицательное число, квадрат которого равен b^2.",
+                  "status": true
+                },
+                {
+                  "label": "Арифметическим квадратным корнем из неотрицательного числа a называется такое неотрицательное число, квадрат которого равен a^2.",
+                  "status": false
+                }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "Исходя из определения, значение корня также не должно быть...",
+              "options": [
+                {
+                  "label": "положительным",
+                  "status": false
+                },
+                {
+                  "label": "отрицательным",
+                  "status": true
+                },
+                {
+                  "label": "Иррациональным",
+                  "status": false
+                },
+                {
+                  "label": "В степени",
+                  "status": false
+                }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "√100 равен...",
+              "options": [
+                { "label": "100", "status": false },
+                {
+                  "label": "10",
+                  "status": true
+                },
+                { "label": "10^2", "status": false }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "√x*y равен...",
+              "options": [
+                {
+                  "label": "x+y",
+                  "status": false
+                },
+                {
+                  "label": "√x+√y",
+                  "status": false
+                },
+                {
+                  "label": "√x-√y",
+                  "status": false
+                },
+                {
+                  "label": "√x*√y",
+                  "status": true
+                }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "√x^4 равен...",
+              "options": [
+                {
+                  "label": "x",
+                  "status": false
+                },
+                {
+                  "label": "x^2",
+                  "status": true
+                },
+                {
+                  "label": "x^4",
+                  "status": false
+                },
+                {
+                  "label": "√x",
+                  "status": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

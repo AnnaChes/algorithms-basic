@@ -1,0 +1,62 @@
+.Header_Cities {
+  font-size: 21px;
+  text-align: center;
+  padding: 20px 0;
+  background-color: grey;
+  border: 5px solid grey;
+  width: 589px;
+  color: white;
+}
+
+section {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+.SideMenu {
+  background-color: rgb(209, 209, 209);
+  height: 103.5px;
+  width: 184px;
+  display: flex;
+  margin: -18px 0;
+}
+.SideMenu_item {
+  color: blue;
+  font-size: 5.7px;
+}
+.SideMenu_list {
+  list-style-type: none;
+}
+.SideMenu_link {
+  position: relative;
+  top: -3px;
+  margin-left: -34px;
+}
+
+.Article {
+  display: flex;
+  flex-direction: column;
+  font-size: 6px;
+  line-height: 0.4;
+  background-color: rgb(236, 236, 236);
+  border: 7px solid rgb(236, 236, 236);
+  width: 401px;
+  height: 89.5px;
+  margin: -18px 0px;
+}
+
+body {
+  display: block;
+  margin: 0 40px;
+}
+
+.Footer {
+  font-size: 7px;
+  text-align: center;
+
+  background-color: grey;
+  border: 1px solid grey;
+  width: 597px;
+  color: white;
+  margin: 18px 0;
+}

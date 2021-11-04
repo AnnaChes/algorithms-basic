@@ -48,3 +48,6 @@ Thumbs.db
 *.mov
 *.wmv
 
+# from Anna
+.vscode/
+Archieve/

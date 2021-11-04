@@ -1,0 +1,84 @@
+{
+  "README": {
+    "designType": ["CheckBox", "RadioButton"],
+    "multi": [true, false],
+    "status": [true, false]
+  },
+  "courses": [
+    {
+      "courseID": "",
+      "capture": "Понятие о существительном ",
+      "description": "Видеоурок по русскому языку для 6 класса. Тема: Понятие о существительном ",
+      "meta": {
+        "institution": "",
+        "specTitle": "",
+        "specName": ""
+      },
+      "modules": [
+        {
+          "moduleID": "",
+          "ytID": "m2ZXHPDw81Q&list",
+          "capture": "Модуль I",
+          "duration": "12:54",
+          "questions": [
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "Что правдиво для имени существительного?",
+              "options": [
+                { "label": "самостоятельная часть речи", "status": true },
+                { "label": "обозначающая предмет", "status": true },
+                { "label": "второстепенная часть речи", "status": false },
+                { "label": "отвечающая на вопросы «кто?» или «что?»", "status": true }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "Каким имя существительное не может быть по значению?",
+              "options": [
+                { "label": "Конкретным", "status": true },
+                { "label": "Собирательным", "status": true },
+                { "label": "Отвлеченным", "status": true },
+                { "label": "Абстрактным", "status": false }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": false,
+              "capture": "Назовите основные морфологические признаки имени существительного.",
+              "options": [
+                { "label": "Число, падеж", "status": false },
+                { "label": "Род, падеж", "status": false },
+                { "label": "Род, число, падеж, форма", "status": false },
+                { "label": "Род, число, падеж", "status": true }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": false,
+              "capture": "Как образовывается начальная форма имени существительного?",
+              "options": [
+                { "label": "Именительный падеж и множественное число", "status": false },
+                { "label": "Именительный падеж и единственное число", "status": true },
+                { "label": "Нулевой падеж и множественное число", "status": false },
+                { "label": "Нулевой падеж и единственное число", "status": false }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": false,
+              "capture": "в предложении имя существительное это?", x
+              "options": [
+                { "label": "Только дополнение", "status": false },
+                { "label": "Любой член предложения", "status": true },
+                { "label": "Только опстоятельство", "status": false },
+                { "label": "Только подлежащие", "status": false }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

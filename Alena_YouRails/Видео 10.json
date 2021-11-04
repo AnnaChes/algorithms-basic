@@ -1,0 +1,76 @@
+{
+  "README": {
+    "designType": ["CheckBox", "RadioButton"],
+    "multi": [true, false],
+    "status": [true, false]
+  },
+  "courses": [
+    {
+      "courseID": "",
+      "capture": "Уравнения cos(x)=a",
+      "description": "На уроке по теме «Арксинус и решение уравнения cos x=a» рассматривается понятие арксинуса числа, который можно вычислять по графику и на единичной окружности, и решается уравнение sin x=a.",
+      "meta": {
+        "institution": "",
+        "specTitle": "",
+        "specName": ""
+      },
+      "modules": [
+        {
+          "moduleID": "IsoSt4wMics",
+          "ytID": "IsoSt4wMics",
+          "capture": "Модуль I",
+          "duration": "",
+          "questions": [
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "Арккосинусом числа а, модуль которого не больше единицы, называется...",
+              "options": [
+                {
+                  "label": "такое число х из промежутка [0;π], синус которого равен а",
+                  "status": true
+                },
+                {
+                  "label": "такое число х из промежутка [-π/2;π/2], синус которого равен а ",
+                  "status": false
+                },
+                { "label": "Любое значение а", "status": false }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "Уравнения cos x = a имеют решения если a ...",
+              "options": [
+                { "label": " -1≤а≤1", "status": true },
+                { "label": "любое значение а", "status": false },
+                { "label": "0≤а≤1", "status": false }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "Все корни уравнения cos x = a, можно найти по формуле …",
+              "options": [
+                { "label": "± arcsin(a) + πk, где k€Z", "status": false },
+                { "label": "arcsin(a) + 2πk, где k€Z", "status": false },
+                { "label": "± arcsin(a) + 2πk, где k€Z", "status": true }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "Решением какого из ниже перечисленных уравнений является такой ответ х=2пk:",
+              "options": [
+                { "label": "cos x= 1", "status": true },
+                { "label": " sin x = 0", "status": false },
+                { "label": "tg x = 2", "status": false },
+                { "label": " ctg x = 1", "status": false }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

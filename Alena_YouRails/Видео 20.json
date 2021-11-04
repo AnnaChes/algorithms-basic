@@ -1,0 +1,96 @@
+{
+  "README": {
+    "language": {
+      "note": "ISO language code",
+      "type": "string",
+      "examples": ["ru", "en"]
+    },
+    "status": {
+      "note": "question status: right/wrong",
+      "type": "string",
+      "examples": [true, false]
+    },
+    "duration": {
+      "note": "content duration in time mean",
+      "type": "string",
+      "examples": ["7:42", "21:00"]
+    },
+    "contentType": {
+      "note": "content type code, for youtube - ytID, for the Internet pages - url",
+      "type": "string",
+      "examples": [
+        "ytID",
+        "https://suvorov.legal/apellyacionnaya-v-arbitrazhnyj-sud/"
+      ]
+    }
+  },
+  "courses": [
+    {
+      "courseID": "",
+      "capture": "Теорема Пифагора",
+      "description": "Изучается Теорема Пифагора и такие понятия как наклонная, проекция и перпендикуляр. Разбираются задачи на применение теоремы Пифагора для прямоугольного треугольника и комбинации наклонных и проекций.",
+      "language": "ru",
+      "meta": {
+        "institution": "",
+        "specTitle": "",
+        "specName": ""
+      },
+      "modules": [
+        {
+          "moduleID": "LrPrhe4C4q4",
+          "index": 0,
+          "contentType": "LrPrhe4C4q4",
+          "contentID": "",
+          "capture": "",
+          "duration": "8:14",
+          "questions": [
+            {
+              "capture": "Как называется треугольник используемый в теореме Пифагора?",
+              "options": [
+                { "label": "Пифагорический", "status": false },
+                { "label": "остроугольный", "status": false },
+                { "label": " Прямоугольный", "status": true },
+                { "label": "тупоугольный", "status": false }
+              ]
+            },
+            {
+              "capture": "Что гласит теорема Пифагора?",
+              "options": [
+                { "label": "Сумма катетов равна гипотенузы", "status": false },
+                {
+                  "label": "Сумма квадратов катетов равна гипотенузы",
+                  "status": false
+                },
+                {
+                  "label": "Сумма катетов равна квадрату гипотенузы",
+                  "status": false
+                },
+                {
+                  "label": "Сумма квадратов катетов равна квадрату гипотенузы",
+                  "status": true
+                }
+              ]
+            },
+            {
+              "capture": "Какой прямоугольный треугольник называется «Египетский»",
+              "options": [
+                { "label": "Треугольник со сторонами 3,3,5", "status": false },
+                { "label": "Треугольник со сторонами 3,4,5", "status": true },
+                { "label": "Треугольник со сторонами 3,4,4", "status": false },
+                { "label": "Треугольник со сторонами 1,4,4", "status": false }
+              ]
+            },
+            {
+              "capture": "Назовите формулу нахождения противолежащего катета b, если известен прилежаний катет a и гипотенуза c",
+              "options": [
+                { "label": "c-a=b", "status": false },
+                { "label": "c-a^2=b^2", "status": false },
+                { "label": "c^2-a^2=b^2", "status": true }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

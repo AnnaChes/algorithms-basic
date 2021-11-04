@@ -1,0 +1,130 @@
+{
+  "courses": [
+    {
+      "courseID": "H8WJ2KENlK0",
+      "capture": "Biological Molecules - You Are What You Eat: Crash Course Biology #3",
+      "description": "Hank talks about the molecules that make up every living thing - carbohydrates, lipids, and proteins - and how we find them in our environment and in the food that we eat.",
+      "language": "ru",
+      "isActive": true,
+      "questionNumber": 4,
+      "passRate": 0.75,
+      "meta": {
+        "institution": "YouRails Academy",
+        "specTitle": "Tutor",
+        "specName": "Anna Ches",
+        "email": "anya.cheskidova@gmail.com",
+        "isSendingBcc": false
+      },
+      "modules": [
+        {
+          "moduleID": "H8WJ2KENlK0",
+          "index": 0,
+          "isActive": true,
+          "contentType": "ytID",
+          "contentID": "H8WJ2KENlK0",
+          "capture": "Модуль I",
+          "duration": "14:08",
+          "questions": [
+            {
+              "capture": "Which statements are true for William Prout?",
+              "isActive": true,
+              "options": [
+                {
+                  "label": "He was the first to discover that our stomach contains hydrochloric acid.",
+                  "status": true
+                },
+                {
+                  "label": "He was the first to discover the chemical composition of urea",
+                  "status": true
+                },
+                {
+                  "label": "He stated that to be healthy you need to eat all three types of foods.",
+                  "status": true
+                },
+                {
+                  "label": "He compiled a teaching on the complete process of urine excretion.",
+                  "status": false
+                }
+              ]
+            },
+            {
+              "capture": "What sugars are carbohydrates made from?",
+              "isActive": true,
+              "options": [
+                { "label": "Monosaccharides", "status": true },
+                { "label": "Polysaccharides", "status": true },
+                { "label": "Nalosaccharides", "status": false },
+                { "label": "Disaccharides", "status": true }
+              ]
+            },
+            {
+              "capture": "What do carbohydrates do?",
+              "isActive": true,
+              "options": [
+                { "label": "Store energy for a long time", "status": false },
+                {
+                  "label": "Perform a wide variety of functions",
+                  "status": false
+                },
+                {
+                  "label": "Store all the energy available to us",
+                  "status": true
+                }
+              ]
+            },
+            {
+              "capture": "The main function of fats is it?",
+              "isActive": true,
+              "options": [
+                {
+                  "label": "Perform a wide variety of functions",
+                  "status": false
+                },
+                { "label": "Store energy for a long time", "status": true },
+                {
+                  "label": "Store all the energy available to us",
+                  "status": false
+                }
+              ]
+            },
+            {
+              "capture": "What are fats made of?",
+              "isActive": true,
+              "options": [
+                { "label": "Glycerol", "status": true },
+                { "label": "Fatty acid", "status": true },
+                { "label": "Sugars", "status": false },
+                { "label": "Сarbohydrates", "status": false }
+              ]
+            },
+            {
+              "capture": "What do proteins do?",
+              "isActive": true,
+              "options": [
+                {
+                  "label": "Perform a wide variety of functions",
+                  "status": true
+                },
+                { "label": "Store energy for a long time", "status": false },
+                {
+                  "label": "Store all the energy available to us",
+                  "status": false
+                }
+              ]
+            },
+            {
+              "capture": "What determines the form and function of an amino acid?",
+              "isActive": true,
+              "options": [
+                { "label": "R-group", "status": true },
+                { "label": "C-group", "status": false },
+                { "label": "K-group", "status": false },
+                { "label": "J-group", "status": false }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

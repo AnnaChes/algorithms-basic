@@ -1,0 +1,87 @@
+{
+  "courses": [
+    {
+      "courseID": "iIHroDoMy3o",
+      "capture": "Строение и жизнедеятельность грибов. Видеоурок по биологии 5 класс",
+      "description": "Тема нашего сегодняшнего занятия: «Царство грибов». Мы разберем особенности организма грибов и узнаем, какое значение имеют грибы для человека и в природе.",
+      "language": "ru",
+      "isActive": true,
+      "questionNumber": 4,
+      "passRate": 0.75,
+      "meta": {
+        "institution": "YouRails Academy",
+        "specTitle": "Tutor",
+        "specName": "Anna Ches",
+        "email": "anya.cheskidova@gmail.com",
+        "isSendingBcc": false
+      },
+      "modules": [
+        {
+          "moduleID": "iIHroDoMy3o",
+          "index": 0,
+          "isActive": true,
+          "contentType": "ytID",
+          "contentID": "iIHroDoMy3o",
+          "capture": "Модуль I",
+          "duration": "13:35",
+          "questions": [
+            {
+              "capture": "Какие сходства есть у грибов с растениями?",
+              "isActive": true,
+              "options": [
+                { "label": "Способность к фотосинтезу", "status": false },
+                { "label": "Преимущественно зеленый цвет", "status": false },
+                { "label": "Рост в течении всей жизни", "status": true },
+                { "label": "Корневая система", "status": false }
+              ]
+            },
+            {
+              "capture": "Какие сходства есть у грибов с животными?",
+              "isActive": true,
+              "options": [
+                { "label": "Одинаковый способ к размножению", "status": false },
+                { "label": "Неспособность к фотосинтезу", "status": true },
+                {
+                  "label": "Одинаковое строение выделительной системы",
+                  "status": false
+                },
+                { "label": "Наличие хитина", "status": true }
+              ]
+            },
+            {
+              "capture": "Как называется наука о грибах?",
+              "isActive": true,
+              "options": [
+                { "label": "Лепидоптерология", "status": false },
+                { "label": "Альгология", "status": false },
+                { "label": "Микология", "status": true },
+                { "label": "Энтомология", "status": false }
+              ]
+            },
+            {
+              "capture": "Из чего состоит гриб?",
+              "isActive": true,
+              "options": [
+                { "label": "Внешний плод", "status": false },
+                { "label": "Гиф", "status": true },
+                { "label": "Хитин", "status": false },
+                { "label": "Плодовое тело", "status": true },
+                { "label": "Мицелий", "status": true }
+              ]
+            },
+            {
+              "capture": "Перегородка отделяющая ядра клеток в гифе это...",
+              "isActive": true,
+              "options": [
+                { "label": "Мицелий", "status": false },
+                { "label": "Хитин", "status": false },
+                { "label": "Септа", "status": true },
+                { "label": "Вакуоль", "status": false }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

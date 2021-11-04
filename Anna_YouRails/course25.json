@@ -1,0 +1,87 @@
+{
+  "courses": [
+    {
+      "courseID": "mCV2rry05sA",
+      "capture": "Звонкие и глухие согласные (5 класс, видеоурок-презентация)",
+      "description": "Видеоурок по русскому языку для 5 класса. Тема: Звонкие и глухие согласные ",
+      "language": "ru",
+      "isActive": true,
+      "questionNumber": 4,
+      "passRate": 0.75,
+      "meta": {
+        "institution": "YouRails Academy",
+        "specTitle": "Tutor",
+        "specName": "Anna Ches",
+        "email": "anya.cheskidova@gmail.com",
+        "isSendingBcc": false
+      },
+      "modules": [
+        {
+          "moduleID": "mCV2rry05sA",
+          "index": 0,
+          "isActive": true,
+          "contentType": "ytID",
+          "contentID": "mCV2rry05sA",
+          "capture": "Модуль I",
+          "duration": "9:07",
+          "questions": [
+            {
+              "capture": "Из чего сосотоят звонкие и глухие согласные?",
+              "isActive": true,
+              "options": [
+                { "label": "Звонкие состоят из шума и голоса", "status": true },
+                { "label": "Звонкие только из шума", "status": false },
+                { "label": "Глухие только из шума", "status": true },
+                { "label": "Глухие состоят из шума и голоса", "status": false }
+              ]
+            },
+            {
+              "capture": "Являются ли согласные б и п парными?",
+              "isActive": true,
+              "options": [
+                { "label": "Да", "status": true },
+                { "label": "Нет", "status": false }
+              ]
+            },
+            {
+              "capture": "У звука [л] есть пара?",
+              "isActive": true,
+              "options": [
+                { "label": "Да", "status": false },
+                { "label": "Нет", "status": true }
+              ]
+            },
+            {
+              "capture": "Сильная позиция звука это...",
+              "isActive": true,
+              "options": [
+                {
+                  "label": "Позиция в которой звук не слышится отчетливо",
+                  "status": false
+                },
+                {
+                  "label": "Позиция в которой звук слышится отчетливо и соответствует букве на письме",
+                  "status": true
+                }
+              ]
+            },
+            {
+              "capture": "Слабая позиция это...",
+              "isActive": true,
+              "options": [
+                {
+                  "label": "Позиция в которой звук не слышится отчетливо",
+                  "status": true
+                },
+                {
+                  "label": "Позиция в которой звук слышится отчетливо и соответствует букве на письме",
+                  "status": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

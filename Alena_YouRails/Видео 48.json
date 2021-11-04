@@ -1,0 +1,87 @@
+{
+  "general": {
+    "titleSite": "YouRails - Teach curious; Learn from inspired",
+    "descriptionSite": "Behind every great human achievement there are teachers who helped to get on top. Courses, tests, certificates",
+    "canonicalUrlSite": "https://yourails.com",
+    "langSite": "en"
+  },
+  "courses": [
+    {
+      "courseID": "rzvsMMBd-Ik",
+      "capture": "Возведение в куб суммы и разности | Алгебра 7 класс #30 | Инфоурок",
+      "description": "На этом занятии мы вспомним формулы куба разности и куба суммы. Научимся использовать из. Рассмотрим несколько примеров",
+      "language": "ru",
+      "isActive": true,
+      "questionNumber": 4,
+      "passRate": 0.75,
+      "meta": {
+        "institution": "YouRails Academy",
+        "specTitle": "Tutor",
+        "specName": "Alena Ches",
+        "email": "alyona.cheskidova@gmail.com",
+        "isSendingBcc": true
+      },
+      "modules": [
+        {
+          "moduleID": "rzvsMMBd-Ik",
+          "index": 0,
+          "isActive": true,
+          "contentType": "ytID",
+          "contentID": "rzvsMMBd-Ik",
+          "capture": "Модуль I",
+          "duration": "7:03",
+          "questions": [
+            {
+              "capture": "Упростите выражение: (2a-3b)^3+12ab(3a-5b)",
+              "isActive": true,
+              "options": [
+                {
+                  "label": "8a^3+6ab^2+27b^3",
+                  "status": false
+                },
+                {
+                  "label": "8a^3+6ab^2-27b^3",
+                  "status": false
+                },
+                {
+                  "label": "8a^3-6ab^2-27b^3",
+                  "status": true
+                }
+              ]
+            },
+            {
+              "capture": "Упростите выражение: 125x^3 +150x^2 + 60x + 8, при x = - 0,6",
+              "isActive": true,
+              "options": [
+                { "label": "-193", "status": false },
+                { "label": "-145", "status": false },
+                { "label": "8", "status": false },
+                { "label": "-1", "status": true }
+              ]
+            },
+            {
+              "capture": "Решите уравнения: 8a^3 + 12a^2 – 18a = 27",
+              "isActive": true,
+              "options": [
+                { "label": "a=1,5", "status": false },
+                { "label": "a=± 1,5", "status": true },
+                { "label": "a=- 1,5", "status": false },
+                { "label": "нет решения", "status": false }
+              ]
+            },
+            {
+              "capture": "(2,76+6,24)^3",
+              "isActive": true,
+              "options": [
+                { "label": "9", "status": false },
+                { "label": "81", "status": false },
+                { "label": "729", "status": true },
+                { "label": "нет решения", "status": false }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

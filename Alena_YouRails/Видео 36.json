@@ -1,0 +1,91 @@
+{
+  "general": {
+    "titleSite": "YouRails - Teach curious; Learn from inspired",
+    "descriptionSite": "Behind every great human achievement there are teachers who helped to get on top. Courses, tests, certificates",
+    "canonicalUrlSite": "https://yourails.com",
+    "langSite": "en"
+  },
+  "courses": [
+    {
+      "courseID": "psn0vU5oBZ0",
+      "capture": "Рациональные числа | Математика 6 класс #37 | Инфоурок",
+      "description": "Видео урок по теме рациональные числа для дистанционного изучения и обученияв 6 классе по математике. Является отличным видеоуроком для закрепления и изучения этой темы самостоятельно на дому.",
+      "language": "ru",
+      "isActive": true,
+      "questionNumber": 4,
+      "passRate": 0.75,
+      "meta": {
+        "institution": "YouRails Academy",
+        "specTitle": "Tutor",
+        "specName": "Alena Ches",
+        "email": "alyona.cheskidova@gmail.com",
+        "isSendingBcc": true
+      },
+      "modules": [
+        {
+          "moduleID": "psn0vU5oBZ0",
+          "index": 0,
+          "isActive": true,
+          "contentType": "ytID",
+          "contentID": "psn0vU5oBZ0",
+          "capture": "Модуль I",
+          "duration": "8:34",
+          "questions": [
+            {
+              "capture": "Представьте дробь -48/64 в виде несократимой дроби.",
+              "isActive": true,
+              "options": [
+                {
+                  "label": "1/2",
+                  "status": false
+                },
+                {
+                  "label": "3/4",
+                  "status": false
+                },
+                {
+                  "label": "-3/4",
+                  "status": true
+                },
+                {
+                  "label": "-1/2",
+                  "status": false
+                }
+              ]
+            },
+            {
+              "capture": "(×- целых; * - умножение) (-1×1/8)/(3/5*2/7)",
+              "isActive": true,
+              "options": [
+                { "label": "-9/168", "status": false },
+                { "label": "-108/16", "status": false },
+                { "label": "-35/48", "status": false },
+                { "label": "-105/16", "status": true }
+              ]
+            },
+            {
+              "capture": "(-1×1/3)*(-3/5)*(7/8)",
+              "isActive": true,
+              "options": [
+                { "label": "-1/10", "status": false },
+                { "label": "7/10", "status": true },
+                { "label": "-170/10", "status": false },
+                { "label": "28/25", "status": false }
+              ]
+            },
+            {
+              "capture": "(-3×3/5)/(1/3*3/5)",
+              "isActive": true,
+              "options": [
+                { "label": "-2", "status": false },
+                { "label": "-9", "status": false },
+                { "label": "-18", "status": true },
+                { "label": "-2", "status": false }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

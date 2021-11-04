@@ -1,0 +1,117 @@
+{
+  "general": {
+    "titleSite": "YouRails - Teach curious; Learn from inspired",
+    "descriptionSite": "Behind every great human achievement there are teachers who helped to get on top. Courses, tests, certificates",
+    "canonicalUrlSite": "https://yourails.com",
+    "langSite": "en"
+  },
+  "courses": [
+    {
+      "courseID": "WmrpbM2bqyc",
+      "capture": "Единицы силы. Связь между силой тяжести и массой тела | Физика 7 класс #21 | Инфоурок",
+      "description": "Вы узнаете: Что такое сила. Каковы единицы силы. Что такое сила тяжести. Как рассчитать силу тяжести. Что такое всемирное тяготение.",
+      "language": "ru",
+      "isActive": true,
+      "questionNumber": 4,
+      "passRate": 0.75,
+      "meta": {
+        "institution": "YouRails Academy",
+        "specTitle": "Tutor",
+        "specName": "Alena Ches",
+        "email": "alyona.cheskidova@gmail.com",
+        "isSendingBcc": true
+      },
+      "modules": [
+        {
+          "moduleID": "WmrpbM2bqyc",
+          "index": 0,
+          "isActive": true,
+          "contentType": "ytID",
+          "contentID": "WmrpbM2bqyc",
+          "capture": "Модуль I",
+          "duration": "6:25",
+          "questions": [
+            {
+              "capture": "Какая единица принята в СИ основной для измерения сил?",
+              "isActive": true,
+              "options": [
+                {
+                  "label": "килограмм (кг)",
+                  "status": false
+                },
+                {
+                  "label": "метр (м)",
+                  "status": false
+                },
+                {
+                  "label": "ньютон (Н)",
+                  "status": true
+                },
+                {
+                  "label": "правильного ответа нет",
+                  "status": false
+                }
+              ]
+            },
+            {
+              "capture": "Формула, по которой рассчитывают силу тяжести",
+              "isActive": true,
+              "options": [
+                { "label": "m = ρV", "status": false },
+                { "label": "2x-1", "status": false },
+                { "label": "s = vt", "status": false },
+                { "label": "F = gm", "status": true }
+              ]
+            },
+            {
+              "capture": "Чему равно ускорение свободного падения?",
+              "isActive": true,
+              "options": [
+                { "label": "9", "status": false },
+                { "label": "9,8", "status": true },
+                { "label": "8,8", "status": false },
+                { "label": "10,8", "status": false }
+              ]
+            },
+            {
+              "capture": "Выберите верное утверждение.",
+              "isActive": true,
+              "options": [
+                {
+                  "label": "Сила является причиной изменения скорости тела",
+                  "status": true
+                },
+                {
+                  "label": "Сила является причиной появления скорости тела",
+                  "status": false
+                },
+                {
+                  "label": "Сила является причиной неизменности скорости тела",
+                  "status": false
+                }
+              ]
+            },
+            {
+              "capture": "Выберите правильное утверждение.",
+              "isActive": true,
+              "options": [
+                {
+                  "label": "Сила, это физическая величина, которая имеет только направление",
+                  "status": false
+                },
+                {
+                  "label": "Сила, это физическая величина, которая имеет только числовое значение",
+                  "status": false
+                },
+                {
+                  "label": "Сила, это физическая величина, которая имеет числовое значение и направление",
+                  "status": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "README": {
+    "language": {
+      "note": "ISO language code",
+      "type": "string",
+      "examples": ["ru", "en"]
+    },
+    "status": {
+      "note": "question status: right/wrong",
+      "type": "string",
+      "examples": [true, false]
+    },
+    "duration": {
+      "note": "content duration in time mean",
+      "type": "string",
+      "examples": ["7:42", "21:00"]
+    },
+    "contentType": {
+      "note": "content type code, for youtube - ytID, for the Internet pages - url",
+      "type": "string",
+      "examples": [
+        "ytID",
+        "https://suvorov.legal/apellyacionnaya-v-arbitrazhnyj-sud/"
+      ]
+    }
+  },
+  "courses": [
+    {
+      "courseID": "",
+      "capture": "Русский язык| Правописание -Н- и -НН- в прилагательных и причастиях",
+      "description": "Поговорим  о правописании -Н- и -НН- в прилагательных и причастиях. Какие есть исключения? Как отличить глагол совершенного вида от глагола  несовершенного вида?Разберем алгоритм работы с причастиями. Будет интересно!",
+      "language": "ru",
+      "meta": {
+        "institution": "",
+        "specTitle": "",
+        "specName": ""
+      },
+      "modules": [
+        {
+          "moduleID": "LSz7yOeouoU",
+          "index": 0,
+          "contentType": "LSz7yOeouoU",
+          "contentID": "",
+          "capture": "",
+          "duration": "6:14",
+          "questions": [
+            {
+              "capture": "Что такое причастие?",
+              "options": [
+                {
+                  "label": "особая форма глагола, которая обозначает признак предмета по действию и отвечает на вопросы прилагательного",
+                  "status": true
+                },
+                {
+                  "label": "особая форма глагола или самостоятельная часть речи в русском языке, обозначающая добавочное действие при основном.",
+                  "status": false
+                },
+                {
+                  "label": "неизменяемая самостоятельная часть речи, обозначающая признак действия, качества, другого признака или предмета. ",
+                  "status": false
+                },
+                {
+                  "label": "самостоятельная часть речи, которая указывает на предметы, признаки, количество, но не называет их, то есть заменяет существительное, прилагательное и числительное.",
+                  "status": false
+                }
+              ]
+            },
+            {
+              "capture": "Назовите исключения правописания Н и НН в прилагательных.",
+              "options": [
+                {
+                  "label": "туманный, Ветреный, стеклянный, оловянный",
+                  "status": false
+                },
+                { "label": "Жёванный, кованный, клёванный", "status": false },
+                {
+                  "label": "Ветреный, стеклянный, оловянный, деревянный",
+                  "status": true
+                }
+              ]
+            },
+            {
+              "capture": "Какие суффиксы способствуют написанию одной Н в прилагательных?",
+              "options": [
+                { "label": "ен,с он", "status": false },
+                { "label": "ан,ян,ин", "status": true },
+                { "label": "н", "status": false }
+              ]
+            },
+            {
+              "capture": "Назовите исключения правописания Н и НН в причастиях.",
+              "options": [
+                {
+                  "label": "Ветреный, стеклянный, оловянный, деревянный",
+                  "status": false
+                },
+                { "label": "Жёванный, кованный, клёванный", "status": true },
+                { "label": "Жёванный, кованный, оловянный", "status": false }
+              ]
+            },
+            {
+              "capture": "Какие суффиксы способствуют написанию НН в прилагательных?",
+              "options": [
+                { "label": " ан,ян,ин", "status": false },
+                { "label": "нн", "status": false },
+                { "label": "енн, онн", "status": true },
+                { "label": "ен,с он", "status": false }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

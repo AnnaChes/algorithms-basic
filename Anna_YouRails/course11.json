@@ -1,0 +1,102 @@
+{
+  "README": {
+    "multi": [true, false],
+    "status": [true, false],
+    "duration": 0,
+    "contentType": "ytID"
+  },
+  "courses": [
+    {
+      "courseID": "TDtGBvGUYDA",
+      "capture": "Наречие",
+      "description": "Видеоурок по русскому языку для 6 класса. Тема: Наречие",
+      "language": "ru",
+      "meta": {
+        "institution": "",
+        "specTitle": "",
+        "specName": ""
+      },
+      "modules": [
+        {
+          "moduleID": "TDtGBvGUYDA",
+          "index": 0,
+          "contentType": "ytID",
+          "contentID": "TDtGBvGUYDA",
+          "capture": "Модуль I",
+          "duration": "9:53",
+          "questions": [
+            {
+              "capture": "Наречие это ...",
+              "options": [
+                {
+                  "label": "Вспомогательная часть речи. Изменяемая.",
+                  "status": false
+                },
+                {
+                  "label": "Самостоятельная часть речи. Изменяемая.",
+                  "status": false
+                },
+                {
+                  "label": "Самостоятельная часть речи. Неизменяемая.",
+                  "status": true
+                },
+                {
+                  "label": "Вспомогательная часть речи. Неизменяемая.",
+                  "status": false
+                }
+              ]
+            },
+            {
+              "capture": "Что обозначает наречие?",
+              "options": [
+                {
+                  "label": "Признак действия, предмета или другого признака.",
+                  "status": true
+                },
+                { "label": "Только признак действия", "status": false },
+                { "label": "Только признак предмета", "status": false },
+                { "label": "Только признак другого признака", "status": false }
+              ]
+            },
+            {
+              "capture": "На какие вопросы отвечает наречие?",
+              "options": [
+                { "label": "Кто? что? ", "status": false },
+                {
+                  "label": "Как? куда? где? откуда? зачем? почему? сколько?",
+                  "status": true
+                },
+                { "label": "Какой? какая? какие?", "status": false },
+                { "label": "Что делает? что сделает?", "status": false }
+              ]
+            },
+            {
+              "capture": "Сколько всего у наречия разрядов по значению?",
+              "options": [
+                { "label": "4", "status": false },
+                { "label": "2", "status": false },
+                { "label": "8", "status": false },
+                { "label": "6", "status": true }
+              ]
+            },
+            {
+              "capture": "Что обозначает в предложении наречие?",
+              "options": [
+                { "label": "Обстоятельство, сказуемое", "status": false },
+                { "label": "Обстоятельство, определение", "status": false },
+                {
+                  "label": "Обстоятельство, определение, сказуемое",
+                  "status": true
+                },
+                {
+                  "label": "Определение, сказуемое, подлежащее",
+                  "status": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

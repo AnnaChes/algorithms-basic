@@ -1,0 +1,91 @@
+{
+  "general": {
+    "titleSite": "YouRails - Teach curious; Learn from inspired",
+    "descriptionSite": "Behind every great human achievement there are teachers who helped to get on top. Courses, tests, certificates",
+    "canonicalUrlSite": "https://yourails.com",
+    "langSite": "en"
+  },
+  "courses": [
+    {
+      "courseID": "_dXEMtdD550",
+      "capture": "Алгебраические дроби. Основные понятия | Алгебра 8 класс #1 | Инфоурок",
+      "description": "Видео, которое все так долго ждали. Разберём по деталям ТОП-5 распространённых ошибок в математике. Круто? Тогда приятного просмотра! 0:21 5 место — работа с корнями.0:57 4 место — работа с дробями. 2:08 3 место — ошибка при сокращении дробей.3:24 2 место — ошибки при решении неравенств. 6:01 1 место — корень из числа и формулы сокращенного умножения",
+      "language": "ru",
+      "isActive": true,
+      "questionNumber": 4,
+      "passRate": 0.75,
+      "meta": {
+        "institution": "YouRails Academy",
+        "specTitle": "Tutor",
+        "specName": "Alena Ches",
+        "email": "alyona.cheskidova@gmail.com",
+        "isSendingBcc": true
+      },
+      "modules": [
+        {
+          "moduleID": "PLQ50N5fDb_69eNZDBCNwhgNqGHQTaGP8o&index",
+          "index": 0,
+          "isActive": true,
+          "contentType": "ytID",
+          "contentID": "PLQ50N5fDb_69eNZDBCNwhgNqGHQTaGP8o&index",
+          "capture": "Модуль I",
+          "duration": "7:45",
+          "questions": [
+            {
+              "capture": "Решите 4^2-16/x-4",
+              "isActive": true,
+              "options": [
+                {
+                  "label": "1",
+                  "status": false
+                },
+                {
+                  "label": "x^2-4",
+                  "status": false
+                },
+                {
+                  "label": "x-4",
+                  "status": true
+                },
+                {
+                  "label": "x+4",
+                  "status": false
+                }
+              ]
+            },
+            {
+              "capture": "Решите 2x^2-x/x^2 при x=1",
+              "isActive": true,
+              "options": [
+                { "label": "2", "status": false },
+                { "label": "2x-1", "status": false },
+                { "label": "x", "status": false },
+                { "label": "1", "status": true }
+              ]
+            },
+            {
+              "capture": "x^2-4x+4/x-2 при x=5,2",
+              "isActive": true,
+              "options": [
+                { "label": "3", "status": false },
+                { "label": "3,2", "status": true },
+                { "label": "1", "status": false },
+                { "label": "19", "status": false }
+              ]
+            },
+            {
+              "capture": "(2x-x)x/x^2",
+              "isActive": true,
+              "options": [
+                { "label": "x^2", "status": false },
+                { "label": "2", "status": false },
+                { "label": "1", "status": true },
+                { "label": "x", "status": false }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

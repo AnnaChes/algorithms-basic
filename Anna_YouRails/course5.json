@@ -1,0 +1,87 @@
+{
+  "README": {
+    "designType": ["CheckBox", "RadioButton"],
+    "multi": [true, false],
+    "status": [true, false]
+  },
+  "courses": [
+    {
+      "courseID": "",
+      "capture": "Степени сравнения качественных прилагательных",
+      "description": "Видеоурок по русскому языку для 6 класса. Тема: Степени сравнения качественных прилагательных ",
+      "meta": {
+        "institution": "",
+        "specTitle": "",
+        "specName": ""
+      },
+      "modules": [
+        {
+          "moduleID": "Up88BYsRRvw&list",
+          "ytID": "Up88BYsRRvw&list",
+          "capture": "Модуль I",
+          "duration": "10:13",
+          "questions": [
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "Какие бывают степени сравнения качественных прилагательных?",
+              "options": [
+                { "label": "Сравнительно-превосходная", "status": false },
+                { "label": "Сравнительная", "status": true },
+                { "label": "Только сравнительная", "status": false },
+                { "label": "Превосходная", "status": true }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": false,
+              "capture": "Какая бывает сравнительная степень?",
+              "options": [
+                { "label": "Большая степень", "status": false },
+                { "label": "Большая и меньшая степень", "status": true },
+                { "label": "Меньшая степень", "status": false },
+                { "label": "Ничего из перечисленого", "status": false }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": false,
+              "capture": "Какая бывает превосходная степень?",
+              "options": [
+                { "label": "Наивысшая степень", "status": false },
+                { "label": "Ничего из перечисленного", "status": false },
+                {
+                  "label": "Наивысшая степень и наименьшая степень",
+                  "status": true
+                },
+                { "label": "Наименьшая степень", "status": false }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": false,
+              "capture": "Какими бывают сравнительная и превосходная степени имени прилогательного?",
+              "options": [
+                { "label": "Простыми", "status": false },
+                { "label": "Составными", "status": false },
+                { "label": "Простыми и составными", "status": true },
+                { "label": "Прсто-сотавными", "status": false }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": false,
+              "capture": "Как изменяются степени сравнения качественных прилагательных?",
+              "options": [
+                { "label": "По родам, числам, падежам", "status": true },
+                { "label": "По родам", "status": false },
+                { "label": "По числам и падежам", "status": false },
+                { "label": "По падежам и родам", "status": false }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

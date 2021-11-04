@@ -1,0 +1,73 @@
+{
+  "README": {
+    "designType": ["CheckBox", "RadioButton"],
+    "multi": [true, false],
+    "status": [true, false]
+  },
+  "courses": [
+    {
+      "courseID": "",
+      "capture": "Русский язык| Виды подчинительной связи слов в словосочетании",
+      "description": "В словосочетании традиционно выделяют три типа подчинительной связи между главным и зависимым словом: согласование, управление и примыкание. Особенности каждого типа Юлия Михайловна и освежит в вашей памяти. Смотрите с удовольствием новый урок!",
+      "meta": {
+        "institution": "",
+        "specTitle": "",
+        "specName": ""
+      },
+      "modules": [
+        {
+          "moduleID": "TqNSJaianNM",
+          "ytID": "TqNSJaianNM",
+          "capture": "Модуль I",
+          "duration": "9:46",
+          "questions": [
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "Является ли подлежащее + сказуемое словосочетанием?",
+              "options": [
+                {
+                  "label": "Да",
+                  "status": false
+                },
+                {
+                  "label": "Нет",
+                  "status": true
+                }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "По какому слову определяется вид словосочетания? ",
+              "options": [
+                { "label": "Главное", "status": false },
+                { "label": "Зависимое", "status": true }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "В каком виде подчинительной связи зависимое слово - инфинитив, наречие, деепричастие. ",
+              "options": [
+                { "label": "Согласование", "status": false },
+                { "label": "Управление", "status": false },
+                { "label": "Примыкание", "status": true }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "К какому виду относятся словосочетания: Любишь читать. Бьёт не по-детски. Спокойно рассуждать.",
+              "options": [
+                { "label": "Согласование", "status": false },
+                { "label": "Управление", "status": false },
+                { "label": "Примыкание", "status": true }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

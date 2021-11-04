@@ -1,0 +1,86 @@
+{
+  "courses": [
+    {
+      "courseID": "HVT3Y3_gHGg",
+      "capture": "Water - Liquid Awesome: Crash Course Biology #2",
+      "description": "Hank teaches us why water is one of the most fascinating and important substances in the universe.",
+      "language": "ru",
+      "isActive": true,
+      "questionNumber": 4,
+      "passRate": 0.75,
+      "meta": {
+        "institution": "YouRails Academy",
+        "specTitle": "Tutor",
+        "specName": "Anna Ches",
+        "email": "anya.cheskidova@gmail.com",
+        "isSendingBcc": false
+      },
+      "modules": [
+        {
+          "moduleID": "HVT3Y3_gHGg",
+          "index": 0,
+          "isActive": true,
+          "contentType": "ytID",
+          "contentID": "HVT3Y3_gHGg",
+          "capture": "Модуль I",
+          "duration": "11:16",
+          "questions": [
+            {
+              "capture": "What is the formula for a water molecule?",
+              "isActive": true,
+              "options": [
+                { "label": "CO2", "status": false },
+                { "label": "H2S", "status": false },
+                { "label": "H2O", "status": true },
+                { "label": "O2", "status": false }
+              ]
+            },
+            {
+              "capture": "What distinguishes hydrophobic substances from hydrophilic substances?",
+              "isActive": true,
+              "options": [
+                { "label": "does not dissolve in water", "status": true },
+                { "label": "dissolves in water", "status": false }
+              ]
+            },
+            {
+              "capture": "What did the most eccentric scientist Henry Cavendish do to advance the study of water?",
+              "isActive": true,
+              "options": [
+                { "label": "Determined the density of water", "status": false },
+                { "label": "discovered the formula of water", "status": true },
+                { "label": "proved the importance of water", "status": false }
+              ]
+            },
+            {
+              "capture": "The main property of ice that influenced all life on earth?",
+              "isActive": true,
+              "options": [
+                { "label": "ice is more dense than water", "status": false },
+                { "label": "ice has no hydrogen compounds", "status": false },
+                { "label": "ice does not sink", "status": true }
+              ]
+            },
+            {
+              "capture": "Will water drip on the glass?",
+              "isActive": true,
+              "options": [
+                { "label": "yes", "status": false },
+                { "label": "no", "status": true }
+              ]
+            },
+            {
+              "capture": "What property of water allows the oceans to regulate the temperature of our planet?",
+              "isActive": true,
+              "options": [
+                { "label": "that it is an excellent solvent", "status": false },
+                { "label": "Heat Capacity", "status": true },
+                { "label": "has three states of aggregation", "status": false }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

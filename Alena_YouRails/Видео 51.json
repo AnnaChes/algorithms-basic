@@ -1,0 +1,99 @@
+{
+  "general": {
+    "titleSite": "YouRails - Teach curious; Learn from inspired",
+    "descriptionSite": "Behind every great human achievement there are teachers who helped to get on top. Courses, tests, certificates",
+    "canonicalUrlSite": "https://yourails.com",
+    "langSite": "en"
+  },
+  "courses": [
+    {
+      "courseID": "Eb0IeYJcSAs",
+      "capture": "Давление. Единицы давления. Для учащихся 7 классов",
+      "description": "Силу, которую прикладывают к какой-либо поверхности, называют силой давления. А давление – это физическая величина, которая равна отношению силы давления, приложенной к конкретной поверхности, к площади этой поверхности.",
+      "language": "ru",
+      "isActive": true,
+      "questionNumber": 4,
+      "passRate": 0.75,
+      "meta": {
+        "institution": "YouRails Academy",
+        "specTitle": "Tutor",
+        "specName": "Alena Ches",
+        "email": "alyona.cheskidova@gmail.com",
+        "isSendingBcc": true
+      },
+      "modules": [
+        {
+          "moduleID": "Eb0IeYJcSAs",
+          "index": 0,
+          "isActive": true,
+          "contentType": "ytID",
+          "contentID": "Eb0IeYJcSAs",
+          "capture": "Модуль I",
+          "duration": "13:34",
+          "questions": [
+            {
+              "capture": "Какой буквой обозначается давление?",
+              "isActive": true,
+              "options": [
+                {
+                  "label": "m",
+                  "status": false
+                },
+                {
+                  "label": "F",
+                  "status": false
+                },
+                {
+                  "label": "p",
+                  "status": true
+                },
+                {
+                  "label": "S",
+                  "status": false
+                }
+              ]
+            },
+            {
+              "capture": "Какая единица является основной единицей давления в Международной системе?",
+              "isActive": true,
+              "options": [
+                { "label": "Джоуль (Дж)", "status": false },
+                { "label": "Килограмм", "status": false },
+                { "label": "Ньютон (Н)", "status": false },
+                { "label": "Паскаль (Па)", "status": true }
+              ]
+            },
+            {
+              "capture": "Как изменится давление человека на пол, если он встанет на одну ногу?",
+              "isActive": true,
+              "options": [
+                { "label": "Не изменится", "status": false },
+                { "label": "Уменьшится в 2 раза", "status": true },
+                { "label": "Увеличится в 0,5 раза", "status": false },
+                { "label": "Увеличится в 2 раза", "status": false }
+              ]
+            },
+            {
+              "capture": "Изменится ли сила тяжести, действующая на человека, если он встанет на лыжи?",
+              "isActive": true,
+              "options": [
+                { "label": "Сила тяжести не изменится", "status": true },
+                { "label": "Сила тяжести станет меньше", "status": false },
+                { "label": "Сила тяжести станет больше", "status": false }
+              ]
+            },
+            {
+              "capture": "Как звали ученого Паскаля, в честь которого назвали единицу измерения давления?",
+              "isActive": true,
+              "options": [
+                { "label": "Блез", "status": true },
+                { "label": "Исаак", "status": false },
+                { "label": "Антонио", "status": false }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

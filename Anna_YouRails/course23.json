@@ -1,0 +1,111 @@
+{
+  "courses": [
+    {
+      "courseID": "ut09cKOubtg",
+      "capture": "Технические открытия и выход к Мировому океану | Всемирная история 7 класс ",
+      "description": "В этом видео вы узнаете какие были совершены открытия в эпоху великих географических открытий и не только.",
+      "language": "ru",
+      "isActive": true,
+      "questionNumber": 4,
+      "passRate": 0.75,
+      "meta": {
+        "institution": "YouRails Academy",
+        "specTitle": "Tutor",
+        "specName": "Anna Ches",
+        "email": "anya.cheskidova@gmail.com",
+        "isSendingBcc": false
+      },
+      "modules": [
+        {
+          "moduleID": "ut09cKOubtg",
+          "index": 0,
+          "isActive": true,
+          "contentType": "ytID",
+          "contentID": "ut09cKOubtg",
+          "capture": "Модуль I",
+          "duration": "10:44",
+          "questions": [
+            {
+              "capture": "Какие были великие путешественники до эпохи великих географических открытий?",
+              "isActive": true,
+              "options": [
+                { "label": "Аристотель", "status": false },
+                { "label": "Афанасий Никитин", "status": true },
+                { "label": "Паоло Тосканелли", "status": false },
+                { "label": "Марко Поло", "status": true },
+                { "label": "Иоганн Гутенберг", "status": false }
+              ]
+            },
+            {
+              "capture": "Какие были причины эпохи великих географических открытий?",
+              "isActive": true,
+              "options": [
+                {
+                  "label": "Привлекательность восточных странн их благоприятным климатом, богатством украшений и товаров, большим населением и полезными ископаемыми.",
+                  "status": true
+                },
+                {
+                  "label": "Европейские правители отели торговать с Востоком бес посредников",
+                  "status": true
+                },
+                {
+                  "label": "Желание Европейских правителей колонизировать Восток",
+                  "status": false
+                },
+                {
+                  "label": "Технические изобретения и прогресс в развитии кораблестроения",
+                  "status": true
+                },
+                {
+                  "label": "Потребность в новых знаниях с Востока",
+                  "status": false
+                },
+                {
+                  "label": "Асманская империя закрывшая Европе выход к Индии",
+                  "status": true
+                }
+              ]
+            },
+            {
+              "capture": "Какие Технические открытия проихошли в эпоху великих географических открытий?",
+              "isActive": true,
+              "options": [
+                { "label": "Печатный стонок", "status": true },
+                { "label": "Компас, астролябия и квадрант", "status": true },
+                { "label": "Порох", "status": true },
+                { "label": "Телескоп", "status": false },
+                {
+                  "label": "Приспособление для отлива из сплава свинца и сурьмы литер",
+                  "status": true
+                },
+                {
+                  "label": "Новые конструкции кораблей и парусов",
+                  "status": true
+                }
+              ]
+            },
+            {
+              "capture": "Какие государства сыграли главную роль в открытии и иследовании новых земель?",
+              "isActive": true,
+              "options": [
+                { "label": "Португалия", "status": true },
+                { "label": "Италия", "status": false },
+                { "label": "Франция", "status": false },
+                { "label": "Испания", "status": true }
+              ]
+            },
+            {
+              "capture": "Кто стал организатором первых географических открытий?",
+              "isActive": true,
+              "options": [
+                { "label": "Марко Поло", "status": false },
+                { "label": "Принц Энрике", "status": true },
+                { "label": "Генрих Мореплаватель", "status": true }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

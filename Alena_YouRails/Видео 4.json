@@ -1,0 +1,106 @@
+{
+  "README": {
+    "designType": ["CheckBox", "RadioButton"],
+    "multi": [true, false],
+    "status": [true, false]
+  },
+  "courses": [
+    {
+      "capture": "Спряжение глаголов | Русский язык TutorOnline",
+      "description": "Сегодня Юлия Михайловна раз и навсегда избавит тебя от сомнений, как же определять спряжение глаголов, расскажет зачем нужно уметь это делать и какие слова исключения стоит выучить. ",
+      "meta": {
+        "institution": "TutorOnline - уроки для школьников",
+        "specTitle": "Юлия Михайловна",
+        "specName": ""
+      },
+      "modules": [
+        {
+          "ytID": "kEBrBIvmQDk&t",
+          "capture": "",
+          "questions": [
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "Укажите глагол II спряжения:",
+              "options": [
+                { "label": "Думать", "status": false },
+                { "label": "Дышать", "status": true },
+                { "label": "Шагать", "status": false }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "Укажите глагол II спряжения:",
+              "options": [
+                {
+                  "label": "Построить",
+                  "status": false
+                },
+                {
+                  "label": "Стрелять",
+                  "status": true
+                },
+                {
+                  "label": "Гостелить",
+                  "status": false
+                }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "Укажите глагол I спряжения:",
+              "options": [
+                { "label": "Побрить", "status": true },
+                {
+                  "label": "Перевозить",
+                  "status": false
+                },
+                { "label": "Готовить", "status": false }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "Укажите глагол I спряжения:",
+              "options": [
+                {
+                  "label": "Услышать",
+                  "status": false
+                },
+                {
+                  "label": "Прятать",
+                  "status": true
+                },
+                {
+                  "label": "Зависеть",
+                  "status": false
+                }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": " Укажите глагол I спряжения:",
+              "options": [
+                {
+                  "label": "Доверять",
+                  "status": false
+                },
+                {
+                  "label": "Клеить",
+                  "status": false
+                },
+                {
+                  "label": "Вертеться",
+                  "status": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
