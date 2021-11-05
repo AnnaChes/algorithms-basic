@@ -1,0 +1,90 @@
+{
+  "general": {
+    "titleSite": "YouRails - Teach curious; Learn from inspired",
+    "descriptionSite": "Behind every great human achievement there are teachers who helped to get on top. Courses, tests, certificates",
+    "canonicalUrlSite": "https://yourails.com",
+    "langSite": "en"
+  },
+  "courses": [
+    {
+      "courseID": "Kc0xsLbs27U",
+      "capture": "Вычисления. Доказательство тождеств | Алгебра 7 класс #22 | Инфоурок",
+      "description": "Для того, чтоб доказать тождество, необходимо уметь раскрывать скобки. Вот пример в видео, как раскрыть скобки и как преобразовать выражение.",
+      "language": "ru",
+      "isActive": true,
+      "questionNumber": 4,
+      "passRate": 0.75,
+      "meta": {
+        "institution": "YouRails Academy",
+        "specTitle": "Tutor",
+        "specName": "Alena Ches",
+        "email": "alyona.cheskidova@gmail.com",
+        "isSendingBcc": true
+      },
+      "modules": [
+        {
+          "moduleID": "Kc0xsLbs27U",
+          "index": 0,
+          "isActive": true,
+          "contentType": "ytID",
+          "contentID": "Kc0xsLbs27U",
+          "capture": "Модуль I",
+          "duration": "10:04",
+          "questions": [
+            {
+              "capture": "Какому из данных выражений тождественно равно выражение -4a+6b-3a-7b",
+              "isActive": true,
+              "options": [
+                {
+                  "label": "- 7a + b",
+                  "status": false
+                },
+                {
+                  "label": "7a - b",
+                  "status": false
+                },
+                {
+                  "label": "- 7a - b",
+                  "status": true
+                },
+                {
+                  "label": "7a + b",
+                  "status": false
+                }
+              ]
+            },
+            {
+              "capture": "Какому из данных выражений тождественно равно выражение 5с-d-6c-13d",
+              "isActive": true,
+              "options": [
+                { "label": "- с - 12d", "status": false },
+                { "label": "14d + с", "status": false },
+                { "label": "с - 14d", "status": false },
+                { "label": "- с - 14d", "status": true }
+              ]
+            },
+            {
+              "capture": "Какому из данных выражений тождественно равно выражение 14b-(-a+20b)+20b-a",
+              "isActive": true,
+              "options": [
+                { "label": "14b+2b", "status": false },
+                { "label": "14b-2b+20b", "status": true },
+                { "label": "14b", "status": false },
+                { "label": "14b+2b+20b", "status": false }
+              ]
+            },
+            {
+              "capture": "Какому из данных выражений тождественно равно выражение 15b+7a-30b-14a",
+              "isActive": true,
+              "options": [
+                { "label": "-30b-14a", "status": false },
+                { "label": "15b+7a", "status": false },
+                { "label": "-15b-7a", "status": true }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

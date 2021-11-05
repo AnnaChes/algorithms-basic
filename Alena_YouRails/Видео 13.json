@@ -1,0 +1,72 @@
+{
+  "README": {
+    "designType": ["CheckBox", "RadioButton"],
+    "multi": [true, false],
+    "status": [true, false]
+  },
+  "courses": [
+    {
+      "courseID": "",
+      "capture": "Задание 14 ЕГЭ // Правописание производных предлогов // Русский язык",
+      "description": "В этом уроке вы узнаете, как выполнять задание 14 на ЕГЭ.",
+      "meta": {
+        "institution": "",
+        "specTitle": "",
+        "specName": ""
+      },
+      "modules": [
+        {
+          "moduleID": "UeEjwbrr_wg",
+          "ytID": "UeEjwbrr_wg",
+          "capture": "Модуль I",
+          "duration": "9:22",
+          "questions": [
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "Для чего нужны предлоги?",
+              "options": [
+                {
+                  "label": "Для связи слов в предложении",
+                  "status": true
+                },
+                {
+                  "label": "Для связи простых предложений в составе сложных",
+                  "status": false
+                },
+                { "label": "Для выражения эмоций", "status": false }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "Могут ли предлоги быть составными и состоять из двух-трёх слов?",
+              "options": [
+                { "label": " Да", "status": true },
+                { "label": "Нет", "status": false }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "Верно ли полагать, что предлоги не могут быть простыми и состоять из одного слова?",
+              "options": [
+                { "label": "Да", "status": false },
+                { "label": "Нет", "status": true }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "Существуют ли в русском языке предлоги, образованные от наречий, деепричастий, существительных с предлогом?",
+              "options": [
+                { "label": "Да", "status": true },
+                { "label": " Нет", "status": false }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

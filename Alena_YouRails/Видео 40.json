@@ -1,0 +1,91 @@
+{
+  "general": {
+    "titleSite": "YouRails - Teach curious; Learn from inspired",
+    "descriptionSite": "Behind every great human achievement there are teachers who helped to get on top. Courses, tests, certificates",
+    "canonicalUrlSite": "https://yourails.com",
+    "langSite": "en"
+  },
+  "courses": [
+    {
+      "courseID": "KV8Jap30zkg",
+      "capture": "Выражения с переменными | Алгебра 7 класс #5 | Инфоурок",
+      "description": "Алгебра 7 класс. Выражения с переменными или буквенные выражения. Составление и использование буквенных выражений. Примеры выражений с переменными. Решение задач. Формулы. Деление на ноль. Значение выражения с переменными. Числовые выражения.",
+      "language": "ru",
+      "isActive": true,
+      "questionNumber": 4,
+      "passRate": 0.75,
+      "meta": {
+        "institution": "YouRails Academy",
+        "specTitle": "Tutor",
+        "specName": "Alena Ches",
+        "email": "alyona.cheskidova@gmail.com",
+        "isSendingBcc": true
+      },
+      "modules": [
+        {
+          "moduleID": "KV8Jap30zkg",
+          "index": 0,
+          "isActive": true,
+          "contentType": "ytID",
+          "contentID": "KV8Jap30zkg",
+          "capture": "Модуль I",
+          "duration": "9:33",
+          "questions": [
+            {
+              "capture": "2х + 6у − 11 при х = −5, у = 10.",
+              "isActive": true,
+              "options": [
+                {
+                  "label": "69",
+                  "status": false
+                },
+                {
+                  "label": "-51",
+                  "status": false
+                },
+                {
+                  "label": "39",
+                  "status": true
+                },
+                {
+                  "label": "-64",
+                  "status": false
+                }
+              ]
+            },
+            {
+              "capture": "4х − 5 при х = 1/4",
+              "isActive": true,
+              "options": [
+                { "label": "1", "status": false },
+                { "label": "11", "status": false },
+                { "label": "-5", "status": false },
+                { "label": "-4", "status": true }
+              ]
+            },
+            {
+              "capture": "3х − 4у − 5 при х = −42, у = -5",
+              "isActive": true,
+              "options": [
+                { "label": "110", "status": false },
+                { "label": "-111", "status": true },
+                { "label": "141", "status": false },
+                { "label": "101", "status": false }
+              ]
+            },
+            {
+              "capture": "3х + 9x/3 при х = 1/3",
+              "isActive": true,
+              "options": [
+                { "label": "10", "status": false },
+                { "label": "-2", "status": false },
+                { "label": "2", "status": true },
+                { "label": "22", "status": false }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

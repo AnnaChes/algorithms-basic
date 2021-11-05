@@ -1,0 +1,91 @@
+{
+  "general": {
+    "titleSite": "YouRails - Teach curious; Learn from inspired",
+    "descriptionSite": "Behind every great human achievement there are teachers who helped to get on top. Courses, tests, certificates",
+    "canonicalUrlSite": "https://yourails.com",
+    "langSite": "en"
+  },
+  "courses": [
+    {
+      "courseID": "DEdPI8o-9lc",
+      "capture": "Сложение чисел с разными знаками | Математика 6 класс #33 | Инфоурок",
+      "description": "В это видеоуроке ормирование  навыка сложения отрицательных чисел и чисел с разными знаками. Познакомим учащихся с правилом сложения отрицательных чисел.",
+      "language": "ru",
+      "isActive": true,
+      "questionNumber": 4,
+      "passRate": 0.75,
+      "meta": {
+        "institution": "YouRails Academy",
+        "specTitle": "Tutor",
+        "specName": "Alena Ches",
+        "email": "alyona.cheskidova@gmail.com",
+        "isSendingBcc": true
+      },
+      "modules": [
+        {
+          "moduleID": "DEdPI8o-9lc",
+          "index": 0,
+          "isActive": true,
+          "contentType": "ytID",
+          "contentID": "DEdPI8o-9lc",
+          "capture": "Модуль I",
+          "duration": "6:27",
+          "questions": [
+            {
+              "capture": "-9+16",
+              "isActive": true,
+              "options": [
+                {
+                  "label": "7",
+                  "status": false
+                },
+                {
+                  "label": "-5",
+                  "status": false
+                },
+                {
+                  "label": "7",
+                  "status": true
+                },
+                {
+                  "label": "-7",
+                  "status": false
+                }
+              ]
+            },
+            {
+              "capture": "10+(-6)",
+              "isActive": true,
+              "options": [
+                { "label": "1,6", "status": false },
+                { "label": "16", "status": false },
+                { "label": "-4", "status": false },
+                { "label": "4", "status": true }
+              ]
+            },
+            {
+              "capture": "68+6-36",
+              "isActive": true,
+              "options": [
+                { "label": "36", "status": false },
+                { "label": "63", "status": true },
+                { "label": "37", "status": false },
+                { "label": "38", "status": false }
+              ]
+            },
+            {
+              "capture": "(30*4)/(-18+38)",
+              "isActive": true,
+              "options": [
+                { "label": "15", "status": false },
+                { "label": "16", "status": false },
+                { "label": "6", "status": true },
+                { "label": "-6", "status": false }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

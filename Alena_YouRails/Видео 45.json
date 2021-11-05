@@ -1,0 +1,87 @@
+{
+  "general": {
+    "titleSite": "YouRails - Teach curious; Learn from inspired",
+    "descriptionSite": "Behind every great human achievement there are teachers who helped to get on top. Courses, tests, certificates",
+    "canonicalUrlSite": "https://yourails.com",
+    "langSite": "en"
+  },
+  "courses": [
+    {
+      "courseID": "B5yn9uRk2Y8",
+      "capture": "Способ группировки | Алгебра 7 класс #21 | Инфоурок",
+      "description": "В этом видео мы повторим тему Разложение на множители Чтобы разложить многочлен на множители способом группировки, необходимо сделать следующее. Подчеркнуть повторяющиеся буквы и записать друг за другом одночлены с одинаковыми буквенными множителями. Вынести общий множитель за скобки у каждой группы одночленов. Вынести полученный общий многочлен за скобки.",
+      "language": "ru",
+      "isActive": true,
+      "questionNumber": 4,
+      "passRate": 0.75,
+      "meta": {
+        "institution": "YouRails Academy",
+        "specTitle": "Tutor",
+        "specName": "Alena Ches",
+        "email": "alyona.cheskidova@gmail.com",
+        "isSendingBcc": true
+      },
+      "modules": [
+        {
+          "moduleID": "B5yn9uRk2Y8",
+          "index": 0,
+          "isActive": true,
+          "contentType": "ytID",
+          "contentID": "B5yn9uRk2Y8",
+          "capture": "Модуль I",
+          "duration": "9:01",
+          "questions": [
+            {
+              "capture": "Разложить на множители: 2cx-cy-6x+3y",
+              "isActive": true,
+              "options": [
+                {
+                  "label": "(2x+y)*(c+3)",
+                  "status": false
+                },
+                {
+                  "label": "(2x-y)*(c+3)",
+                  "status": false
+                },
+                {
+                  "label": "(2x-y)*(c-3)",
+                  "status": true
+                }
+              ]
+            },
+            {
+              "capture": "Разложить на множители: 7а-7b+ах-bх",
+              "isActive": true,
+              "options": [
+                { "label": "7a-7b+2ab", "status": false },
+                { "label": "7a+7b", "status": false },
+                { "label": "7a-7b-2ab", "status": false },
+                { "label": "7a-7b", "status": true }
+              ]
+            },
+            {
+              "capture": "Разложить на множители: x^4+x^3*y-x*y^3-y^4",
+              "isActive": true,
+              "options": [
+                { "label": "(x-y)*(x^3-y^3)", "status": false },
+                { "label": "(x+y)*(x^3-y^3)", "status": true },
+                { "label": "(x+y)*(x^3+y^3)", "status": false },
+                { "label": "(x-y)*(x^3+y^3)", "status": false }
+              ]
+            },
+            {
+              "capture": "Разложить на множители: xy^2-by^2-ax+ab+y^2-a",
+              "isActive": true,
+              "options": [
+                { "label": "(x+b+1)*(y^2-a)", "status": false },
+                { "label": "(x-b+1)*(y^2+a)", "status": false },
+                { "label": "(x-b+1)*(y^2-a)", "status": true },
+                { "label": "(x-b-1)*(y^2-a)", "status": false }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

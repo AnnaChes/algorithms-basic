@@ -1,0 +1,97 @@
+{
+  "README": {
+    "language": {
+      "note": "ISO language code",
+      "type": "string",
+      "examples": ["ru", "en"]
+    },
+    "status": {
+      "note": "question status: right/wrong",
+      "type": "string",
+      "examples": [true, false]
+    },
+    "duration": {
+      "note": "content duration in time mean",
+      "type": "string",
+      "examples": ["7:42", "21:00"]
+    },
+    "contentType": {
+      "note": "content type code, for youtube - ytID, for the Internet pages - url",
+      "type": "string",
+      "examples": [
+        "ytID",
+        "https://suvorov.legal/apellyacionnaya-v-arbitrazhnyj-sud/"
+      ]
+    }
+  },
+  "courses": [
+    {
+      "courseID": "",
+      "capture": "ТОП-5 ОШИБОК в математике | Математика | TutorOnline",
+      "description": "Видео, которое все так долго ждали. Разберём по деталям ТОП-5 распространённых ошибок в математике. Круто? Тогда приятного просмотра! 0:21 5 место — работа с корнями.0:57 4 место — работа с дробями. 2:08 3 место — ошибка при сокращении дробей.3:24 2 место — ошибки при решении неравенств. 6:01 1 место — корень из числа и формулы сокращенного умножения",
+      "language": "ru",
+      "meta": {
+        "institution": "",
+        "specTitle": "",
+        "specName": ""
+      },
+      "modules": [
+        {
+          "moduleID": "d5K2IVDkmg8",
+          "index": 0,
+          "contentType": "d5K2IVDkmg8",
+          "contentID": "",
+          "capture": "",
+          "duration": "",
+          "questions": [
+            {
+              "capture": "Решите уравнение √9+√169",
+              "options": [
+                { "label": "19", "status": false },
+                { "label": "√179", "status": false },
+                { "label": "16", "status": true },
+                { "label": "13,3", "status": false }
+              ]
+            },
+            {
+              "capture": "Решите неравенство 3-5(2x+4)>=7-2x",
+              "options": [
+                { "label": "x>=3", "status": false },
+                { "label": "x>=-3", "status": false },
+                { "label": "x>=3", "status": false },
+                { "label": "x<=-3", "status": true }
+              ]
+            },
+            {
+              "capture": "Решите неравенство x^2>169",
+              "options": [
+                { "label": "x=-13  x=13", "status": false },
+                { "label": "x∈(-∞,-13)⋃(13, ∞)", "status": true },
+                { "label": "x=13", "status": false },
+                { "label": "x∈(-∞,-13)", "status": false }
+              ]
+            },
+            {
+              "capture": "Решите неравенство x^2=144",
+              "options": [
+                { "label": "x=12", "status": false },
+                { "label": "x∈(-∞,-12)⋃(12, ∞)", "status": false },
+                { "label": "x=±12", "status": true },
+                { "label": "x=14", "status": false }
+              ]
+            },
+            {
+              "capture": "Решите уравнение 3а2 - 6аb + 3b2",
+              "options": [
+                { "label": " (3a - 3b)^2", "status": false },
+                { "label": "(a - b)^2", "status": false },
+                { "label": "3(a - b)^2", "status": true },
+                { "label": "3а^2 - 3b^2", "status": false }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

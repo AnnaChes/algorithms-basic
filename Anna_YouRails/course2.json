@@ -1,0 +1,143 @@
+{
+  "README": {
+    "designType": ["CheckBox", "RadioButton"],
+    "multi": [true, false],
+    "status": [true, false]
+  },
+  "courses": [
+    {
+      "capture": "Как нарисовать губы поэтапно карандашом",
+      "description": "Обучающее видео которое поможет вам научиться рисовать губы.",
+      "meta": {
+        "institution": "",
+        "specTitle": "",
+        "specName": ""
+      },
+      "modules": [
+        {
+          "ytID": "0pFPnrzKOVQ",
+          "capture": "",
+          "questions": [
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "Что надо сделать если следовать шагам 1-3.",
+              "options": [
+                {
+                  "label": "Нарисовать два круга на центре линии и один круг над ними",
+                  "status": true
+                },
+                {
+                  "label": "Нарисовать плавную линию с изгибами по бокам",
+                  "status": false
+                },
+                { "label": "Нарисовать прямую линию", "status": true },
+                {
+                  "label": "Нарисовать один овал посередине линии",
+                  "status": false
+                }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "Что гласят шаги 4-6",
+              "options": [
+                {
+                  "label": "Надо нарисовать ямку верхней губы",
+                  "status": true
+                },
+                {
+                  "label": "Надо отмерить равное расстояние от центра",
+                  "status": true
+                },
+                { "label": "Надо наметить среднюю линию губ", "status": true },
+                { "label": "Надо прорисовать уголки губ", "status": false }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "Что гласят шаги 7-9",
+              "options": [
+                {
+                  "label": "Надо сделать легкую тень под верхней и нижней губой",
+                  "status": true
+                },
+                {
+                  "label": " Надо наметить нижнюю губу и стереть все лишнее",
+                  "status": true
+                },
+                {
+                  "label": "Надо нарисовать четике лини верхней губы",
+                  "status": false
+                },
+                {
+                  "label": "Надо прорисовать яркую черную тень под нижней губой",
+                  "status": false
+                }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "Что надо сделать если следовать шагам 10-12.",
+              "options": [
+                { "label": "Прорисовать линии губ", "status": true },
+                {
+                  "label": "Смягчить штрихи пальцем или растушовкой",
+                  "status": true
+                },
+                {
+                  "label": "Прорисовать яркие тени по периметру губ",
+                  "status": false
+                },
+                {
+                  "label": "Прорисовать свето-тень на нижней губе",
+                  "status": true
+                }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "Что надо сделать если следовать шагам 13-15.",
+              "options": [
+                {
+                  "label": "Уплотнить тень под нижней губой, нарисовать складки на верхней губе",
+                  "status": true
+                },
+                {
+                  "label": "Нарисовать складки на нижней губе",
+                  "status": false
+                },
+                { "label": "Прорисовать более четкие штрихи", "status": true },
+                {
+                  "label": "Смягчить штрихи пальцем или растушовкой",
+                  "status": true
+                }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "Что гласят шаги 16-18",
+              "options": [
+                {
+                  "label": "Надо сделать блики на верхней губе",
+                  "status": true
+                },
+                { "label": " Надо подкориктировать детали", "status": true },
+                {
+                  "label": "Надо уплотнить тень на средней линии",
+                  "status": true
+                },
+                { "label": "Надо сделать блик на нижней губе", "status": false }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

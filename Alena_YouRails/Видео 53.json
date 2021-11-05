@@ -1,0 +1,102 @@
+{
+  "general": {
+    "titleSite": "YouRails - Teach curious; Learn from inspired",
+    "descriptionSite": "Behind every great human achievement there are teachers who helped to get on top. Courses, tests, certificates",
+    "canonicalUrlSite": "https://yourails.com",
+    "langSite": "en"
+  },
+  "courses": [
+    {
+      "courseID": "m3wx9BWZ_wQ",
+      "capture": "СИЛА ТЯЖЕСТИ масса ВЕС ТЕЛА 7 класс физика Перышкин",
+      "description": "В этом видеоуроке по физике для 7 класса объясняется что такое сила тяжести и как ее найти по формуле, решаются задачи из учебника Перышкин.",
+      "language": "ru",
+      "isActive": true,
+      "questionNumber": 4,
+      "passRate": 0.75,
+      "meta": {
+        "institution": "YouRails Academy",
+        "specTitle": "Tutor",
+        "specName": "Alena Ches",
+        "email": "alyona.cheskidova@gmail.com",
+        "isSendingBcc": true
+      },
+      "modules": [
+        {
+          "moduleID": "m3wx9BWZ_wQ",
+          "index": 0,
+          "isActive": true,
+          "contentType": "ytID",
+          "contentID": "m3wx9BWZ_wQ",
+          "capture": "Модуль I",
+          "duration": "7:06",
+          "questions": [
+            {
+              "capture": "Как называют силу, с которой Земля притягивает к себе тело?",
+              "isActive": true,
+              "options": [
+                {
+                  "label": "Сила упругости",
+                  "status": false
+                },
+                {
+                  "label": "Вес тела",
+                  "status": false
+                },
+                {
+                  "label": "Сила тяжести",
+                  "status": true
+                },
+                {
+                  "label": "Магнитная сила",
+                  "status": false
+                }
+              ]
+            },
+            {
+              "capture": "По какой формуле можно рассчитать вес тела?",
+              "isActive": true,
+              "options": [
+                { "label": "F=mg", "status": false },
+                { "label": "Р=mg", "status": true },
+                { "label": "F=mgh", "status": false }
+              ]
+            },
+            {
+              "capture": "Если на тело действуют другие тела, то его скорость…",
+              "isActive": true,
+              "options": [
+                { "label": "Не изменяется", "status": false },
+                { "label": "увеличивается", "status": false },
+                { "label": "уменьшается", "status": false },
+                {
+                  "label": "скорость тела изменяется (может увиличиватся и уменьшатся)",
+                  "status": true
+                }
+              ]
+            },
+            {
+              "capture": "Может ли тело двигаться равномерно, если на него не действуют другие тела?",
+              "isActive": true,
+              "options": [
+                { "label": "Не может", "status": true },
+                { "label": "Может, но не любое тело", "status": false },
+                { "label": "Может", "status": false }
+              ]
+            },
+            {
+              "capture": "Сила, с которой тело вследствие притяжения к Земле действует на опору...",
+              "isActive": true,
+              "options": [
+                { "label": "Вес тела", "status": true },
+                { "label": "Сила тяжести", "status": false },
+                { "label": "Сила всемирного тяготения", "status": false },
+                { "label": "Сила упругости", "status": false }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

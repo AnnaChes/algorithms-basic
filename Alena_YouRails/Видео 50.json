@@ -1,0 +1,115 @@
+{
+  "general": {
+    "titleSite": "YouRails - Teach curious; Learn from inspired",
+    "descriptionSite": "Behind every great human achievement there are teachers who helped to get on top. Courses, tests, certificates",
+    "canonicalUrlSite": "https://yourails.com",
+    "langSite": "en"
+  },
+  "courses": [
+    {
+      "courseID": "mcVQjUkGJlg",
+      "capture": "Сила трения. Трение покоя | Физика 7 класс #23 | Инфоурок",
+      "description": "Вы узнаете: Что такое сила трения. Каковы причины возникновения силы трения. Какие виды трения существуют.Как можно уменьшить силу трения. Какова роль трения в природе. Какова роль трения в технике.",
+      "language": "ru",
+      "isActive": true,
+      "questionNumber": 4,
+      "passRate": 0.75,
+      "meta": {
+        "institution": "YouRails Academy",
+        "specTitle": "Tutor",
+        "specName": "Alena Ches",
+        "email": "alyona.cheskidova@gmail.com",
+        "isSendingBcc": true
+      },
+      "modules": [
+        {
+          "moduleID": "mcVQjUkGJlg",
+          "index": 0,
+          "isActive": true,
+          "contentType": "ytID",
+          "contentID": "mcVQjUkGJlg",
+          "capture": "Модуль I",
+          "duration": "7:09",
+          "questions": [
+            {
+              "capture": "Какую силу называют силой трения?",
+              "isActive": true,
+              "options": [
+                {
+                  "label": "Силу взаимодействия между телами",
+                  "status": false
+                },
+                {
+                  "label": "Силу, которая препятствует движению тела",
+                  "status": false
+                },
+                {
+                  "label": "Силу взаимодействия поверхностей тел, которая препятствует их относительному движению",
+                  "status": true
+                },
+                {
+                  "label": "Силу взаимодействия между телами, которая останавливает движущееся тело",
+                  "status": false
+                }
+              ]
+            },
+            {
+              "capture": "Какие существуют силы трения?",
+              "isActive": true,
+              "options": [
+                { "label": "Трения качения", "status": false },
+                { "label": "Трения покоя", "status": false },
+                { "label": "Трения скольжения", "status": false },
+                { "label": "Все названные виды", "status": true }
+              ]
+            },
+            {
+              "capture": "При каком виде трения тел возникает наименьшая сила трения?",
+              "isActive": true,
+              "options": [
+                { "label": "В случае трения скольжения", "status": false },
+                { "label": "При трении качения", "status": true },
+                { "label": "При трении покоя", "status": false },
+                {
+                  "label": "При всех видах трения силы одинаковы",
+                  "status": false
+                }
+              ]
+            },
+            {
+              "capture": "Почему возникает сила трения?",
+              "isActive": true,
+              "options": [
+                {
+                  "label": "Потому что поверхности тел шероховатые",
+                  "status": false
+                },
+                {
+                  "label": "Потому что молекулы соприкасающихся тел притягиваются друг к другу",
+                  "status": false
+                },
+                {
+                  "label": "Потому что шероховатости поверхностей тел зацепляются друг за друга, а молекулы, находящиеся на поверхностях, притягиваются",
+                  "status": true
+                },
+                {
+                  "label": "Потому что по закону всемирного тяготения тела притягиваются друг к другу",
+                  "status": false
+                }
+              ]
+            },
+            {
+              "capture": "Что возникает при движении одного тела по поверхности другого?",
+              "isActive": true,
+              "options": [
+                { "label": "Сила трения", "status": true },
+                { "label": "Сила трения покоя", "status": false },
+                { "label": "Сила трения кручения", "status": false }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "README": {
+    "designType": ["CheckBox", "RadioButton"],
+    "multi": [true, false],
+    "status": [true, false]
+  },
+  "courses": [
+    {
+      "courseID": "",
+      "capture": "Уравнение sin(x)=a",
+      "description": "На уроке по теме «Арксинус и решение уравнения sin x=a» рассматривается понятие арксинуса числа, который можно вычислять по графику и на единичной окружности, и решается уравнение sin x=a.",
+      "meta": {
+        "institution": "",
+        "specTitle": "",
+        "specName": ""
+      },
+      "modules": [
+        {
+          "moduleID": "pEZ9A0HXUiE",
+          "ytID": "pEZ9A0HXUiE",
+          "capture": "Модуль I",
+          "duration": "",
+          "questions": [
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "Арксинусом числа а, модуль которого не больше единицы, называется...",
+              "options": [
+                {
+                  "label": "такое число х из промежутка [0;π], синус которого равен а",
+                  "status": false
+                },
+                {
+                  "label": "такое число х из промежутка [-π/2;π/2], синус которого равен а ",
+                  "status": true
+                },
+                { "label": "Любое значение а", "status": false }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "Уравнения sinx = a имеют решения если a ...",
+              "options": [
+                { "label": " -1≤а≤1", "status": true },
+                { "label": "любое значение а", "status": false },
+                { "label": "0≤а≤1", "status": false }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "Все корни уравнения sinx = a, можно найти по формуле …",
+              "options": [
+                {
+                  "label": "x= (-1)^k+1 × arcsin(a) + 2πk, где k€Z",
+                  "status": false
+                },
+                {
+                  "label": "x= (-1)^k × arcsin(a) + πk, где k€Z",
+                  "status": false
+                },
+                {
+                  "label": "x= (-1)^k × arcsin(a) + 2πk, где k€Z",
+                  "status": true
+                }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "Из данных уравнений выберите те, которые являются тригонометрическими:",
+              "options": [
+                { "label": "sin x = 1", "status": true },
+                { "label": "72 - х = 5х", "status": false },
+                { "label": "tg x = 2", "status": true },
+                { "label": " х2 + 5х = 0", "status": false }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "Какие из тригонометрических уравнений не имеют корней:",
+              "options": [
+                { "label": "sinx = 2,1", "status": true },
+                { "label": "sinx = -1/2", "status": false },
+                { "label": "sinx = 0,88", "status": false },
+                { "label": "sin x = - 1,09", "status": true }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

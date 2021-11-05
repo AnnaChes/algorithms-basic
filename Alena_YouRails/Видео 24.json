@@ -1,0 +1,101 @@
+{
+  "general": {
+    "titleSite": "YouRails - Teach curious; Learn from inspired",
+    "descriptionSite": "Behind every great human achievement there are teachers who helped to get on top. Courses, tests, certificates",
+    "canonicalUrlSite": "https://yourails.com",
+    "langSite": "en"
+  },
+  "courses": [
+    {
+      "courseID": "hdZ2u_sH2Eg&t",
+      "capture": "Световые явления. Источники света. Распространение света | Физика 8 класс #26 | Инфоурок",
+      "description": "Видеоуроки являются идеальными помощниками при изучении новых тем, закреплении материала, для обычных и факультативных занятий, для групповой и индивидуальной работы. Они содержат оптимальное количество графической и анимационной информации для сосредоточения внимания и удержания интереса ребят без отвлечения от сути занятия. Каждый видеоурок озвучен профессиональным мужским голосом, четким и приятным для восприятия.",
+      "language": "ru",
+      "isActive": true,
+      "questionNumber": 4,
+      "passRate": 0.75,
+      "meta": {
+        "institution": "YouRails Academy",
+        "specTitle": "Tutor",
+        "specName": "Alena Ches",
+        "email": "alyona.cheskidova@gmail.com",
+        "isSendingBcc": true
+      },
+      "modules": [
+        {
+          "moduleID": "hdZ2u_sH2Eg&t",
+          "index": 0,
+          "isActive": true,
+          "contentType": "ytID",
+          "contentID": "hdZ2u_sH2Eg&t",
+          "capture": "Модуль I",
+          "duration": "8:03",
+          "questions": [
+            {
+              "capture": "Световые явления - это...",
+              "isActive": true,
+              "options": [
+                {
+                  "label": "Явление связанное с излучением, отражением, поглощением, преломлением света",
+                  "status": true
+                },
+                {
+                  "label": "это такие явления, которые происходят со огем",
+                  "status": false
+                },
+                {
+                  "label": "Явление связанное с излучением, отражением света",
+                  "status": true
+                },
+                {
+                  "label": "Явление связанное с излучением, отражением поглощением, преломлением света в помещение",
+                  "status": true
+                }
+              ]
+            },
+            {
+              "capture": "Наука о свете - это ",
+              "isActive": true,
+              "options": [
+                { "label": "Семио́тика", "status": false },
+                { "label": "Астрономия", "status": false },
+                { "label": "онейрология", "status": false },
+                { "label": "Оптика", "status": true }
+              ]
+            },
+            {
+              "capture": "Сколько % информации об окружающем мире человек получает при помощи зрения?",
+              "isActive": true,
+              "options": [
+                { "label": "10", "status": false },
+                { "label": "90", "status": true },
+                { "label": "80", "status": false },
+                { "label": "100", "status": false }
+              ]
+            },
+            {
+              "capture": "Излучение которое воспринимается глазом - это...",
+              "isActive": true,
+              "options": [
+                { "label": "Лазер", "status": false },
+                { "label": "Луч", "status": false },
+                { "label": "Свет", "status": true },
+                { "label": "Радиоактивное излуение", "status": false }
+              ]
+            },
+            {
+              "capture": "Источники света:",
+              "isActive": true,
+              "options": [
+                { "label": "Луна", "status": false },
+                { "label": "Планета", "status": false },
+                { "label": "Солнце", "status": true },
+                { "label": "Звезда", "status": true }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

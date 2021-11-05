@@ -1,0 +1,91 @@
+{
+  "general": {
+    "titleSite": "YouRails - Teach curious; Learn from inspired",
+    "descriptionSite": "Behind every great human achievement there are teachers who helped to get on top. Courses, tests, certificates",
+    "canonicalUrlSite": "https://yourails.com",
+    "langSite": "en"
+  },
+  "courses": [
+    {
+      "courseID": "-McCdyjjUCA",
+      "capture": "Уравнение и его корни | Алгебра 7 класс #16 | Инфоурок",
+      "description": "В этом видеоуроке по алгебре для 7 класса объясняется как найти корни или решения простейшего уравнения + разбор примеров. ",
+      "language": "ru",
+      "isActive": true,
+      "questionNumber": 4,
+      "passRate": 0.75,
+      "meta": {
+        "institution": "YouRails Academy",
+        "specTitle": "Tutor",
+        "specName": "Alena Ches",
+        "email": "alyona.cheskidova@gmail.com",
+        "isSendingBcc": true
+      },
+      "modules": [
+        {
+          "moduleID": "-McCdyjjUCA",
+          "index": 0,
+          "isActive": true,
+          "contentType": "ytID",
+          "contentID": "-McCdyjjUCA",
+          "capture": "Модуль I",
+          "duration": "13:45",
+          "questions": [
+            {
+              "capture": "Решите уравнение: 2(2 + y) = 19 – 3y",
+              "isActive": true,
+              "options": [
+                {
+                  "label": "10",
+                  "status": false
+                },
+                {
+                  "label": "2",
+                  "status": false
+                },
+                {
+                  "label": "3",
+                  "status": true
+                },
+                {
+                  "label": "15",
+                  "status": false
+                }
+              ]
+            },
+            {
+              "capture": "Решите уравнение: –15 – 3х= –7х + 45",
+              "isActive": true,
+              "options": [
+                { "label": "-15", "status": false },
+                { "label": "10x", "status": false },
+                { "label": "7", "status": false },
+                { "label": "15", "status": true }
+              ]
+            },
+            {
+              "capture": "Решите уравнение: 11 + 3х = 55 + 4х",
+              "isActive": true,
+              "options": [
+                { "label": "20", "status": false },
+                { "label": "-22", "status": true },
+                { "label": "18", "status": false },
+                { "label": "5", "status": false }
+              ]
+            },
+            {
+              "capture": "Решите уравнение: –3х – 17 = 8х – 105",
+              "isActive": true,
+              "options": [
+                { "label": "9", "status": false },
+                { "label": "7", "status": false },
+                { "label": "8", "status": true },
+                { "label": "18", "status": false }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

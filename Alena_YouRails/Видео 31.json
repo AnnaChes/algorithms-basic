@@ -1,0 +1,91 @@
+{
+  "general": {
+    "titleSite": "YouRails - Teach curious; Learn from inspired",
+    "descriptionSite": "Behind every great human achievement there are teachers who helped to get on top. Courses, tests, certificates",
+    "canonicalUrlSite": "https://yourails.com",
+    "langSite": "en"
+  },
+  "courses": [
+    {
+      "courseID": "wTT_oHbsxB0",
+      "capture": "Дробные выражения | Математика 6 класс #19 | Инфоурок",
+      "description": "Видео, которое все так долго ждали. Разберём по деталям ТОП-5 распространённых ошибок в математике. Круто? Тогда приятного просмотра! 0:21 5 место — работа с корнями.0:57 4 место — работа с дробями. 2:08 3 место — ошибка при сокращении дробей.3:24 2 место — ошибки при решении неравенств. 6:01 1 место — корень из числа и формулы сокращенного умножения",
+      "language": "ru",
+      "isActive": true,
+      "questionNumber": 4,
+      "passRate": 0.75,
+      "meta": {
+        "institution": "YouRails Academy",
+        "specTitle": "Tutor",
+        "specName": "Alena Ches",
+        "email": "alyona.cheskidova@gmail.com",
+        "isSendingBcc": true
+      },
+      "modules": [
+        {
+          "moduleID": "wTT_oHbsxB0",
+          "index": 0,
+          "isActive": true,
+          "contentType": "ytID",
+          "contentID": "wTT_oHbsxB0",
+          "capture": "Модуль I",
+          "duration": "6:53",
+          "questions": [
+            {
+              "capture": "(×- целых; * - умножение) (4×2/3)/(1×2/5)",
+              "isActive": true,
+              "options": [
+                {
+                  "label": "98/15",
+                  "status": false
+                },
+                {
+                  "label": "10/5",
+                  "status": false
+                },
+                {
+                  "label": "10/3",
+                  "status": true
+                },
+                {
+                  "label": "91/15",
+                  "status": false
+                }
+              ]
+            },
+            {
+              "capture": "(×- целых; * - умножение) (5,8/7,2-5/7+3/8)/(1,323/2,1+1,245)",
+              "isActive": true,
+              "options": [
+                { "label": "25/27", "status": false },
+                { "label": "1/30", "status": false },
+                { "label": "125/123", "status": false },
+                { "label": "1/3", "status": true }
+              ]
+            },
+            {
+              "capture": "(×- целых; * - умножение) (1,7)/(8,5)",
+              "isActive": true,
+              "options": [
+                { "label": "5/10", "status": false },
+                { "label": "1/5", "status": true },
+                { "label": "3/17", "status": false },
+                { "label": "289/20", "status": false }
+              ]
+            },
+            {
+              "capture": "(×- целых; * - умножение) (2×1/2)/(2×1/3)",
+              "isActive": true,
+              "options": [
+                { "label": "35/6", "status": false },
+                { "label": "5/14", "status": false },
+                { "label": "15/14", "status": true },
+                { "label": "29/6", "status": false }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

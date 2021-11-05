@@ -1,0 +1,101 @@
+{
+  "general": {
+    "titleSite": "YouRails - Teach curious; Learn from inspired",
+    "descriptionSite": "Behind every great human achievement there are teachers who helped to get on top. Courses, tests, certificates",
+    "canonicalUrlSite": "https://yourails.com",
+    "langSite": "en"
+  },
+  "courses": [
+    {
+      "courseID": "JEm0Mmr_ukE&t",
+      "capture": "Северная война | Всемирная история 7 класс #45 | Инфоурок",
+      "description": "Видеоуроки являются идеальными помощниками при изучении новых тем, закреплении материала, для обычных и факультативных занятий, для групповой и индивидуальной работы. Они содержат оптимальное количество графической и анимационной информации для сосредоточения внимания и удержания интереса ребят без отвлечения от сути занятия. Каждый видеоурок озвучен профессиональным мужским голосом, четким и приятным для восприятия.",
+      "language": "ru",
+      "isActive": true,
+      "questionNumber": 4,
+      "passRate": 0.75,
+      "meta": {
+        "institution": "YouRails Academy",
+        "specTitle": "Tutor",
+        "specName": "Alena Ches",
+        "email": "alyona.cheskidova@gmail.com",
+        "isSendingBcc": true
+      },
+      "modules": [
+        {
+          "moduleID": "JEm0Mmr_ukE&t",
+          "index": 0,
+          "isActive": true,
+          "contentType": "ytID",
+          "contentID": "JEm0Mmr_ukE&t",
+          "capture": "Модуль I",
+          "duration": "13:10",
+          "questions": [
+            {
+              "capture": "Кто входил в северный союз против швеции?",
+              "isActive": true,
+              "options": [
+                {
+                  "label": "Россия, Украина, Саксония",
+                  "status": false
+                },
+                {
+                  "label": "Россия и Швеция",
+                  "status": false
+                },
+                {
+                  "label": "Россия, Дания, Саксония",
+                  "status": true
+                },
+                {
+                  "label": "Россия, Дания, Польша",
+                  "status": true
+                }
+              ]
+            },
+            {
+              "capture": "В каком году заключался мир между России и Швецией?",
+              "isActive": true,
+              "options": [
+                { "label": "1701", "status": false },
+                { "label": "1722", "status": false },
+                { "label": "1721", "status": true },
+                { "label": "1821", "status": false }
+              ]
+            },
+            {
+              "capture": "Период Северной войны",
+              "isActive": true,
+              "options": [
+                { "label": "1700-1706", "status": false },
+                { "label": "1699-1721", "status": false },
+                { "label": "1705-1721", "status": false },
+                { "label": "1700-1721", "status": true }
+              ]
+            },
+            {
+              "capture": "В каком году Петр l закладывает новую столицу - Санкт-Петербург?",
+              "isActive": true,
+              "options": [
+                { "label": "1702", "status": false },
+                { "label": "1703", "status": true },
+                { "label": "1699", "status": false },
+                { "label": "1803", "status": false }
+              ]
+            },
+            {
+              "capture": "Петр Первый назвал .... «матерью Полтавской виктории»",
+              "isActive": true,
+              "options": [
+                { "label": "Полта́вская битва", "status": false },
+                { "label": "при Лесе", "status": false },
+                { "label": "при Лесной", "status": true },
+                { "label": "Сражение при Дюнекилне", "status": false }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "general": {
+    "titleSite": "YouRails - Teach curious; Learn from inspired",
+    "descriptionSite": "Behind every great human achievement there are teachers who helped to get on top. Courses, tests, certificates",
+    "canonicalUrlSite": "https://yourails.com",
+    "langSite": "en"
+  },
+  "courses": [
+    {
+      "courseID": "HwseG81EGFo",
+      "capture": "Прямая и обратная пропорциональные зависимости | Математика 6 класс #22 | Инфоурок",
+      "description": "В процессе решения задач формулируются понятия прямой и обратной пропорциональных зависимостей, правило составления отношений прямо и обратно пропорциональных величин. Закрепляются полученные знания и навыки на ряде задач",
+      "language": "ru",
+      "isActive": true,
+      "questionNumber": 4,
+      "passRate": 0.75,
+      "meta": {
+        "institution": "YouRails Academy",
+        "specTitle": "Tutor",
+        "specName": "Alena Ches",
+        "email": "alyona.cheskidova@gmail.com",
+        "isSendingBcc": true
+      },
+      "modules": [
+        {
+          "moduleID": "HwseG81EGFo",
+          "index": 0,
+          "isActive": true,
+          "contentType": "ytID",
+          "contentID": "HwseG81EGFo",
+          "capture": "Модуль I",
+          "duration": "6:39",
+          "questions": [
+            {
+              "capture": "Четыре рыбы за 3 ч съели 12 червяков. За какое время пять рыб съедят 15 червяков?",
+              "isActive": true,
+              "options": [
+                {
+                  "label": "2,5",
+                  "status": false
+                },
+                {
+                  "label": "2",
+                  "status": false
+                },
+                {
+                  "label": "3",
+                  "status": true
+                },
+                {
+                  "label": "5",
+                  "status": false
+                }
+              ]
+            },
+            {
+              "capture": "Два трактора вспахали поле за 5 часов. Сколько нужно тракторов, чтобы вспахать такое поле за 2 часа?",
+              "isActive": true,
+              "options": [
+                { "label": "2", "status": false },
+                { "label": "10", "status": false },
+                { "label": "3", "status": false },
+                { "label": "5", "status": true }
+              ]
+            },
+            {
+              "capture": "Пять мартышек за 5 часов съели 5 кг бананов. Сколько мартышек съедят 6 кг бананов за 3 часа?",
+              "isActive": true,
+              "options": [
+                { "label": "12", "status": false },
+                { "label": "10", "status": true },
+                { "label": "14", "status": false },
+                { "label": "16", "status": false }
+              ]
+            },
+            {
+              "capture": "За каждые 15 мин Ида вырезала по 5 снежинок. Сколько снежинок Ида вырезала за время втрое большее?",
+              "isActive": true,
+              "options": [
+                { "label": "22", "status": false },
+                { "label": "10", "status": false },
+                { "label": "15", "status": true },
+                { "label": "30", "status": false }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

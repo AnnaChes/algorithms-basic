@@ -1,0 +1,116 @@
+{
+  "courses": [
+    {
+      "courseID": "6bkzHLI2T8",
+      "capture": "Жизнедеятельность клетки, её деление и рост. Видеоурок по биологии 5 класс",
+      "description": "На этом уроке мы поговорим о том, каким образом клетка осуществляет свою жизнедеятельность.",
+      "language": "ru",
+      "isActive": true,
+      "questionNumber": 4,
+      "passRate": 0.75,
+      "meta": {
+        "institution": "YouRails Academy",
+        "specTitle": "Tutor",
+        "specName": "Anna Ches",
+        "email": "anya.cheskidova@gmail.com",
+        "isSendingBcc": false
+      },
+      "modules": [
+        {
+          "moduleID": "6bkzHLI2T8",
+          "index": 0,
+          "isActive": true,
+          "contentType": "ytID",
+          "contentID": "6bkzHLI2T8",
+          "capture": "Модуль I",
+          "duration": "11:46",
+          "questions": [
+            {
+              "capture": "Что предшествует первому этапу роста клетки?",
+              "isActive": true,
+              "options": [
+                {
+                  "label": "Образование центральной вакуоли в материнской клетке",
+                  "status": false
+                },
+                {
+                  "label": "Превращение материнской клетки в дочернию",
+                  "status": false
+                },
+                {
+                  "label": "Деление материнской клетки на две дочерние",
+                  "status": true
+                },
+                {
+                  "label": "Превращение дочерней клетки в материнскую",
+                  "status": false
+                }
+              ]
+            },
+            {
+              "capture": "Что происходит на втором этапе роста клетки?",
+              "isActive": true,
+              "options": [
+                { "label": "Происходит деление клетки", "status": false },
+                { "label": "Происходит быстрый рост", "status": true },
+                {
+                  "label": "Клетка приспосабливается к окружающей среде",
+                  "status": false
+                },
+                {
+                  "label": "Образовывается единая центральная вакуоль",
+                  "status": true
+                }
+              ]
+            },
+            {
+              "capture": "За счет чего происходит быстрый рост клетки?",
+              "isActive": true,
+              "options": [
+                { "label": "Воды", "status": true },
+                { "label": "Деления клетки", "status": false },
+                { "label": "Питания", "status": false },
+                { "label": "Роста числа вакуолей", "status": false }
+              ]
+            },
+            {
+              "capture": "Что происходит при делении клетки?",
+              "isActive": true,
+              "options": [
+                {
+                  "label": "Образуется разделяющая стенка из целлюлозы",
+                  "status": true
+                },
+                { "label": "Образуются две дочерние клетки", "status": true },
+                { "label": "Появляются поры", "status": true },
+                {
+                  "label": "Информация находящаяся в клетке расходится",
+                  "status": true
+                }
+              ]
+            },
+            {
+              "capture": "Что происходит на третьем этапе роста клетки?",
+              "isActive": true,
+              "options": [
+                { "label": "Клетка делиться", "status": false },
+                {
+                  "label": "Клетка прекращает свою жизнедейтельность",
+                  "status": false
+                },
+                {
+                  "label": "У клетки появляется центральная вакуоль",
+                  "status": false
+                },
+                {
+                  "label": "Клетка приобретает особенности во внутреннем строении",
+                  "status": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

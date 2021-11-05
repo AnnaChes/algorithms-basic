@@ -1,0 +1,123 @@
+{
+  "README": {
+    "designType": ["CheckBox", "RadioButton"],
+    "multi": [true, false],
+    "status": [true, false]
+  },
+  "courses": [
+    {
+      "capture": "Радиус, диаметр, длина окружности, число π (видео 2) |Окружность и Круг | Геометрия",
+      "description": "Рассказываем, как число π связывает радиус, диаметр и длину окружности.",
+      "meta": {
+        "institution": "KhanAcademyRussian",
+        "specTitle": "Преподаватель математики",
+        "specName": ""
+      },
+      "modules": [
+        {
+          "ytID": "3bTlMI0EC_k",
+          "capture": "",
+          "questions": [
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "Радиус окружности - это...",
+              "options": [
+                {
+                  "label": "радиус, который соединяет центр окружности и любую точку на ней.",
+                  "status": false
+                },
+                {
+                  "label": "диаметр, который соединяет центр окружности и любую точку на ней.",
+                  "status": false
+                },
+                {
+                  "label": "отрезок, который соединяет центр окружности и любую точку на ней.",
+                  "status": true
+                },
+                {
+                  "label": "отрезок, который соединяет любую точку внутри окружности и любую точку на ней.",
+                  "status": false
+                }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "Диаметр окружности (d) – это...",
+              "options": [
+                {
+                  "label": "линия, проходящая через центр окружности и соединяющая две противоположные точки, лежащие на ней.",
+                  "status": true
+                },
+                {
+                  "label": "линия, проходящая через центр окружности и соединяющая три точки.",
+                  "status": false
+                },
+                {
+                  "label": "отрезок, проходящий через точку на окружности и соединяющая центр и противоположные точки, лежащие на ней.",
+                  "status": false
+                }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "Чему равно число π?",
+              "options": [
+                { "label": "3,2", "status": false },
+                {
+                  "label": "3,1415",
+                  "status": true
+                },
+                { "label": "3,144", "status": false }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "Как вглядит формула длины окружности?",
+              "options": [
+                {
+                  "label": "L=πr^2",
+                  "status": false
+                },
+                {
+                  "label": "L=2πD",
+                  "status": false
+                },
+                {
+                  "label": "L=2πr",
+                  "status": true
+                }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "Решите задачку. Диаметр окружности равен 9,6. Найдите длину окружности. ОКРУГЛИТЕ ДО ЦЕЛЫХ!",
+              "options": [
+                {
+                  "label": "60",
+                  "status": false
+                },
+                {
+                  "label": "30",
+                  "status": true
+                },
+                {
+                  "label": "31",
+                  "status": false
+                },
+                {
+                  "label": "121",
+                  "status": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "README": {
+    "designType": ["CheckBox", "RadioButton"],
+    "multi": [true, false],
+    "status": [true, false]
+  },
+  "courses": [
+    {
+      "courseID": "",
+      "capture": "Вторая Мировая война - Битва за Британию",
+      "description": "Документальный фильм телеканала Подмосковье.",
+      "meta": {
+        "institution": "",
+        "specTitle": "",
+        "specName": ""
+      },
+      "modules": [
+        {
+          "moduleID": "vR6MHU-zz5E",
+          "ytID": "vR6MHU-zz5E",
+          "capture": "Модуль I",
+          "duration": "25:52",
+          "questions": [
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "Что предшествовало рождению у англичан ненависти к немцам? ",
+              "options": [
+                {
+                  "label": "Жители Англии знали о происходящем в Европе и готовились к нападениям. Однако до самой войны им ничего не угорожало.",
+                  "status": false
+                },
+                {
+                  "label": "Почти ничто не напоминало жителям Англии, что в Европе идут военные действия. Была обычная, беспечная жизнь. ",
+                  "status": true
+                },
+                { "label": "Любое значение а", "status": false }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "Что такое одна дивизия?",
+              "options": [
+                {
+                  "label": "Это дивизия, состоящая из одного человека.",
+                  "status": false
+                },
+                {
+                  "label": "Это самая сильная дивизия Англии",
+                  "status": false
+                },
+                {
+                  "label": "Это дивизия, которую Англия могла противопоставить с полным воорущением, которая могла дать минимальное сопротивление.",
+                  "status": true
+                }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "Какие две операции должны были принести Гитлеру победу над Англией?",
+              "options": [
+                { "label": "День Льва", "status": false },
+                { "label": "Морской Лев", "status": true },
+                { "label": "День орла", "status": true }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "Кому(Чему) принадлежит заслуга в победе над Люфтваффе?",
+              "options": [
+                { "label": "Сильной дивизии Англии", "status": false },
+                { "label": "Дугласу Бадеру", "status": false },
+                { "label": "Радарам", "status": true },
+                { "label": "Мощному морскому флоту Англии", "status": false }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

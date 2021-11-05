@@ -1,0 +1,119 @@
+{
+  "README": {
+    "designType": ["CheckBox", "RadioButton"],
+    "multi": [true, false],
+    "status": [true, false]
+  },
+  "courses": [
+    {
+      "capture": "ЗАДАНИЕ 5: КАК РЕШИТЬ ЛОГАРИФМЫ | ЕГЭ ПРОФИЛЬ ЛЕГКО",
+      "description": "Задание 5 не сложное по своей сути - достаточно хорошо выучить теорию и не путаясь ее использовать.В начале урока рассказываю о свойствах показательных функций (все нюансы со степенями), даю формулы разности квадратов и квадрата разности/суммы, и конечно же свойства логарифмов☝️ Далее рассматриваю наиболее типовой пример логарифмического уравнения: логарифм равен числу - показываю, как не допустить ошибки при решении.Потом рассматриваем равенство 2х логарифмов с разными основаниями и что делать в этом случае.Далее решаем показательное уравнение, в котором сразу не понятно, как привести левую и правую часть к одному основанию.А также рассматриваю сложное показательное уравнение, еще и с логарифмом в степени В целом разбираю в видео как типовые, так и достаточно сложные задачи - надеюсь Вы узнаете много нового!",
+      "meta": {
+        "institution": "Проф ЕГЭ",
+        "specTitle": "Преподаватель математики",
+        "specName": ""
+      },
+      "modules": [
+        {
+          "ytID": "LecNCsFsHSE",
+          "capture": "",
+          "questions": [
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "Чему будет равно Logx (x)?",
+              "options": [
+                { "label": "x", "status": false },
+                { "label": "x^2", "status": false },
+                { "label": "1", "status": true },
+                { "label": "0", "status": false }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "Чему будет равно loga (b) + loga (c)?",
+              "options": [
+                {
+                  "label": "loga (b + c)",
+                  "status": false
+                },
+                {
+                  "label": "loga (b - c)",
+                  "status": false
+                },
+                {
+                  "label": "loga (bc)",
+                  "status": true
+                },
+                {
+                  "label": "loga",
+                  "status": false
+                }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "Решите неравенство lg (x) > 1",
+              "options": [
+                { "label": "x < 10", "status": false },
+                {
+                  "label": "x > 10",
+                  "status": true
+                },
+                { "label": "x > 1", "status": false }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "Какое из множеств является решением неравенства   log2 (x + 3) < 1",
+              "options": [
+                {
+                  "label": "( -∞; - 1)",
+                  "status": true
+                },
+                {
+                  "label": "(- ∞; + ∞)",
+                  "status": false
+                },
+                {
+                  "label": "(- 1; +∞)",
+                  "status": false
+                },
+                {
+                  "label": "(-1; 3)",
+                  "status": false
+                }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "Вычислите log1/2 (4)",
+              "options": [
+                {
+                  "label": "1",
+                  "status": false
+                },
+                {
+                  "label": "2",
+                  "status": true
+                },
+                {
+                  "label": "-2",
+                  "status": false
+                },
+                {
+                  "label": "-1/2",
+                  "status": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

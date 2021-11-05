@@ -1,0 +1,105 @@
+{
+  "README": {
+    "language": {
+      "note": "ISO language code",
+      "type": "string",
+      "examples": ["ru", "en"]
+    },
+    "status": {
+      "note": "question status: right/wrong",
+      "type": "string",
+      "examples": [true, false]
+    },
+    "duration": {
+      "note": "content duration in time mean",
+      "type": "string",
+      "examples": ["7:42", "21:00"]
+    },
+    "contentType": {
+      "note": "content type code, for youtube - ytID, for the Internet pages - url",
+      "type": "string",
+      "examples": [
+        "ytID",
+        "https://suvorov.legal/apellyacionnaya-v-arbitrazhnyj-sud/"
+      ]
+    }
+  },
+  "courses": [
+    {
+      "courseID": "",
+      "capture": "БиологияI Сердце. Круги кровообращения",
+      "description": "Ботаник Ирина расскажет о строении сердца. Где начинается и где заканчивается малый круг кровообращения? Как происходит кровообращение? Куда поступает кровь из левого желудочка? Коротко обо все этом поговорим в очередном уроке. Приятного просмотра. ",
+      "language": "ru",
+      "meta": {
+        "institution": "",
+        "specTitle": "",
+        "specName": ""
+      },
+      "modules": [
+        {
+          "moduleID": "DC5s7ABCWq8",
+          "index": 0,
+          "contentType": "DC5s7ABCWq8",
+          "contentID": "",
+          "capture": "",
+          "duration": "",
+          "questions": [
+            {
+              "capture": "Какая кровь течёт в левом предсердии?",
+              "options": [
+                { "label": "артериальная", "status": true },
+                { "label": "венозная", "status": false }
+              ]
+            },
+            {
+              "capture": "Какая кровь течёт в правом предсердии?",
+              "options": [
+                { "label": "артериальная", "status": false },
+                { "label": "венозная", "status": true }
+              ]
+            },
+            {
+              "capture": "Сколько камер в сердце человека:",
+              "options": [
+                { "label": "2", "status": false },
+                { "label": "4", "status": true },
+                { "label": "6", "status": false },
+                { "label": "8", "status": false }
+              ]
+            },
+            {
+              "capture": "Сердце состоит из…",
+              "options": [
+                {
+                  "label": "двух предсердий и одного желудочка",
+                  "status": false
+                },
+                {
+                  "label": "одного предсердия и двух желудочков",
+                  "status": false
+                },
+                {
+                  "label": "двух предсердий и двух желудочков",
+                  "status": true
+                },
+                {
+                  "label": "одного предсердия и одного желудочка",
+                  "status": false
+                }
+              ]
+            },
+            {
+              "capture": "Большой круг кровообращения начинается в:",
+              "options": [
+                { "label": "правом желудочке", "status": false },
+                { "label": "правом предсердии", "status": false },
+                { "label": "левом желудочке", "status": true },
+                { "label": "левом предсердии", "status": false }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

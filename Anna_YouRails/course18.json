@@ -1,0 +1,93 @@
+{
+  "courses": [
+    {
+      "courseID": "tsV12DIymMY",
+      "capture": "Строение клетки. Видеоурок по биологии 5 класс",
+      "description": "На уроке «Строение клетки» мы рассмотрим клеточный уровень живой природы, особенности растительной клетки, ведь мы все состоим из клеток и клетка является универсальным элементом строения всего живого.",
+      "language": "ru",
+      "isActive": true,
+      "questionNumber": 4,
+      "passRate": 0.75,
+      "meta": {
+        "institution": "YouRails Academy",
+        "specTitle": "Tutor",
+        "specName": "Anna Ches",
+        "email": "anya.cheskidova@gmail.com",
+        "isSendingBcc": false
+      },
+      "modules": [
+        {
+          "moduleID": "tsV12DIymMY",
+          "index": 0,
+          "isActive": true,
+          "contentType": "ytID",
+          "contentID": "tsV12DIymMY",
+          "capture": "Модуль I",
+          "duration": "12:52",
+          "questions": [
+            {
+              "capture": "Постоянные части клетки которые осуществляют определенные функции это ...",
+              "isActive": true,
+              "options": [
+                { "label": "Органы", "status": false },
+                { "label": "Клетоные коробочки", "status": false },
+                { "label": "Ткани", "status": false },
+                { "label": "Органоиды", "status": true }
+              ]
+            },
+            {
+              "capture": "Из чего состоит клеточная оболочка?",
+              "isActive": true,
+              "options": [
+                { "label": "Из хролопластов", "status": false },
+                { "label": "Из мембраны", "status": false },
+                { "label": "Из целюлозы", "status": true },
+                { "label": "Из натрия", "status": false }
+              ]
+            },
+            {
+              "capture": "Что является окошками для связи между двумя соседними клетками?",
+              "isActive": true,
+              "options": [
+                { "label": "Хролопласты", "status": false },
+                { "label": "Поры", "status": true },
+                { "label": "Пузырьки воздуха", "status": false },
+                { "label": "Вакуоли", "status": false }
+              ]
+            },
+            {
+              "capture": "Что является органоидом отвечающим за то что клетка должна делать в той или иной ситуации?",
+              "isActive": true,
+              "options": [
+                { "label": "Хролопласты", "status": false },
+                { "label": "Поры", "status": false },
+                { "label": "Мембрана", "status": false },
+                { "label": "Ядро", "status": true }
+              ]
+            },
+            {
+              "capture": "Какие функции у вакуоли?",
+              "isActive": true,
+              "options": [
+                { "label": "Обеспечивание роста клетки", "status": true },
+                { "label": "Окрашивание разных частей клетки", "status": true },
+                { "label": "Запас необходимых веществ", "status": true },
+                { "label": "Фотосинтез", "status": false }
+              ]
+            },
+            {
+              "capture": "Какого функция хлоропластов?",
+              "isActive": true,
+              "options": [
+                { "label": "Фотосинтез", "status": true },
+                { "label": "Запас необходимых веществ", "status": false },
+                { "label": "Связь между клетками", "status": false },
+                { "label": "Обеспечивание роста клетки", "status": false }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

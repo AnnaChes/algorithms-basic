@@ -1,0 +1,107 @@
+{
+  "courses": [
+    {
+      "courseID": "Y4hqXJAjo24",
+      "capture": "Зоология — наука о животных | Биология 7 класс",
+      "description": "Зоология — увлекательная наука о животных. В этом видео вы узнаете о ней и о многом другом. Приятного просмотра!",
+      "language": "ru",
+      "isActive": true,
+      "questionNumber": 4,
+      "passRate": 0.75,
+      "meta": {
+        "institution": "YouRails Academy",
+        "specTitle": "Tutor",
+        "specName": "Anna Ches",
+        "email": "anya.cheskidova@gmail.com",
+        "isSendingBcc": false
+      },
+      "modules": [
+        {
+          "moduleID": "Y4hqXJAjo24",
+          "index": 0,
+          "isActive": true,
+          "contentType": "ytID",
+          "contentID": "Y4hqXJAjo24",
+          "capture": "Модуль I",
+          "duration": "13:52",
+          "questions": [
+            {
+              "capture": "Что не включает в себя Современная зоология?",
+              "isActive": true,
+              "options": [
+                { "label": "Морфология и Анатомия", "status": true },
+                { "label": "Физиология и Эмбриология", "status": true },
+                { "label": "Зоогеография и Экология", "status": true },
+                { "label": "Этология", "status": true },
+                { "label": "Ботаника и Микология", "status": false },
+                { "label": "Палеонтология и Генетика", "status": true }
+              ]
+            },
+            {
+              "capture": "Какие различия есть в клетках растений и животных?",
+              "isActive": true,
+              "options": [
+                {
+                  "label": "Клетки животных не имеют твердой целлюлозной оболочки",
+                  "status": true
+                },
+                {
+                  "label": "Клетки животных имеют более прочную мембрану",
+                  "status": false
+                },
+                {
+                  "label": "В клетках животных нет вакуолей и хлорофила",
+                  "status": true
+                },
+                {
+                  "label": "Клетки растений не имеют эндоплазмотическую сеть",
+                  "status": false
+                }
+              ]
+            },
+            {
+              "capture": "Какой у животных тип питания?",
+              "isActive": true,
+              "options": [
+                { "label": "Гетератрофный", "status": true },
+                { "label": "Автотрофный", "status": false }
+              ]
+            },
+            {
+              "capture": "Какие бывают роли домашних животных в жизни человека?",
+              "isActive": true,
+              "options": [
+                {
+                  "label": "Люди заводят животных в доме как преданных друзей",
+                  "status": true
+                },
+                {
+                  "label": "Собачья помощь человеку (собаки поводыри и тд.)",
+                  "status": true
+                },
+                { "label": "Учасники пищевой цепи", "status": false },
+                { "label": "Выполнение тяжелой работы", "status": true },
+                {
+                  "label": "Животных разводят дляя получения продуктов питания, меха и шерсти",
+                  "status": true
+                }
+              ]
+            },
+            {
+              "capture": "Какие бывают роли животных в природе?",
+              "isActive": true,
+              "options": [
+                { "label": "Почвообразование", "status": true },
+                { "label": "Опыление растений", "status": true },
+                { "label": "Помощь человеку", "status": false },
+                { "label": "Учасники биосферы", "status": true },
+                { "label": "Выполнение тяжелой работы", "status": false },
+                { "label": "Вредители растений", "status": true }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

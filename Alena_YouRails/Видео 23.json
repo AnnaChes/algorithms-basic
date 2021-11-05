@@ -1,0 +1,109 @@
+{
+  "README": {
+    "language": {
+      "note": "ISO language code",
+      "type": "string",
+      "examples": ["ru", "en"]
+    },
+    "status": {
+      "note": "question status: right/wrong",
+      "type": "string",
+      "examples": [true, false]
+    },
+    "duration": {
+      "note": "content duration in time mean",
+      "type": "string",
+      "examples": ["7:42", "21:00"]
+    },
+    "contentType": {
+      "note": "content type code, for youtube - ytID, for the Internet pages - url",
+      "type": "string",
+      "examples": [
+        "ytID",
+        "https://suvorov.legal/apellyacionnaya-v-arbitrazhnyj-sud/"
+      ]
+    }
+  },
+  "courses": [
+    {
+      "courseID": "",
+      "capture": "Ориентирование на местности. Видеоурок по географии 5 класс",
+      "description": "мНа этом видеоуроке изучению представлена тема «Ориентирование на местности по плану». Все желающие смогут научиться пользоваться планом местности. Учитель расскажет, какие бывают основные и второстепенные стороны горизонта, что такое азимут, как его определить, как правильно производить ориентирование на местности по плану и какие существуют методы определения сторон горизонта.",
+      "language": "ru",
+      "meta": {
+        "institution": "",
+        "specTitle": "",
+        "specName": ""
+      },
+      "modules": [
+        {
+          "moduleID": "P1jBfKDCRfg",
+          "index": 0,
+          "contentType": "P1jBfKDCRfg",
+          "contentID": "",
+          "capture": "",
+          "duration": "7:49",
+          "questions": [
+            {
+              "capture": "Какие стороны света определяется полюсами?",
+              "options": [
+                { "label": "Север, восток", "status": false },
+                { "label": "Восток, запад ", "status": false },
+                { "label": "Север, юг", "status": true },
+                { "label": "Запад, юг", "status": false }
+              ]
+            },
+            {
+              "capture": "Решите неравенство 3-5(2x+4)>=7-2x",
+              "options": [
+                { "label": "x>=3", "status": false },
+                { "label": "x>=-3", "status": false },
+                { "label": "x>=3", "status": false },
+                { "label": "x<=-3", "status": true }
+              ]
+            },
+            {
+              "capture": "Как мы напишем транскрипцию для юго-юго-востока?",
+              "options": [
+                { "label": "ВЮЮ", "status": false },
+                { "label": "ЮЮВ", "status": true },
+                { "label": "ЮВ", "status": false },
+                { "label": "Ю-Ю-В", "status": false }
+              ]
+            },
+            {
+              "capture": "По какому признаку можно определить направление на север?",
+              "options": [
+                { "label": "По солнцу", "status": false },
+                { "label": "По ветру", "status": false },
+                { "label": "По полярной звезде", "status": true },
+                { "label": "По тени от предметов", "status": true }
+              ]
+            },
+            {
+              "capture": "Азимут - это...",
+              "options": [
+                {
+                  "label": "угол между направлением на восток и на каким-то объектом на местности.",
+                  "status": false
+                },
+                {
+                  "label": "угол между направлением на юг и на каким-то объектом на местности.",
+                  "status": false
+                },
+                {
+                  "label": "угол между направлением на север и на каким-то объектом на местности.",
+                  "status": true
+                },
+                {
+                  "label": "угол между направлением на запад и на каким-то объектом на местности.",
+                  "status": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

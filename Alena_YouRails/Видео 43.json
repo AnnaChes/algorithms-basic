@@ -1,0 +1,87 @@
+{
+  "general": {
+    "titleSite": "YouRails - Teach curious; Learn from inspired",
+    "descriptionSite": "Behind every great human achievement there are teachers who helped to get on top. Courses, tests, certificates",
+    "canonicalUrlSite": "https://yourails.com",
+    "langSite": "en"
+  },
+  "courses": [
+    {
+      "courseID": "E8vfFn1FdqY",
+      "capture": "Умножение многочлена на многочлен | Алгебра 7 класс #15 | Инфоурок",
+      "description": "В этом видеоуроке по алгебре для 7 класса объясняется как умножить многочлен на многочлен + решаение примеров. Чтобы умножить многочлен на многочлен, нужно: каждый одночлен первого многочлена умножить на каждый одночлен второго многочлена; полученные произведения сложить (то есть записать друг за другом с учетом знаков полученных при умножении)",
+      "language": "ru",
+      "isActive": true,
+      "questionNumber": 4,
+      "passRate": 0.75,
+      "meta": {
+        "institution": "YouRails Academy",
+        "specTitle": "Tutor",
+        "specName": "Alena Ches",
+        "email": "alyona.cheskidova@gmail.com",
+        "isSendingBcc": true
+      },
+      "modules": [
+        {
+          "moduleID": "E8vfFn1FdqY",
+          "index": 0,
+          "isActive": true,
+          "contentType": "ytID",
+          "contentID": "E8vfFn1FdqY",
+          "capture": "Модуль I",
+          "duration": "13:41",
+          "questions": [
+            {
+              "capture": "Умножить многочлены: (a + 2)(b – 3)",
+              "isActive": true,
+              "options": [
+                {
+                  "label": "ab-5ab-6",
+                  "status": false
+                },
+                {
+                  "label": "ab+3a+2b-6",
+                  "status": false
+                },
+                {
+                  "label": "ab-3a+2b-6",
+                  "status": true
+                }
+              ]
+            },
+            {
+              "capture": "Решить уравнение: (2х + 6)(7 – 4х) = (2 – х)(8х + 1) + 15 ",
+              "isActive": true,
+              "options": [
+                { "label": "1,2", "status": false },
+                { "label": "4", "status": false },
+                { "label": "2,2", "status": false },
+                { "label": "1", "status": true }
+              ]
+            },
+            {
+              "capture": "Упростить выражение: (а + 3)(а – 2) + (а – 3)(а + 6)",
+              "isActive": true,
+              "options": [
+                { "label": "2a^2-4a-24", "status": false },
+                { "label": "2a^2+4a-24", "status": true },
+                { "label": "2a^2+a-4", "status": false },
+                { "label": "2a^2+4a+24", "status": false }
+              ]
+            },
+            {
+              "capture": "Решить уравнение: (х - 4)(х + 2) - (х - 5)(х + 6) = - х",
+              "isActive": true,
+              "options": [
+                { "label": "4", "status": false },
+                { "label": "5<5", "status": false },
+                { "label": "11", "status": true },
+                { "label": "101", "status": false }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

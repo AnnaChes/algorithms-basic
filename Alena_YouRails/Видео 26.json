@@ -1,0 +1,97 @@
+{
+  "general": {
+    "titleSite": "YouRails - Teach curious; Learn from inspired",
+    "descriptionSite": "Behind every great human achievement there are teachers who helped to get on top. Courses, tests, certificates",
+    "canonicalUrlSite": "https://yourails.com",
+    "langSite": "en"
+  },
+  "courses": [
+    {
+      "courseID": "1aRQVSJoYMo",
+      "capture": "Изменчивость | Биология 10 класс #32 | Инфоурок",
+      "description": "Видеоуроки являются идеальными помощниками при изучении новых тем, закреплении материала, для обычных и факультативных занятий, для групповой и индивидуальной работы. Они содержат оптимальное количество графической и анимационной информации для сосредоточения внимания и удержания интереса ребят без отвлечения от сути занятия. Каждый видеоурок озвучен профессиональным мужским голосом, четким и приятным для восприятия.",
+      "language": "ru",
+      "isActive": true,
+      "questionNumber": 4,
+      "passRate": 0.75,
+      "meta": {
+        "institution": "YouRails Academy",
+        "specTitle": "Tutor",
+        "specName": "Alena Ches",
+        "email": "alyona.cheskidova@gmail.com",
+        "isSendingBcc": true
+      },
+      "modules": [
+        {
+          "moduleID": "1aRQVSJoYMo",
+          "index": 0,
+          "isActive": true,
+          "contentType": "ytID",
+          "contentID": "1aRQVSJoYMo",
+          "capture": "Модуль I",
+          "duration": "9:42",
+          "questions": [
+            {
+              "capture": "Обратимое изменение фенотипа под влиянием условий среды носит название",
+              "isActive": true,
+              "options": [
+                {
+                  "label": "мутация",
+                  "status": false
+                },
+                {
+                  "label": "генотип",
+                  "status": false
+                },
+                {
+                  "label": "модификация",
+                  "status": true
+                },
+                {
+                  "label": "норма реакции",
+                  "status": false
+                }
+              ]
+            },
+            {
+              "capture": "Фактор, вызывающий изменения в носителях наследственной информации, носит название",
+              "isActive": true,
+              "options": [
+                { "label": "рекомбинация", "status": false },
+                { "label": "мутация", "status": false },
+                { "label": "норма реакции", "status": false },
+                { "label": "мутаген", "status": true }
+              ]
+            },
+            {
+              "capture": "Необратимое изменение носителя наследственной информации носит название",
+              "isActive": true,
+              "options": [
+                { "label": "фенотип", "status": false },
+                { "label": "мутация", "status": true },
+                { "label": "модификация", "status": false },
+                { "label": "норма реакции", "status": false }
+              ]
+            },
+            {
+              "capture": "Верными являются следующие утверждения",
+              "isActive": true,
+              "options": [
+                {
+                  "label": "большинство мутаций нейтральны или вредны для организма",
+                  "status": false
+                },
+                { "label": "мутации обратимы", "status": false },
+                { "label": "модификации обратимы", "status": true },
+                {
+                  "label": "модификации наследуются потомками",
+                  "status": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

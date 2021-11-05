@@ -1,0 +1,123 @@
+{
+  "README": {
+    "language": {
+      "note": "ISO language code",
+      "type": "string",
+      "examples": ["ru", "en"]
+    },
+    "status": {
+      "note": "question status: right/wrong",
+      "type": "string",
+      "examples": [true, false]
+    },
+    "duration": {
+      "note": "content duration in time mean",
+      "type": "string",
+      "examples": ["7:42", "21:00"]
+    },
+    "contentType": {
+      "note": "content type code, for youtube - ytID, for the Internet pages - url",
+      "type": "string",
+      "examples": [
+        "ytID",
+        "https://suvorov.legal/apellyacionnaya-v-arbitrazhnyj-sud/"
+      ]
+    }
+  },
+  "courses": [
+    {
+      "courseID": "",
+      "capture": "БиологияI Виды тканей: покровная, механическая, проводящая ткань...",
+      "description": "А вы знаете, какое отношение имеет механическая ткань к косточке вишни? Или что такое эпидерма, паренхима, перидерма...  Как выучить растительные ткани и не запутаться,  вам расскажет наш ботаник Ирина , репетитор TutorOnline. Обязательно смотрите, будет интересно.",
+      "language": "ru",
+      "meta": {
+        "institution": "",
+        "specTitle": "",
+        "specName": ""
+      },
+      "modules": [
+        {
+          "moduleID": "U2Kq6AzBN4I",
+          "index": 0,
+          "contentType": "U2Kq6AzBN4I",
+          "contentID": "",
+          "capture": "",
+          "duration": "",
+          "questions": [
+            {
+              "capture": "Ткань - это...",
+              "options": [
+                {
+                  "label": "совокупность клеток, одинаковых по строению, происхождение и выполняемым функциям.",
+                  "status": false
+                },
+                {
+                  "label": "совокупность клеток, сходных по строению, выявлению и выполняемым функциям.",
+                  "status": false
+                },
+                {
+                  "label": "совокупность клеток, сходных по строению, происхождение и выполняемым функциям.",
+                  "status": true
+                },
+                { "label": "13,3", "status": false }
+              ]
+            },
+            {
+              "capture": "Какие у растений выделяют виды тканей?",
+              "options": [
+                {
+                  "label": "Механическая, покровная, основная, проводящая, образовательная, выделительная",
+                  "status": true
+                },
+                {
+                  "label": "Механическая, кровная, основная, проводящая, образовательная, выделительная",
+                  "status": false
+                },
+                {
+                  "label": "Механическая, покровная, основная, проводящая, образовательная",
+                  "status": false
+                }
+              ]
+            },
+            {
+              "capture": "От чего защищяет покровная ткань?",
+              "options": [
+                { "label": "Погодные условия", "status": true },
+                {
+                  "label": "Проникновение болезнетворных грибов",
+                  "status": true
+                },
+                { "label": "Животных", "status": false },
+                { "label": "Механическое повреждение", "status": true }
+              ]
+            },
+            {
+              "capture": "Покровные ткани по происхождению и локализации pазделяются на:",
+              "options": [
+                { "label": "первичные вторичные третичные", "status": true },
+                { "label": "первые вторые третьи", "status": false },
+                {
+                  "label": "первичные вторичные третичные четверитичные",
+                  "status": false
+                }
+              ]
+            },
+            {
+              "capture": "Для чего нужнеа ФЛОЭМА?",
+              "options": [
+                {
+                  "label": "Служит для трасс проектировки продуктов фотосинтеза от листьев к другим органам",
+                  "status": true
+                },
+                {
+                  "label": "Водопроводящая ткань растений, образующая древесины, образуются годичные кольца",
+                  "status": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "README": {
+    "multi": [true, false],
+    "status": [true, false],
+    "duration": "формат 7:42, продолжительность в мин, duration in minutes",
+    "contentType": "в большинстве случаев и на сейчас это - ytID"
+  },
+  "courses": [
+    {
+      "courseID": "jQSWt85Yec0",
+      "capture": "Словообразование прилагательных с помощью суффиксов",
+      "description": "Видеоурок по русскому языку для 6 класса. Тема: Словообразование прилагательных с помощью суффиксов ",
+      "language": "ru",
+      "meta": {
+        "institution": "",
+        "specTitle": "",
+        "specName": ""
+      },
+      "modules": [
+        {
+          "moduleID": "jQSWt85Yec0",
+          "index": 0,
+          "contentType": "ytID",
+          "contentID": "jQSWt85Yec0",
+          "capture": "Модуль I",
+          "duration": "9:42",
+          "questions": [
+            {
+              "capture": "Какой(ие) суффикс(ы) при словообразовании прилагательных не изменяется(ются)?",
+              "options": [
+                { "label": "Лив", "status": false },
+                { "label": "Ов / ев / ив", "status": false },
+                { "label": "Чат / чив, лив", "status": true },
+                { "label": "Ен", "status": false }
+              ]
+            },
+            {
+              "capture": "Какие правила действуют на суффиксы к / ск?",
+              "options": [
+                {
+                  "label": "Есть краткая форма, корень на ц-,к-,ч-",
+                  "status": true
+                },
+                {
+                  "label": "Есть краткая форма, корень на в-,п-,з-",
+                  "status": false
+                },
+                { "label": "Корень на ц-,к-,ч-", "status": false },
+                { "label": "Нет краткой формы", "status": true }
+              ]
+            },
+            {
+              "capture": "Какие правила действуют на суффиксы ов / ев / ив?",
+              "options": [
+                { "label": "Ов - под ударением", "status": false },
+                { "label": "Ов / ев - без ударения", "status": true },
+                { "label": "Ив / ев - без ударения", "status": false },
+                { "label": "Ив - под ударением", "status": true }
+              ]
+            },
+            {
+              "capture": "Какие правила действуют на суффиксы оват, еват, овит, евит, оньк, еньк?",
+              "options": [
+                { "label": "е - в твердой", "status": false },
+                { "label": "е - в мягкой", "status": true },
+                { "label": "о - в твердой", "status": true },
+                { "label": "о - в мягкой", "status": false }
+              ]
+            },
+            {
+              "capture": "Какие правила действуют на суффиксы ен / онн, енн?",
+              "options": [
+                { "label": "Ен - в кратких прилагательных", "status": true },
+                { "label": "От существительных - ен", "status": false },
+                { "label": "От существительных - онн, енн", "status": true },
+                {
+                  "label": "Онн, енн - в кратких прилагательных",
+                  "status": false
+                }
+              ]
+            },
+            {
+              "capture": "В каких случаях пишется н (одна буква)?",
+              "options": [
+                { "label": "Смышленый, конченый человек", "status": true },
+                {
+                  "label": "Если нет суффикса, суффиксы ан, ян, ин,в кратких, если в полных н",
+                  "status": true
+                },
+                {
+                  "label": "Суффиксы ан, ян, ин,в кратких, если в полных н",
+                  "status": true
+                },
+                {
+                  "label": "Суффиксы ен, он, ин,в кратких, если в полных н",
+                  "status": false
+                }
+              ]
+            },
+            {
+              "capture": "В каких случаях пишется нн (две буквы)?",
+              "options": [
+                { "label": "В кратких, если в полных - нн", "status": true },
+                { "label": "От слов на ина-", "status": true },
+                { "label": "Корень на н- + суффикс н", "status": true },
+                { "label": "Суффиксы онн, енн", "status": true }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

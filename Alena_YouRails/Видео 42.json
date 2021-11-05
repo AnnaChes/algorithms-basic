@@ -1,0 +1,90 @@
+{
+  "general": {
+    "titleSite": "YouRails - Teach curious; Learn from inspired",
+    "descriptionSite": "Behind every great human achievement there are teachers who helped to get on top. Courses, tests, certificates",
+    "canonicalUrlSite": "https://yourails.com",
+    "langSite": "en"
+  },
+  "courses": [
+    {
+      "courseID": "7F71I5pXFd4",
+      "capture": "Возведение одночлена в степень | Алгебра 7 класс #9 | Инфоурок",
+      "description": "Возведение одночлена в степень 7 класс. Чтобы умножить один одночлен на другой, нужно выполнить следующие действия: Правильно записать произведение исходных множителей. Выполнить раскрытие скобок в полученном выражении. Если нужно, преобразовать полученный многочлен, приведя его к стандартному виду.",
+      "language": "ru",
+      "isActive": true,
+      "questionNumber": 4,
+      "passRate": 0.75,
+      "meta": {
+        "institution": "YouRails Academy",
+        "specTitle": "Tutor",
+        "specName": "Alena Ches",
+        "email": "alyona.cheskidova@gmail.com",
+        "isSendingBcc": true
+      },
+      "modules": [
+        {
+          "moduleID": "7F71I5pXFd4",
+          "index": 0,
+          "isActive": true,
+          "contentType": "ytID",
+          "contentID": "7F71I5pXFd4",
+          "capture": "Модуль I",
+          "duration": "7:06",
+          "questions": [
+            {
+              "capture": "(а^4)^7",
+              "isActive": true,
+              "options": [
+                {
+                  "label": "a^-3",
+                  "status": false
+                },
+                {
+                  "label": "a^11",
+                  "status": false
+                },
+                {
+                  "label": "a^28",
+                  "status": true
+                },
+                {
+                  "label": "a^3",
+                  "status": false
+                }
+              ]
+            },
+            {
+              "capture": "(-10^2)^2+186",
+              "isActive": true,
+              "options": [
+                { "label": "176", "status": false },
+                { "label": "86", "status": false },
+                { "label": "10186", "status": true }
+              ]
+            },
+            {
+              "capture": "(4^3-2^3)/(3^2-2^1)",
+              "isActive": true,
+              "options": [
+                { "label": "19", "status": false },
+                { "label": "8", "status": true },
+                { "label": "7", "status": false },
+                { "label": "4", "status": false }
+              ]
+            },
+            {
+              "capture": "0,2x*5x^4",
+              "isActive": true,
+              "options": [
+                { "label": "x^3", "status": false },
+                { "label": "5", "status": false },
+                { "label": "x^5", "status": true },
+                { "label": "x", "status": false }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

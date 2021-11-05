@@ -1,0 +1,96 @@
+{
+  "README": {
+    "designType": ["CheckBox", "RadioButton"],
+    "multi": [true, false],
+    "status": [true, false]
+  },
+  "courses": [
+    {
+      "capture": "Как ведется летоисчисление истории. Жизнь древних людей",
+      "description": "Онлайн урок по теме жизнь древних людей. Вы узнаете откуда появился человек, как велось летоисчисление во времена древних людей.",
+      "meta": {
+        "institution": "",
+        "specTitle": "",
+        "specName": ""
+      },
+      "modules": [
+        {
+          "ytID": "yn1gT-sexs0&list",
+          "capture": "",
+          "questions": [
+            {
+              "designType": "CheckBox",
+              "multi": false,
+              "capture": "Как вели летоисчесление древнии люди?",
+              "options": [
+                {
+                  "label": "Все народы вели его от одной даты",
+                  "status": false
+                },
+                {
+                  "label": "Было 2 народа которые вели его не от одной даты",
+                  "status": false
+                },
+                {
+                  "label": "Древнии народы не вели летоисчесление",
+                  "status": false
+                },
+                {
+                  "label": "Каждый народ вел летоисчисление от своей даты",
+                  "status": true
+                }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": false,
+              "capture": "Какой отсчет времени используеться сейчас на всей планете?",
+              "options": [
+                { "label": "С момента рождения Иисуса Христа", "status": true },
+                { "label": "С момента создания мира", "status": false },
+                { "label": "С момента появления человека", "status": false },
+                { "label": "С момента появления интернета", "status": false }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": false,
+              "capture": "О событиях произошедших менее 2000 лет назад говорят?",
+              "options": [
+                { "label": "До нашей эры ", "status": false },
+                { "label": "Наша эра ", "status": true },
+                { "label": "Эра человека", "status": false },
+                { "label": "Ничего не говорят", "status": false }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "В следствии чего появился человек?",
+              "options": [
+                { "label": "В следствии развития из рыб", "status": false },
+                { "label": "В следствии Антропогенеза", "status": true },
+                {
+                  "label": "В следствии рождения первого человека",
+                  "status": false
+                },
+                { "label": "в следствии эволюции из обезьяны", "status": true }
+              ]
+            },
+            {
+              "designType": "CheckBox",
+              "multi": true,
+              "capture": "Для чего служил огонь древним людям?",
+              "options": [
+                { "label": "Для обогрева жилища", "status": true },
+                { "label": "Для защиты от хищьников", "status": true },
+                { "label": "Для изготовления орудий труда", "status": true },
+                { "label": "Для борьбы с болезнями", "status": false }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
