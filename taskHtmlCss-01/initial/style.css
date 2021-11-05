@@ -1,0 +1,16 @@
+.title {
+  color: pink;
+}
+
+.p12 {
+  display: flex;
+  flex-direction: column;
+}
+
+.par1 {
+  color: purple;
+}
+
+.parFinal {
+  color: darkcyan;
+}
