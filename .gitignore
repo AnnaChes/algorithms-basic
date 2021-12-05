@@ -51,5 +51,4 @@ Thumbs.db
 # from Anna
 .vscode/
 Archieve/
-coverage/
 yarn.lock
