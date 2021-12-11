@@ -1,43 +1,56 @@
 describe('LongestSubstringWithoutRepeatingCharacters.test', () => {
   it('test LongestSubstringWithoutRepeatingCharacters.test', () => {
-    s1 = 'abcabcbb' // 3"abc"
-    s2 = 'pwwkew' // 3"wke"
-    s3 = '' // 0
-    s4 = 'bbbbb' //  1"b"
+    const isArrUniq = arrSubStr => {
+      let uniqArr = []
+      arrSubStr.forEach(itemC => {
+        if (uniqArr.includes(itemC) === false) {
+          uniqArr = [...uniqArr, itemC]
+        }
+      })
+      return arrSubStr.length === uniqArr.length
+    }
 
     const LongestSubstringWithoutRepeatingCharacters = s => {
-      let arrWithStr = []
+      let arrUniqStr = []
       const arrStr = s.split('')
       arrStr.forEach((itemA, indexA) => {
         arrStr.forEach((itemB, indexB) => {
-          let newArr = []
-          let det = 0
-          let str = arrStr.slice(indexA, indexB + 1)
-          str.forEach(itemC => {
-            if (newArr.includes(itemC) === false) {
-              newArr = [...newArr, itemC]
-            } else {
-              det = 1
+          let arrSubStr = arrStr.slice(indexA, indexB + 1)
+          if (arrSubStr.length) {
+            if (isArrUniq(arrSubStr)) {
+              arrUniqStr = [...arrUniqStr, arrSubStr.join('')]
             }
-          })
-          if (det === 0) {
-            arrWithStr = [...arrWithStr, str.join('')]
           }
         })
-        arrWithStr.sort(function (a, b) {
+        arrUniqStr.sort(function (a, b) {
           return b.length - a.length
         })
       })
-      if (arrWithStr[0] === undefined) {
+      if (arrUniqStr[0] === undefined) {
         return 0
       } else {
-        return arrWithStr[0].length
+        return arrUniqStr[0].length
       }
     }
 
-    console.info('', { res: LongestSubstringWithoutRepeatingCharacters(s1) })
-    console.info('', { res: LongestSubstringWithoutRepeatingCharacters(s2) })
-    console.info('', { res: LongestSubstringWithoutRepeatingCharacters(s3) })
-    console.info('', { res: LongestSubstringWithoutRepeatingCharacters(s4) })
+    const testArr = [
+      { arg: 'abcc', expect: 3 }, // 3"abc"
+      { arg: 'abcabcbb', expect: 3 }, // 3"abc"
+      { arg: 'pwwkew', expect: 3 }, // 3"wke"
+      { arg: '', expect: 0 }, // 0
+      { arg: 'bbbbb', expect: 1 }, //  1"b"
+      { arg: 'abcd', expect: 4 },
+    ]
+
+    testArr.forEach(item =>
+      console.info('[41]', {
+        res1: LongestSubstringWithoutRepeatingCharacters(item.arg),
+        expect: item.expect,
+        pass:
+          LongestSubstringWithoutRepeatingCharacters(item.arg) === item.expect,
+      })
+    )
   })
 })
+
+// DRY Don't Repeat Yourself
