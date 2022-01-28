@@ -1,5 +1,6 @@
-describe('ReverseInteger.test', () => {
+describe('Algoritms', () => {
   it('test ReverseInteger.test', () => {
+    
     const x1 = 123//321
     const x2 = -123//-321
     const x3 = 120//21
