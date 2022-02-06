@@ -103,13 +103,60 @@ describe('IntegertoRoman.test', () => {
       return res.join('')
     }
 
+      const IntegertoRoman2 = (num) => {
+
+        const listOfValues = [
+        { rom: 'M', arab: 1000 },
+        { rom: 'CM', arab: 900 },
+        { rom: 'D', arab: 500 },
+        { rom: 'CD', arab: 400 },
+        { rom: 'C', arab: 100 },
+        { rom: 'XC', arab: 90 },
+        { rom: 'L', arab: 50 },
+        { rom: 'XL', arab: 40 },
+        { rom: 'X', arab: 10 },
+        { rom: 'IX', arab: 9 },
+        { rom: 'V', arab: 5 },
+        { rom: 'IV', arab: 4 },
+        { rom: 'I', arab: 1 },
+      ]
+      
+      let copyOfNum = num 
+      let res = []
+      let a = 0 
+
+      while(copyOfNum > 0){
+        const {rom, arab} = listOfValues[a]
+        const value = Math.floor(copyOfNum / arab)
+
+        if (value > 0) {
+          let resRom = rom
+
+          if (value >= 1 && value <= 3) {
+            resRom = rom.repeat(value)
+          }
+          res = [...res, resRom]
+        }
+        copyOfNum = copyOfNum - value * arab 
+        a = a + 1
+      }
+
+      return res.join('')
+
+      }
+
+
     const inputArr = [3, 58, 1994]
 
     const outputed = inputArr.map(item => IntegertoRoman(item))
+     const outputed2 = inputArr.map(item => IntegertoRoman2(item))
 
     const expected = ['III', 'LVIII', 'MCMXCIV']
 
     console.info('', { outputed, expected })
+    expect(outputed).toEqual(expected)
+    
+        console.info('', { outputed2, expected })
     expect(outputed).toEqual(expected)
   })
 })
