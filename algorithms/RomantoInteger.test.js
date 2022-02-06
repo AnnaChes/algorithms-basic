@@ -64,10 +64,50 @@ describe('RomantoInteger.test', () => {
       return res 
     }
   
+const RomantoInteger2 = (s) => {
+  
+        const listOfValues = [
+          { rom: 'M', arab: 1000 },
+          { rom: 'CM', arab: 900 },
+          { rom: 'D', arab: 500 },
+          { rom: 'CD', arab: 400 },
+          { rom: 'C', arab: 100 },
+          { rom: 'XC', arab: 90 },
+          { rom: 'L', arab: 50 },
+          { rom: 'XL', arab: 40 },
+          { rom: 'X', arab: 10 },
+          { rom: 'IX', arab: 9 },
+          { rom: 'V', arab: 5 },
+          { rom: 'IV', arab: 4 },
+          { rom: 'I', arab: 1 },
+        ]
+        let copyOfStr = s
+        let res = 0
+
+  
+        while ( copyOfStr.length > 0 ) {
+          listOfValues.forEach( item => {
+            const { rom, arab } = item
+            const Length = rom.length
+            const Slice = copyOfStr.slice( 0, Length )
+  
+            if ( Slice === rom ) {
+              res += arab
+              copyOfStr = copyOfStr.slice( Length )
+            }
+          })
+        }
+        return res
+      }
 
     console.info('', { res: RomantoInteger(s1) })
     console.info('', { res: RomantoInteger(s2) })
     console.info('', { res: RomantoInteger(s3) })
+
+    console.info('', { res: RomantoInteger2(s1) })
+    console.info('', { res: RomantoInteger2(s2) })
+    console.info('', { res: RomantoInteger2(s3) })
+
 
 
 
