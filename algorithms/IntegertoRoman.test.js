@@ -157,6 +157,6 @@ describe('IntegertoRoman.test', () => {
     expect(outputed).toEqual(expected)
     
         console.info('', { outputed2, expected })
-    expect(outputed).toEqual(expected)
+    expect(outputed2).toEqual(expected)
   })
 })
