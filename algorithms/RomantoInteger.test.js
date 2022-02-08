@@ -100,15 +100,16 @@ const RomantoInteger2 = (s) => {
         return res
       }
 
-    console.info('', { res: RomantoInteger(s1) })
-    console.info('', { res: RomantoInteger(s2) })
-    console.info('', { res: RomantoInteger(s3) })
+    const inputArr = ['III', 'XXXVII', 'LVIII', 'MCMXCIV']
 
-    console.info('', { res: RomantoInteger2(s1) })
-    console.info('', { res: RomantoInteger2(s2) })
-    console.info('', { res: RomantoInteger2(s3) })
+    const outputed = inputArr.map(item => RomanToInteger(item))
+    const expected = [3, 37, 58, 1994]
+    
+    expect(outputed).toEqual(expected)
 
-
+    const outputed2 = inputArr.map(item => RomanToInteger2(item))
+    
+    expect(outputed2).toEqual(expected)
 
 
 
