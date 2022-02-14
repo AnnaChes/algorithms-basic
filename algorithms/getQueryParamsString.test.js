@@ -1,7 +1,7 @@
 describe('getQueryParamsString.test', () => {
   it('test getQueryParamsString.test', () => {
  
-    const obj1 = {name:"hello", showSize:7, gender:"W"}//name=hello&shoeSize=7&gender=W
+    
 
 
     const getQueryParamsString = (obj) => {
@@ -11,7 +11,10 @@ describe('getQueryParamsString.test', () => {
   
 
 
-    console.info('', { res: getQueryParamsString(obj1) })
+    let obj1 = {name:"hello", showSize:7, gender:"W"}//name=hello&shoeSize=7&gender=W
+    let output = getQueryParamsString(obj1)
+    const expected = 'name=hello&shoeSize=7&gender=W'
+    expect(output).toEqual(expected)
     
 
 
