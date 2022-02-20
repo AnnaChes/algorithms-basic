@@ -3,7 +3,7 @@ describe('getQueryParamsString.test', () => {
         const obj1 = {name:"hello", showSize:7, gender:"W"}//name=hello&showSize=7&gender=W
 
         const getQueryParamsString = (obj) => {
-           let res = ''
+           let res = '?'
            for (let name in obj) {
             res = res + name + '=' + obj[name] + '&'
            }
