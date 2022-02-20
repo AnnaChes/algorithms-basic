@@ -1,13 +1,13 @@
 describe('getQueryParamValue.test', () => {
     it('test getQueryParamValue.test', () => {
-        const str1 = "madam=nex&hello=7&man=9"
+        const str1 = "?madam=nex&hello=7&man=9"
         const key1 = "hello"//"7"
 
         const getQueryParamValue = (str, key) => {
            let arr = str.split('') 
            let objName 
            let objValue
-           let startI = 0
+           let startI = 1
            let obj = new Object()
            arr.forEach((item, index) => {
             if (item === '='){
