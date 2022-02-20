@@ -12,7 +12,7 @@ describe('getQueryParamsString.test', () => {
         
 
         const output = getQueryParamsString(obj1)
-        const expected = 'name=hello&showSize=7&gender=W'
+        const expected = '?name=hello&showSize=7&gender=W'
         expect(output).toEqual(expected)
     })
   })
