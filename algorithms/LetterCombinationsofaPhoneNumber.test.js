@@ -32,9 +32,10 @@ describe('LetterCombinationsofaPhoneNumber.test', () => {
       console.info('', { res: LetterCombinationsofaPhoneNumber(digits1) })
       console.info('', { res: LetterCombinationsofaPhoneNumber(digits2) })
       console.info('', { res: LetterCombinationsofaPhoneNumber(digits3) })
-       // const output = getQueryParamValue(str1, key1)
-        //const expected = "7"
-        //expect(output).toEqual(expected)
+      const input = ["23", "", "2"]
+      const expected = [["ad","ae","af","bd","be","bf","cd","ce","cf"], [], ["a","b","c"]]
+      let output = input.map(item => LetterCombinationsofaPhoneNumber(item))
+      expect(output).toEqual(expected)
     })
   })
   
